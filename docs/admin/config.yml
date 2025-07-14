@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: singingcarrots/docs          # org/repo
+  base_url: https://sc-oauth.vercel.app   # we’ll create this in step 4
+  auth_endpoint: api/auth
+  app_id: GITHUB_CLIENT_ID                # from GitHub OAuth App
+
+publish_mode: editorial_workflow          # opens a PR for review
+
+media_folder: docs/images
+public_folder: /docs/images
+
+collections:
+  - name: pages
+    label: Pages
+    folder: docs
+    create: true
+    format: frontmatter
+    extension: md
