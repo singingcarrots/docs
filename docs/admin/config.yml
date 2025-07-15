@@ -2,7 +2,7 @@ backend:
   name: github
   repo: singingcarrots/docs
   base_url: https://sc-oauth.vercel.app
-  auth_endpoint: api/auth
+  auth_endpoint: api/begin
   app_id: GITHUB_CLIENT_ID
 
 publish_mode: editorial_workflow
