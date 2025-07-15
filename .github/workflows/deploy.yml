@@ -15,4 +15,4 @@ jobs:
 
       - run: pip install --upgrade "mkdocs>=1.4.3" mkdocs-material
 
-      - run: mkdocs gh-deploy --force --clean --cname docs.singingcarrots.com # builds then pushes to gh-pages :contentReference[oaicite:4]{index=4}
+      - run: mkdocs gh-deploy --force --clean
