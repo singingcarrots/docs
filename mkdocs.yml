@@ -6,4 +6,3 @@ theme:
 use_directory_urls: true                      # pretty /guide/ URLs :contentReference[oaicite:2]{index=2}
 nav:
   - Home: index.md
-
