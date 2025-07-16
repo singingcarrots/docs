@@ -1,5 +1,5 @@
 ---
-title: About Singing Carrots – Learn to Sing with Confidence
+title: About Singing Carrots
 description: Discover the story behind Singing Carrots — a platform created to
   help you learn singing through science-based tools, practical exercises, and
   supportive coaching. Founded by Sergey Kyune, our mission is to unleash one
