@@ -1,6 +1,7 @@
 site_name: Singing Carrots Docs
 cname: docs.singingcarrots.com
 site_url: https://singingcarrots.com/docs/
+base_path: /docs
 
 theme:
   name: material
