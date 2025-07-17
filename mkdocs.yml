@@ -1,10 +1,13 @@
 site_name: Singing Carrots Docs
-cname: docs.singingcarrots.com
 site_url: https://singingcarrots.com/docs/
 base_path: /docs
 
 theme:
   name: material
+  custom_dir: overrides        # activates our template
+  features: []                 # disable built‑in JS bundles
+  extra_css: []                  # no extra CSS
+  extra_javascript: []           # no JS
 
 use_directory_urls: true
 
