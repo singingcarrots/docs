@@ -10,3 +10,5 @@ Never Stop Singing!
 
 * [About Singing Carrots](https://singingcarrots.com/docs/about-singing-carrots) - Practice tools and Founder story
 
+* [Contact Singing Carrots](https://singingcarrots.com/docs/singing-carrots-contact-page) - Customer Support & FAQ
+
