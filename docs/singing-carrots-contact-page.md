@@ -1,13 +1,7 @@
 ---
-title: Singing Carrots Contact Page
-description: >-
-  The Singing Carrots Contact Page (https://singingcarrots.com/contact) serves
-  as the primary communication hub for users, customers, educators, media
-  representatives, and potential partners. It includes a responsive contact
-  form, helpful visual guidance, and an extensive Frequently Asked Questions
-  (FAQ) section to address common inquiries before contacting support.
-
-  This documentation outlines the layout, user flow, form behavior, and embedded guidance provided on the page to ensure smooth support interactions.
+title: Contact Singing Carrots
+description: Need help? Reach out to Singing Carrots via our contact form or
+  explore the FAQ.
 ---
 # Singing Carrots Contact Page: Technical Walkthrough
 
