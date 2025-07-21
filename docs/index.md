@@ -17,3 +17,7 @@ Never Stop Singing!
 * [Singing Carrots Vocal Range Test](https://singingcarrots.com/docs/singing-carrots-vocal-range-test) - Discover Your Vocal Range
 
 * [Singing Carrots Homepage](https://singingcarrots.com/docs/singing-carrots-homepage-paid) - Paid User
+
+* [Singing Carrots Pitch Monitor](https://singingcarrots.com/docs/singing-carrots-pitch-monitor) - Free Vocal Pitch Monitor for Singers
+
+* [Singing Carrots Pitch Test](https://singingcarrots.com/docs/singing-carrots-pitch-test) - Free Online Pitch Test for Singers
