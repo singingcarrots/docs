@@ -1,5 +1,5 @@
 ---
-title: Singing Carrots Pitch Test
+title: Singing Carrots Pitch Test - Free Online Pitch Test for Singers
 description: Try our interactive pitch accuracy test. Assess your singing skills
   in real time using a microphone and get personalized feedback.
 ---
