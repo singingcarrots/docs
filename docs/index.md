@@ -21,3 +21,5 @@ Never Stop Singing!
 * [Singing Carrots Pitch Monitor](https://singingcarrots.com/docs/singing-carrots-pitch-monitor) - Free Vocal Pitch Monitor for Singers
 
 * [Singing Carrots Pitch Test](https://singingcarrots.com/docs/singing-carrots-pitch-test) - Free Online Pitch Test for Singers
+
+* [Singing Carrots Stats Page](https://singingcarrots.com/docs/singing-carrots-stats-page) - Personal Vocal Progress Dashboard
