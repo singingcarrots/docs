@@ -53,6 +53,7 @@ Each song entry includes quick-access tabs that help users find all essential re
 - **Lyrics** – external link  
 - **Sing karaoke** – external link  
 - **Song details** – internal link to Singing Carrots song page  
+- **Favorites (star + number)** – shows how many users added the song to their repertoire  
 
 These external links are included to provide users with all the tools they may need to practice or perform a song. Instead of manually searching the web, singers can quickly access relevant chords, notation, lyrics, or karaoke tracks - streamlining the preparation process.  
 The **Song details** link leads to Singing Carrots' own database, containing vocal analysis, pitch profiles, range comparison, and other relevant data.  
