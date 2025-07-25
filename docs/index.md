@@ -31,3 +31,5 @@ Never Stop Singing!
 * [Singing Carrots Repertoire](https://singingcarrots.com/docs/singing-carrots-manage-your-vocal-repertoire) - A collection of saved songs with notes for personalized vocal practice.
 
 * [Singing Carrots Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Starter, Self-Study, and Guided Editions.
+
+* [My Profile](https://singingcarrots.com/docs/singing-carrots-my-profile-page) - Singing Carrots Account Dashboard.
