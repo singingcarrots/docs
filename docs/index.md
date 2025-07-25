@@ -25,3 +25,5 @@ Never Stop Singing!
 * [Singing Carrots Stats Page](https://singingcarrots.com/docs/singing-carrots-stats-page) - Personal Vocal Progress Dashboard
 
 * [Singing Carrots Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Improve your singing accuracy with Singing Carrots’ interactive Pitch Training game
+
+* [Singing Caroots: From Zero to Singing Hero](https://singingcarrots.com/docs/docs/from-zero-to-singing-hero) - Beginner Singing Course
