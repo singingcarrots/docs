@@ -1,5 +1,5 @@
 ---
-title: Manage Your Vocal Repertoire – Singing Carrots
+title: Singing Carrots - Manage Your Vocal Repertoire
 description: Bookmark your favorite songs and track custom notes with the
   Singing Carrots Repertoire tool. Stay organized, monitor vocal progress, and
   personalize your singing journey with ease.
