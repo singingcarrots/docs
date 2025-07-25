@@ -26,6 +26,6 @@ Never Stop Singing!
 
 * [Singing Carrots Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Improve your singing accuracy with Singing Carrots’ interactive Pitch Training game
 
-* [Singing Caroots: From Zero to Singing Hero](https://singingcarrots.com/docs/docs/from-zero-to-singing-hero) - Beginner Singing Course
+* [Singing Carrots: From Zero to Singing Hero](https://singingcarrots.com/docs/docs/from-zero-to-singing-hero) - Beginner Singing Course
 
 * [Singing Carrots Repertoire](https://singingcarrots.com/docs/docs/singing-carrots-manage-your-vocal-repertoire) - A collection of saved songs with notes for personalized vocal practice.
