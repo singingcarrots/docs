@@ -1,5 +1,5 @@
 ---
-title: Find Songs by Vocal Range or Name
+title: Singing Carrots Song Search Page - Find Songs by Vocal Range or Name
 description: Search thousands of songs by your vocal range, difficulty, genre,
   or artist. Use the interactive piano tool to find the songs that fit your
   voice. Add favorites to your personal repertoire.
