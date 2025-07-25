@@ -7,7 +7,7 @@ description: Improve your singing accuracy with Singing Carrots’ interactive
 ---
 # Singing Carrots Pitch Training: Full Technical Walkthrough
 
-**URL:** https://singingcarrots.com/pitch-training#game
+**URL:** <https://singingcarrots.com/pitch-training#game>
 
 ---
 
@@ -103,7 +103,7 @@ Each level consists of four stages, arranged left to right:
 - Users can adjust BPM, select playback type, loop melodies, shift note direction, or limit training to their vocal range.
 - Includes metronome, pitch reference sounds, and replay functionality.
 - Access full documentation:  
-  👉 **Practice Mode: Virtual Piano Documentation**
+  👉 [Practice Mode: Virtual Piano Documentation](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface)
 
 **Basic**
 - A guided version of the same melodic exercise.
