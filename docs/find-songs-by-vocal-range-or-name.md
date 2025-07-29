@@ -48,12 +48,13 @@ Located to the right of the piano interface. Songs update automatically based on
 
 **2. Song Action Tabs**  
 Each song entry includes quick-access tabs that help users find all essential resources needed to sing the song:  
-- **Chords** – external link  
-- **Sheet music** – external link  
-- **Lyrics** – external link  
-- **Sing karaoke** – external link  
-- **Song details** – internal link to Singing Carrots song page  
-- **Favorites (star + number)** – shows how many users added the song to their repertoire  
+- **Pitch Practice** – Green “Pitch Practice” tag appears next to songs with linked MIDI melodies. Clicking this tab takes the user directly to Singing Carrots Pitch Training with that song preloaded for real-time pitch practice.
+- **Chords** – external link.
+- **Sheet music** – external link.
+- **Lyrics** – external link.
+- **Sing karaoke** – external link.
+- **Song details** – internal link to Singing Carrots song page.
+- **Favorites (star + number)** – shows how many users added the song to their repertoire.
 
 These external links are included to provide users with all the tools they may need to practice or perform a song. Instead of manually searching the web, singers can quickly access relevant chords, notation, lyrics, or karaoke tracks - streamlining the preparation process.  
 The **Song details** link leads to Singing Carrots' own database, containing vocal analysis, pitch profiles, range comparison, and other relevant data.  
