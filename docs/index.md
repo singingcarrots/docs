@@ -43,3 +43,7 @@ Never Stop Singing!
 * [Singing Carrots My Custom Melodies Page](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name) - Upload your own melodies as MIDI files.
 
 * [Singing Carrots Hall of Fame Page](https://singingcarrots.com/docs/singing-carrots-hall-of-fame) - Discover the best performers in Singing Carrots' Pitch Training game.
+
+* [Singing Carrots Level Rankings](https://singingcarrots.com/docs/singing-carrots-level-rankings-page) - Top Users by Pitch Training Level.
+
+* [Singing Carrots Weekly Competition](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page) - Leaderboard & Rankings.
