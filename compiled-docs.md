@@ -150,12 +150,13 @@ Located to the right of the piano interface. Songs update automatically based on
 
 **2. Song Action Tabs**  
 Each song entry includes quick-access tabs that help users find all essential resources needed to sing the song:  
-- **Chords** – external link  
-- **Sheet music** – external link  
-- **Lyrics** – external link  
-- **Sing karaoke** – external link  
-- **Song details** – internal link to Singing Carrots song page  
-- **Favorites (star + number)** – shows how many users added the song to their repertoire  
+- **Pitch Practice** – Green “Pitch Practice” tag appears next to songs with linked MIDI melodies. Clicking this tab takes the user directly to Singing Carrots Pitch Training with that song preloaded for real-time pitch practice.
+- **Chords** – external link.
+- **Sheet music** – external link.
+- **Lyrics** – external link.
+- **Sing karaoke** – external link.
+- **Song details** – internal link to Singing Carrots song page.
+- **Favorites (star + number)** – shows how many users added the song to their repertoire.
 
 These external links are included to provide users with all the tools they may need to practice or perform a song. Instead of manually searching the web, singers can quickly access relevant chords, notation, lyrics, or karaoke tracks - streamlining the preparation process.  
 The **Song details** link leads to Singing Carrots' own database, containing vocal analysis, pitch profiles, range comparison, and other relevant data.  
@@ -1212,6 +1213,10 @@ Never Stop Singing!
 
 * [Singing Carrots Virtual Piano Interface](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) - Virtual Piano with Real-Time Feedback.
 
+* [Singing Carrots Song Page](https://singingcarrots.com/docs/singing-carrots-vocal-range-singing-guide-for-popular-songs) - Artist + Song-Level Overview.
+
+* [Singing Carrots Artist Page](https://singingcarrots.com/docs/singing-carrots-artist-page) - Explore Singing Carrots database with the vocal ranges of over 8,000 singers.
+
 ---
 
 ## pitch-training-practice-virtual-piano-interface.md
@@ -1379,6 +1384,118 @@ Use Practice Mode to warm up, fine‑tune melodies, or test your range, then h
 
 ---
 
+## singing-carrots-artist-page.md
+
+# Singing Carrots Artist Page: Full Technical Walkthrough
+
+## **Overview**
+
+The Singing Carrots Artist Page (e.g., <https://singingcarrots.com/artist/Rufus-Wainwright>) provides detailed insights into the vocal characteristics of a selected artist. It includes their vocal range, voice types, related song data, and resources to help users learn to sing like that artist. The page is useful for singers, educators, and fans who want to explore vocal abilities and compare ranges.
+
+- - -
+
+## **Sections**
+
+### **1. Artist Range Header**
+
+Displayed at the top of the page:  
+
+* **Title:** \[Artist Name] vocal range  
+* **Vocal Range Summary:**\
+  “According to our database the vocal range of this artist is: \[Range]”\
+  Example: F#2 – C#5 (2.6 octaves)
+* **Songs with range extremes:**  
+
+  * Song with the **LOWEST** pitch: \[Clickable Song Title] (\[Range])  
+  * Song with the **HIGHEST** pitch: \[Clickable Song Title] (\[Range])
+* **Practice prompt:**  
+
+  * Text: “Are you a beginner or advanced singer?”  
+  * **Button:** Test if you can sing in tune → [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+
+- - -
+
+### **2. Voice Types**
+
+* **Section Title:** Voice types  
+* Text: “Based on their range the artist can perform songs for:”  
+* List of applicable vocal types (pulled from range match):  
+
+  * Example:  
+
+    * Baritone (A2–A4)  
+    * Tenor (C3–C5)  
+
+- - -
+
+### **3. Educational Singing Guide**
+
+* **Section Title:** How to learn singing like \[Artist Name]  
+* Informational text:\
+  “Read our educational guide on how to sing like \[Artist Name], including explanations of which vocal techniques to use and how to practice them.”\
+  **Note:** This guide is available for a selected list of most popular artists.  
+* **Button:** Learn how to sing like \[Artist Name] → Links to the specific guide for that artist  
+
+- - -
+
+### **4. More Songs by the Artist**
+
+* **Section Title:** More songs by \[Artist Name]  
+* For each song:  
+
+  * Clickable title (→ song page)  
+  * Range in parentheses: \[Range]  
+  * Below: list of users who liked the song (clickable usernames)  
+
+- - -
+
+### **5. Video Practice Prompt**
+
+* **Section Title:** Latest videos on Singing Carrots  
+* Practice Call-to-Action:  
+
+  * **Button:** Try Pitch Training → [Pitch Training Tool](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+
+- - -
+
+### **6. Community Contribution**
+
+* **Section Title:** Contribute  
+* Text: “Help us to keep our database up-to-date. Add missing songs.”  
+* **Button:** + Add Song → Edit Song Page  
+
+- - -
+
+### **7. Mistake Reporting**
+
+* **Section Title:** Found mistake?  
+* Instructions:\
+  “Help us to keep the correct information on all the vocal ranges. Go to the [song page](https://singingcarrots.com/docs/singing-carrots-vocal-range-singing-guide-for-popular-songs) with a mistake and suggest an edit.”  
+
+- - -
+
+### **8. Explore Vocal Range Database**
+
+Informational Block:\
+“Our database has more than 8000 famous performers.\
+We calculated vocal range for each of them. Do you want to check it out?”  
+
+* **Button:** Browse singers vocal ranges → [Artists Database](https://singingcarrots.com/artists)  
+
+**Small Print Disclaimer:**\
+“Please note: we are estimating the vocal range for the artists based on what we know about the songs they perform. The 'real' vocal range of the person of course might be different. This estimate is just based on the highest and lowest known pitches from the songs we have in our database. It might be that the singer can actually hit lower or higher notes, but never did so in their recordings known to us.”
+
+- - -
+
+### **9. Footer**
+
+* Feedback prompt:\
+  “Do you enjoy our tools?”  
+* **Button:** Help us improve → \[Help Us Improve!](
+  https://singingcarrots.com/help-carrots)
+
+---
+
 ## singing-carrots-contact-page.md
 
 # Singing Carrots Contact Page: Technical Walkthrough
@@ -1478,6 +1595,151 @@ While a native app is in development, add Singing Carrots to your Home Screen:
 ### Do you enjoy our tools?
 We welcome feedback and suggestions.  
 **Help Us Improve** → <https://singingcarrots.com/help-carrots>
+
+---
+
+## singing-carrots-custom-singing-exercises.md
+
+# My Custom Melodies Page Documentation
+
+URL: <https://singingcarrots.com/my-custom-melodies>  
+User Type: Logged-in (paid) users  
+
+**Purpose:**  
+This feature enables users to upload and manage their own pitch training exercises using custom MIDI files. It practically allows users to rehearse any song or melody through the Singing Carrots interactive pitch-matching piano. MIDI files for popular songs can be found online or created using free software like MuseScore. Users may optionally link their melodies to existing songs from the Vocal Ranges Database to make them available to the community.
+
+---
+
+## 1. Page Header
+- **Title:** My Custom Melodies  
+- **Subtitle:** Create your own pitch training exercise from a MIDI file.  
+- **+ Add new melody** (green button)  
+  - Opens the melody-upload interface at <https://singingcarrots.com/add-score>
+
+---
+
+## 2. Resource Box
+An informational box highlights extra resources:  
+> "Looking for ready-to-use MIDI files? Check out our collection of popular royalty-free songs with MIDI files that you can download and use for practice."  
+
+- **Link text:** popular royalty-free songs with MIDI files  
+- **URL:** <https://singingcarrots.com/blog/free-midi-songs-for-singing-practice/>  
+  (Navigates to a blog post that includes free MIDI song downloads and step-by-step upload instructions.)
+
+---
+
+## 3. Demo Example
+A preloaded demo melody is included to demonstrate how the feature works:  
+- **Song:** *Twinkle, Twinkle, Little Star*  
+- **Button:** “Check it out!” (blue play button)  
+  - Opens the virtual piano to practice the melody  
+- Text displayed:  
+  > "We've uploaded 'Twinkle, Twinkle, Little Star' so you can explore the feature and see how it works with any song you upload!"
+
+---
+
+# Add New Melody Page
+
+URL: <https://singingcarrots.com/add-score>  
+**Purpose:** Allows users to upload custom melodies as MIDI files and turn them into pitch training exercises.
+
+---
+
+## 1. Page Header
+**Title:** Add New Melody
+
+---
+
+## 2. Instructional Info Box (yellow background)
+> "Upload a MIDI file with the melody you want to practice.  
+> The file should contain only one track with the vocal line.  
+> We advise to use [Musescore](https://musescore.org/en) to prepare a score and export it as MIDI. It's free.  
+> In this video (links to YouTube video 'Pitch Training – How to Make Your Own Game Levels') Sergey shows how to prepare your MIDI and upload it.  
+> Looking for ready-to-use MIDI files? Check out our collection of [popular royalty-free songs with MIDI files](https://singingcarrots.com/blog/free-midi-songs-for-singing-practice/) that you can download and use for practice."
+
+---
+
+## 3. Upload Form
+* **Field 1:** *Name* – user provides a title for the melody  
+* **Field 2:** *MIDI File* – click **Choose file** to upload a `.mid` file  
+
+### Popup behavior on upload
+If the uploaded MIDI file contains more than one track:  
+- A popup appears titled **Processing MIDI file**  
+- Text:  
+  > "This file has more than one instrument track. Please choose which one you want to use for your singing practice."  
+- The user can:  
+  - Listen to each track by clicking **Play**  
+  - Select one using a radio option button  
+  - Click **OK** to confirm selection and proceed
+
+* **Upload button:** Finalizes upload and redirects user to <https://singingcarrots.com/my-custom-melodies>
+
+---
+
+# Custom Melodies List (After Upload)
+
+For each uploaded song:  
+- **Song Title**  
+- **Practice** button (blue play icon) – opens in Pitch Training Practice mode  
+- **Trash** icon (red) – deletes the uploaded melody  
+- **Share** button – opens the song-linking interface
+
+---
+
+## Manage Linked Songs
+When **Share** is clicked:
+
+- **Title:** Manage Linked Songs  
+- **Subtitle:** \[User's Custom Melody Title]  
+- **Description:**  
+  > "Link your custom melody to songs from our database to help other users discover and practice with your creation. When you connect your melody to popular songs, it becomes easier for singers to find and use in their training sessions."
+
+### Form Fields
+1. **Search for a Song**  
+   - Placeholder: "Type artist name or song title..."  
+   - Auto-suggest dropdown from the Singing Carrots song database  
+   - Subtext: "Selected song will appear here"  
+2. **What part of the song does this melody represent?**  
+   - Placeholder: "Select type..."  
+   - Dropdown options: *Full Song, Verse, Chorus, Custom Piece*  
+3. **Description (optional)**  
+   - Placeholder: "Any additional notes about this melody (e.g., 'First verse only', 'Simplified Version')"  
+
+**Buttons:** Create Link · Cancel  
+
+**Legal Notice:**  
+"Please ensure your melody is your original creation or that you have the right to share it. By linking your melody to songs, you confirm that your content does not infringe on any copyrights."
+
+### Existing Song Links Section
+*If no songs are linked:*  
+"No songs linked yet. Use the form above to link this melody to a song."  
+
+*If songs are linked:*  
+Displays: Song Title · Creation Date · Section Type (Full Song, Chorus, etc.) · Status (Pending Review / Reviewed) · **Remove** button  
+
+_All submitted links will be reviewed for copyright compliance before being visible to other users._
+
+---
+
+# Custom Melody Practice: Interactive Piano Interface
+
+Clicking **Practice** opens the [Virtual Piano Practice Mode](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) with added controls.
+
+### Key Difference from Built-in Exercises
+Custom melodies allow the user to set start and end points of the practice segment using draggable flag icons on a horizontal timeline above the piano.
+
+#### Additional Controls
+- **Timeline with Flags** – users drag start/end flags to define loop segment  
+- **Playback Area Highlights** – only the selected section repeats  
+
+*All other features (real-time pitch visualization, microphone setup, settings, tempo, sound selection, loop behavior, etc.) match the core Pitch Training Practice tool.*
+
+---
+
+## Footer Section
+Prompt: "Do you enjoy our tools?"  
+Button: **Help us improve!** → <https://singingcarrots.com/help-carrots>
 
 ---
 
@@ -2559,6 +2821,158 @@ Navigates to the Singing Carrots pitch training game
 ## 5. Feedback Section (Page Footer)
 Do you enjoy our tools?  
 “Help us improve” button – links to: https://singingcarrots.com/help-carrots
+
+---
+
+## singing-carrots-vocal-range-singing-guide-for-popular-songs.md
+
+# Singing Carrots Song Page: Artist + Song-Level Overview
+
+## Purpose:
+
+This page provides users with detailed vocal analysis and practice tools for a specific song by a specific artist. It combines interactive training tools, vocal statistics, helpful resources, and user engagement elements to guide singers of all skill levels.
+
+**Example URL:**\
+<https://singingcarrots.com/song?song=adele-skyfall>
+
+- - -
+
+## 1. Page Header: Song Identification & Edit Access
+
+* **Top Line Title:**\
+  *Artist Name* – *Song Title*: Vocal Range & Original Key
+* **Edit Button (Right-Aligned):**  
+
+  * Icon: Pencil  
+  * Tooltip: "Suggest an edit" (on hover)  
+  * Action: Opens the song editing interface at:\
+    https://singingcarrots.com/edit-song/\[song-id]
+
+- - -
+
+## 2. Action Tabs
+
+A horizontal row of tabs gives users quick access to external and internal resources:
+
+* Chords – External link to chord progressions  
+* Sheet music – External link to downloadable or viewable sheet music  
+* Lyrics – External link to full lyrics  
+* Sing Karaoke – External karaoke video platform link  
+* Star icon + Tooltip: "Save this song in my repertoire"  
+
+  * Clicking this saves the song to the user's personal repertoire  
+  * Button disappears after selection  
+
+- - -
+
+## 3. Practice Prompt Block (Conditional)
+
+This section dynamically changes based on whether the song has a linked MIDI exercise in the database.
+
+### For Songs with Linked MIDI (Custom Melody Present):
+
+* **Prompt:**\
+  Practice singing this song with our interactive pitch-matching piano
+* **Button:**\
+  Practice full song\
+  Redirects to the exact Pitch Training session for the selected song:\
+  https://singingcarrots.com/pitch-training/practice?ugc=true&exercise=\[excercise-id]
+* **Note in brackets:**\
+  (Added by \[username]) – Indicates who submitted the MIDI melody linked to this song
+* ⚠️ **Availability Note:**\
+  This feature is available only for a select list of songs that are either:  
+
+  * Royalty-free, **or**  
+  * Cleared by explicit permission from the copyright holder for educational use on Singing Carrots.\
+    Songs outside this scope are not eligible for full-song practice using the interactive piano due to copyright restrictions.
+
+### Fallback (Default Prompt):
+
+* **Prompt:**\
+  Are you a beginner or advanced singer?
+* **Button:**\
+  Test if you can sing in tune\
+  Redirects to: <https://singingcarrots.com/pitch-training>
+
+- - -
+
+## 4. Song Information Table
+
+Displays detailed song metadata in a structured table format:
+
+| Label                      | Value                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------ |
+| Artist / From              | Artist Name (artist vocal range) (clickable) – shows artist's full vocal range |
+| Title                      | Song Title                                                                     |
+| Original Key               | Key (e.g., C Major)                                                            |
+| Vocal Range                | Range (e.g., G3 – E5)                                                          |
+| Difficulty (Original Key)  | Easy / Moderate / Challenging / Impossible                                     |
+| Difficulty (Optimal Key)   | Easy / Moderate / Challenging                                                  |
+| Min Transposition Needed   | Number of semitones down required for easier singing                           |
+| Max Transposition Possible | Highest number of semitones up that still sounds natural                       |
+
+- - -
+
+## 5. Blog Integration (Optional Block)
+
+Displayed only for songs with relevant blog articles.
+
+* **Header:**\
+  Singing Carrots Blog Relevant Reads
+* **Article Link:**\
+  “How to Learn Singing ‘Song Title’ from Artist Name”\
+  Redirects to Singing Carrots blog with practice tips, exercises, and breakdowns
+
+- - -
+
+## 6. Embedded Karaoke Video
+
+* A YouTube karaoke video is embedded directly on the page.  
+* Below it is a secondary **Suggest an Edit** button linking to the edit interface.
+
+- - -
+
+## 7. Additional Resources Section
+
+* **Title:** Latest Videos on Singing Carrots  
+* **Button:** Try Pitch Training\
+  Redirects to: <https://singingcarrots.com/pitch-training>
+
+- - -
+
+## 8. Related Songs: Recommendation Engine
+
+* **Header:** Users who like this song also like:
+* Displayed as a list of clickable song titles  
+
+  * Each song links to its respective song-level page
+
+- - -
+
+## 9. User Likes
+
+* **Header:** User Likes  
+* A scrollable list of usernames who favorited this song  
+* Each name links to that user's public profile page
+
+- - -
+
+## 10. Song Collections
+
+* **Header:** This song is featured in collections:
+* Displays all relevant collections this song belongs to, such as:  
+
+  * Top 77 Songs for Bass Voice  
+  * Top 77 songs in C Major  
+* Each collection title is clickable and opens a filtered view with all songs in that collection
+
+- - -
+
+## 11. Footer Feedback Prompt
+
+* **Prompt:** Do you enjoy our tools?  
+* **Button:** Help us improve\
+  Redirects to: <https://singingcarrots.com/help-carrots>
 
 ---
 
