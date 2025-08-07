@@ -1217,6 +1217,10 @@ Never Stop Singing!
 
 * [Singing Carrots Artist Page](https://singingcarrots.com/docs/singing-carrots-artist-page) - Explore Singing Carrots database with the vocal ranges of over 8,000 singers.
 
+* [Singing Carrots My Custom Melodies Page](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name) - Upload your own melodies as MIDI files.
+
+* [Singing Carrots Hall of Fame Page](https://singingcarrots.com/docs/singing-carrots-hall-of-fame) - Discover the best performers in Singing Carrots' Pitch Training game.
+
 ---
 
 ## pitch-training-practice-virtual-piano-interface.md
@@ -1743,6 +1747,73 @@ Button: **Help us improve!** → <https://singingcarrots.com/help-carrots>
 
 ---
 
+## singing-carrots-hall-of-fame.md
+
+# Singing Carrots Hall of Fame Page: Full Technical Walkthrough
+
+**Purpose:**  
+The Hall of Fame page showcases top performers in the Singing Carrots Pitch Training game. It recognizes users who have ranked in the top 3 positions each week and encourages continued participation through competitive motivation.
+
+**Page URL:**  
+<https://singingcarrots.com/hall-of-fame>
+
+---
+
+## Section 1: Page Header and Intro
+
+**Title Line:**  
+Hall of Fame  
+*(A black goblet icon is displayed next to the title.)*
+
+**Subtitle Text:**  
+All time weekly winners: (gold star icon) 1st place, (silver star icon) 2nd place, (bronze star icon) 3rd place. The Hall of Fame gets updated every Tuesday.
+
+**Tooltip (Question Mark Icon):**  
+Hovering over the icon reveals the text:  
+> "Your week end might be different from the week end of other players. It depends on your timezone. E.g., players from Tokyo will start and finish the week much earlier than players from the US."
+
+**Call-to-Action Below Subtitle:**  
+Join this week’s competition in Pitch Training  
+Link target: <https://singingcarrots.com/pitch-training>
+
+---
+
+## Section 2: Leaderboard – Weekly Winners
+
+This section displays a ranked list of users who have achieved top scores in past Pitch Training weekly challenges.
+
+**Each Entry Includes:**
+* **Ranking Number:** Displayed on the left (1, 2, 3, etc.)
+* **User Information:**  
+  * Profile Picture  
+  * Clickable Username – links to the user’s public profile
+* **Trophy Count (Displayed on the right):**  
+  * Total number of gold stars (1st place weekly wins)  
+  * Total number of silver stars (2nd place)  
+  * Total number of bronze stars (3rd place)
+
+**Sorting Logic:**
+* Users are ranked by gold stars first, then silver, then bronze.
+* Only users with visible public profiles are displayed in the Hall of Fame.
+* Any user can choose to make their profile private and opt out of public competitions via their profile settings.
+* Private users will not appear in the Hall of Fame or weekly rankings.
+
+---
+
+## Section 3: Visibility Note
+
+P.S. We do not display anonymous users. If you think you should be here and do not see yourself, update your name on your profile page.
+
+---
+
+## Section 4: Feedback Prompt
+
+Do you enjoy our tools?  
+**Button:** Help us improve  
+Link target: <https://singingcarrots.com/help-carrots>
+
+---
+
 ## singing-carrots-homepage-paid.md
 
 # Singing Carrots Homepage  
@@ -1834,6 +1905,68 @@ Do you enjoy our tools?
 **Button:**  
 Help us improve  
 https://singingcarrots.com/help-carrots
+
+---
+
+## singing-carrots-level-rankings-page.md
+
+# Singing Carrots Level Rankings Page: Full Technical Walkthrough
+
+Page URL:  
+<https://singingcarrots.com/pitch-training/level-rankings?level=#>
+
+**Purpose:**  
+This page displays the leaderboard for a selected level in Singing Carrots' Pitch Training tool. It highlights users who achieved the highest number of accurate pitch matches (note hits) in hard mode for a specific training level.  
+Unlike the main leaderboard, which promotes consistent practice and rewards dedication regardless of skill level, this page focuses on technical precision.  
+It is designed to recognize the most skillful users—those who demonstrate excellent pitch accuracy on individual exercises.  
+
+This structure supports Singing Carrots’ broader gamification strategy:  
+* The main weekly competition encourages regular use and inclusivity.  
+* The level-based rankings provide space for performance-based achievement and skill recognition.  
+
+Only hard mode scores are counted. Rankings are limited to the top 100 users per level and are updated automatically based on recorded performance data.
+
+---
+
+## Section 1: Page Header
+* **Title Line:**  
+  Rankings by game level  
+  (A squared flag icon appears next to the title.)
+* **Subtitle:**  
+  “Here we count only hard mode results. Join the competition in [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)”
+
+---
+
+## Section 2: Level Selection
+**Level Dropdown:**  
+* **Label:** Level number: followed by the current level name (as defined in Pitch Training, e.g., “Climb the major ladder”)  
+* **Control:** A *change* dropdown allows users to select from all available levels.  
+* Selecting a different level dynamically updates the rankings below to reflect the leaderboard for that specific exercise.
+
+---
+
+## Section 3: Rankings Table
+Displayed Data for Each User:  
+* **Clickable Username:** links to the user's public profile  
+* **Number of Notes Hit:** shown next to a small note icon 🎵  
+
+**Ranking Logic:**  
+* Sorted in descending order by the number of correctly hit notes  
+* Only hard mode scores are considered  
+* A maximum of 100 users are displayed per level  
+
+**Pagination:**  
+* Only the top 100 results are shown; no further pages available  
+
+**Footer Note Below List:**  
+“Note: We show only the first top 100 results.”
+
+---
+
+## Section 4: Feedback Prompt
+Do you enjoy our tools?  
+**Button:** Help us improve  
+Link target: <https://singingcarrots.com/help-carrots>
 
 ---
 
