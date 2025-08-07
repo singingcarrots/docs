@@ -39,3 +39,7 @@ Never Stop Singing!
 * [Singing Carrots Song Page](https://singingcarrots.com/docs/singing-carrots-vocal-range-singing-guide-for-popular-songs) - Artist + Song-Level Overview.
 
 * [Singing Carrots Artist Page](https://singingcarrots.com/docs/singing-carrots-artist-page) - Explore Singing Carrots database with the vocal ranges of over 8,000 singers.
+
+* [Singing Carrots My Custom Melodies Page](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name) - Upload your own melodies as MIDI files.
+
+* [Singing Carrots Hall of Fame Page](https://singingcarrots.com/docs/singing-carrots-hall-of-fame) - Discover the best performers in Singing Carrots' Pitch Training game.
