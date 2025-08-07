@@ -40,12 +40,15 @@ Upon page load, users see a progress field at the top:
 
 ### Section 2: Leaderboard and Progress Chart
 **Leaderboard Section**
-- **Header:** "Leaderboard"
+- **Header:** "Leaderboard" 
+-👉 [Weekly Competition Documentation](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)
 - **Countdown:** Days:Hours:Minutes (until week end)
   *Tooltip:* “Your week end might be different from the week end of other players. It depends on your timezone.”
 - **Two Tabs:**
-  - **This Week** (default)
-  - **Hall of Fame** (with goblet icon)
+  - **[This Week](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)** (default)
+  - **[Hall of Fame](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)** (with goblet icon)
+
+👉 [Hall of Fame Documentation](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)
 
 **Each row in the leaderboard includes:**
 - Rank number
@@ -120,7 +123,7 @@ Each level consists of four stages, arranged left to right:
 - The most advanced form of training.
 - No sound is played during the test — no melody, no metronome.
 - The user must rely entirely on internal pitch memory and vocal control.
-- Success is tracked and compared with global top scores.
+- Success is tracked and compared with global [top scores](https://singingcarrots.com/docs/singing-carrots-level-rankings-page).
 
 All stages use a version of the interactive piano interface, showing:
 - Target notes (as blue lines)
@@ -163,7 +166,7 @@ Each non-practice stage ends with a results popup, displaying:
 
 If the user performs particularly well (especially in Challenging or Hard mode), they’ll see:
 - **Leaderboard prompt** (“Standings”)
-- **Option to view top scores**
+- **Option to view top scores 👉 [Weekly Top Scores Documentation](https://singingcarrots.com/docs/singing-carrots-level-rankings-page)**
 - **CTA to Try Hard Mode** (from Challenging)
 
 This system ensures that users progressively build muscle memory, pitch accuracy, and ear training through structured daily repetition and increasing difficulty. It balances flexibility (Practice mode) with challenge and gamification (Basic → Hard modes + note goals + leaderboard integration).
