@@ -1221,6 +1221,10 @@ Never Stop Singing!
 
 * [Singing Carrots Hall of Fame Page](https://singingcarrots.com/docs/singing-carrots-hall-of-fame) - Discover the best performers in Singing Carrots' Pitch Training game.
 
+* [Singing Carrots Level Rankings](https://singingcarrots.com/docs/singing-carrots-level-rankings-page) - Top Users by Pitch Training Level.
+
+* [Singing Carrots Weekly Competition](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page) - Leaderboard & Rankings.
+
 ---
 
 ## pitch-training-practice-virtual-piano-interface.md
@@ -2532,12 +2536,15 @@ Upon page load, users see a progress field at the top:
 
 ### Section 2: Leaderboard and Progress Chart
 **Leaderboard Section**
-- **Header:** "Leaderboard"
+- **Header:** "Leaderboard" 
+-👉 [Weekly Competition Documentation](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)
 - **Countdown:** Days:Hours:Minutes (until week end)
   *Tooltip:* “Your week end might be different from the week end of other players. It depends on your timezone.”
 - **Two Tabs:**
-  - **This Week** (default)
-  - **Hall of Fame** (with goblet icon)
+  - **[This Week](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)** (default)
+  - **[Hall of Fame](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)** (with goblet icon)
+
+👉 [Hall of Fame Documentation](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)
 
 **Each row in the leaderboard includes:**
 - Rank number
@@ -2612,7 +2619,7 @@ Each level consists of four stages, arranged left to right:
 - The most advanced form of training.
 - No sound is played during the test — no melody, no metronome.
 - The user must rely entirely on internal pitch memory and vocal control.
-- Success is tracked and compared with global top scores.
+- Success is tracked and compared with global [top scores](https://singingcarrots.com/docs/singing-carrots-level-rankings-page).
 
 All stages use a version of the interactive piano interface, showing:
 - Target notes (as blue lines)
@@ -2655,7 +2662,7 @@ Each non-practice stage ends with a results popup, displaying:
 
 If the user performs particularly well (especially in Challenging or Hard mode), they’ll see:
 - **Leaderboard prompt** (“Standings”)
-- **Option to view top scores**
+- **Option to view top scores 👉 [Weekly Top Scores Documentation](https://singingcarrots.com/docs/singing-carrots-level-rankings-page)**
 - **CTA to Try Hard Mode** (from Challenging)
 
 This system ensures that users progressively build muscle memory, pitch accuracy, and ear training through structured daily repetition and increasing difficulty. It balances flexibility (Practice mode) with challenge and gamification (Basic → Hard modes + note goals + leaderboard integration).
@@ -3202,6 +3209,83 @@ After singing, the tool displays two results:
 - More detailed singing stats can be accessed via the **Stats** page (a separate documentation page will cover it).  
 
 ---
+
+---
+
+## singing-carrots-weekly-competition-page.md
+
+# Singing Carrots Weekly Competition Page: Full Technical Walkthrough
+
+Page URL:  
+<https://singingcarrots.com/weekly-standings>
+
+**Purpose:**  
+This page displays the weekly leaderboard for users participating in Pitch Training. It ranks users by the number of carrot points earned through vocal practice, encouraging friendly competition and consistent progress.
+
+---
+
+## Section 1: Page Header
+**Title:**  
+Weekly competition  
+*(A squared flag icon appears next to the title.)*
+
+---
+
+## Section 2: Week Selector
+
+### Week Selector
+A horizontal scrolling date selector displays the current and surrounding weekly date ranges.  
+*Example:*  
+21 Jul – 27 Jul ← 28 Jul – 03 Aug → 04 Aug – 10 Aug  
+* Clicking a date range loads rankings for that specific week.  
+* Arrows allow navigation to earlier or later weeks.
+
+### Countdown Timer
+* **Label:**  
+  Until current week end:
+* **Format:**  
+  Live countdown in the format **2D:5H:19M** (Days:Hours:Minutes)
+
+### Question-mark Icon (hover tooltip)
+> “Your week end might be different from the week end of other players. It depends on your timezone. E.g., players from Tokyo will start and finish the week much earlier than players from the US.”
+
+---
+
+## Section 3: Join the Competition Call-to-Action
+Join this week competition in pitch training. Each week you get a chance to finish in the top 3 and engrave your name on the hall of fame.  
+* **pitch training** → <https://singingcarrots.com/pitch-training>  
+* **hall of fame** → <https://singingcarrots.com/hall-of-fame>
+
+---
+
+## Section 4: User Position Overview
+Your position: **X out of Y**  
+*Example:* 124 out of 334  
+Displays the current user’s ranking based on the total carrot points earned this week.
+
+---
+
+## Section 5: Weekly Leaderboard Table
+
+Each row in the leaderboard includes:  
+* Profile Picture  
+* Clickable Username → links to user's public profile  
+* **Position Change Indicator**  
+  * Example: +15 or –7  
+  * Color-coded (green for gain, red for loss)  
+  * On hover: “Positions compared to last week”  
+* **Carrot Points Earned This Week**  
+  * Displayed next to a carrot icon
+
+**Sorting:**  
+Users are ranked in descending order by weekly carrot points earned.
+
+---
+
+## Section 6: Feedback Prompt
+Do you enjoy our tools?  
+**Button:** Help us improve  
+Link target: <https://singingcarrots.com/help-carrots>
 
 ---
 
