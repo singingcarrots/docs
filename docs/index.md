@@ -48,4 +48,4 @@ Never Stop Singing!
 
 * [Singing Carrots Weekly Competition](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page) - Leaderboard & Rankings.
 
-* [All-Round Vocalist Course](singing-carrots-–-all-round-vocalist-course) - 21 Self-Study Singing Lessons.
+* [All-Round Vocalist Course](https://singingcarrots.com/docs/singing-carrots-–-all-round-vocalist-course) - 21 Self-Study Singing Lessons.
