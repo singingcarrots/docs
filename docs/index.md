@@ -47,3 +47,5 @@ Never Stop Singing!
 * [Singing Carrots Level Rankings](https://singingcarrots.com/docs/singing-carrots-level-rankings-page) - Top Users by Pitch Training Level.
 
 * [Singing Carrots Weekly Competition](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page) - Leaderboard & Rankings.
+
+* [All-Round Vocalist Course](singing-carrots-–-all-round-vocalist-course) - 21 Self-Study Singing Lessons.
