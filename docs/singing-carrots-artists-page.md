@@ -6,11 +6,11 @@ description: Explore vocal ranges of singers and musicals, search for artists,
 ---
 # Singing Carrots Artists Page: Full Technical Walkthrough
 
-## Page URL
-<https://singingcarrots.com/artists>
-
 ## Overview
 The Artists Page is a central directory for exploring singers’ vocal ranges and related content. It allows visitors to search for specific artists, browse the most liked singers and musicals and discover top songs.
+
+## Page URL
+<https://singingcarrots.com/artists>
 
 ---
 
