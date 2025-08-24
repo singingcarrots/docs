@@ -50,4 +50,6 @@ Never Stop Singing!
 
 * [All-Round Vocalist Course](https://singingcarrots.com/docs/singing-carrots-all-round-vocalist-course) - 21 Self-Study Singing Lessons.
 
-* [Singing Carrots Login Page](https://singingcarrots.com/docs/sign-in-–-singing-carrots-login-page) - Access your Singing Carrots account.
+* [Singing Carrots Login Page](https://singingcarrots.com/docs/singing-carrots-login-page) - Access your Singing Carrots account.
+
+* [Create an Account](https://singingcarrots.com/docs/singing-carrots-sign-up-page) - Singing Carrots Sign-Up Page.
