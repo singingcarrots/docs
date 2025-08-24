@@ -55,3 +55,5 @@ Never Stop Singing!
 * [Create an Account](https://singingcarrots.com/docs/singing-carrots-sign-up-page) - Singing Carrots Sign-Up Page.
 
 * [Artists Page](https://singingcarrots.com/docs/singing-carrots-artists-page) - Singers' Vocal Ranges & Popular Artists.
+
+* [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track Singing Carrots Rewards & Progress.
