@@ -1,5 +1,5 @@
 ---
-title: Sign In – Singing Carrots Login Page
+title: Singing Carrots Login Page
 description: Access your Singing Carrots account to continue vocal training. Log
   in with Google, Facebook, email link, or password to track progress and
   practice singing with our tools.
