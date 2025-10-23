@@ -57,3 +57,9 @@ Never Stop Singing!
 * [Artists Page](https://singingcarrots.com/docs/singing-carrots-artists-page) - Singers' Vocal Ranges & Popular Artists.
 
 * [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track Singing Carrots Rewards & Progress.
+
+* [Singing Carrots Studio: Main Page](https://singingcarrots.com/docs/singing-carrots-studio-main-page) - Free Suite of Teaching Tools.
+
+* [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Introduction Hub for Teachers.
+
+* [Singing Carrots Studio: Video Room Host Page](https://singingcarrots.com/docs/singing-carrots-studio-video-room-host-page) - Host Online Singing Lessons.
