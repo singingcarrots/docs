@@ -63,3 +63,9 @@ Never Stop Singing!
 * [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Introduction Hub for Teachers.
 
 * [Singing Carrots Studio: Video Room Host Page](https://singingcarrots.com/docs/singing-carrots-studio-video-room-host-page) - Host Online Singing Lessons.
+
+* [Singing Carrots Studio: My Students Page](https://singingcarrots.com/docs/singing-carrots-studio-my-students-page) - Teacher’s Management Dashboard.
+
+* [Singing Carrots Studio: Schedule a Lesson Page](https://singingcarrots.com/docs/singing-carrots-studio-schedule-a-lesson-page) - Create Structured Lesson Invitations.
+
+* [Singing Carrots Studio: Video Recordings Page](https://singingcarrots.com/docs/singing-carrots-studio-video-recordings-page) - View and manage Video Call Recordings and Transcripts.
