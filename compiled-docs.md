@@ -1225,170 +1225,337 @@ Never Stop Singing!
 
 * [Singing Carrots Weekly Competition](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page) - Leaderboard & Rankings.
 
+* [All-Round Vocalist Course](https://singingcarrots.com/docs/singing-carrots-all-round-vocalist-course) - 21 Self-Study Singing Lessons.
+
+* [Singing Carrots Login Page](https://singingcarrots.com/docs/singing-carrots-login-page) - Access your Singing Carrots account.
+
+* [Create an Account](https://singingcarrots.com/docs/singing-carrots-sign-up-page) - Singing Carrots Sign-Up Page.
+
+* [Artists Page](https://singingcarrots.com/docs/singing-carrots-artists-page) - Singers' Vocal Ranges & Popular Artists.
+
+* [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track Singing Carrots Rewards & Progress.
+
+* [Singing Carrots Studio: Main Page](https://singingcarrots.com/docs/singing-carrots-studio-main-page) - Free Suite of Teaching Tools.
+
+* [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Introduction Hub for Teachers.
+
+* [Singing Carrots Studio: Video Room Host Page](https://singingcarrots.com/docs/singing-carrots-studio-video-room-host-page) - Host Online Singing Lessons.
+
+* [Singing Carrots Studio: My Students Page](https://singingcarrots.com/docs/singing-carrots-studio-my-students-page) - Teacher’s Management Dashboard.
+
+* [Singing Carrots Studio: Schedule a Lesson Page](https://singingcarrots.com/docs/singing-carrots-studio-schedule-a-lesson-page) - Create Structured Lesson Invitations.
+
+* [Singing Carrots Studio: Video Recordings Page](https://singingcarrots.com/docs/singing-carrots-studio-video-recordings-page) - View and manage Video Call Recordings and Transcripts.
+
 ---
 
 ## pitch-training-practice-virtual-piano-interface.md
 
-# Pitch Training Practice: Virtual Piano Interface  
-**Tool URL (example):**  
-`https://singingcarrots.com/pitch-training/practice?exercise=[exercise-pattern]`  
+# Pitch Training Practice: Virtual Piano Interface
+
+**Tool URL (example):**\
+`https://singingcarrots.com/pitch-training/practice?exercise=[exercise-pattern]`\
 *(e.g., `?exercise=major-1-3-2-4-3-5-4-2-1`)*
 
----
+- - -
 
 ## Purpose
+
 **Practice Mode** is the heart of Singing Carrots. It turns your screen into an interactive piano lesson, combining a full‑range keyboard with real‑time pitch‑matching visuals so you can rehearse exactly the way a vocal teacher would guide you in class.  
 
-- **Sing with the piano, instantly see accuracy.** Blue target lines show the melody; a red live line mirrors your voice so you know the moment you’re on (or off) pitch.  
-- **Climb the scale like in a lesson.** Set any exercise—from simple arpeggios to octave jumps—and step through it up, down, or on loop to cover your whole range.  
-- **Hear yourself, improve faster.** After each run you can replay and relisten to your own recording, pinpointing where you nailed it and where you drifted.  
-- **Tailor every detail.** Choose the instrument sound, tempo, starting note, pauses, and even limit the exercise to just your comfortable notes.  
+* **Sing with the piano, instantly see accuracy.** Blue target lines show the melody; a red live line mirrors your voice so you know the moment you’re on (or off) pitch.  
+* **Climb the scale like in a lesson.** Set any exercise—from simple arpeggios to octave jumps—and step through it up, down, or on loop to cover your whole range.  
+* **Hear yourself, improve faster.** After each run you can replay and relisten to your own recording, pinpointing where you nailed it and where you drifted.  
+* **Tailor every detail.** Choose the instrument sound, tempo, starting note, pauses, and even limit the exercise to just your comfortable notes.  
 
 In short, Practice Mode replicates the core segment of a live vocal class—piano guidance plus instant feedback—so you can build pitch accuracy, range, and musical memory anytime, anywhere. Below you’ll find all the customization options in detail.
 
----
+- - -
 
 ## User Flow and Controls
 
 ### 1. Loading Screen
-Upon accessing Practice Mode:
-- A loading screen appears.  
-- **Text displayed:** “Loading Audio Files – Preparing virtual piano”  
-- A progress bar shows percentage until the full load is complete.  
-- Once loaded, the interface becomes visible but inactive until microphone access is granted.
 
----
+Upon accessing Practice Mode:
+
+* A loading screen appears.  
+* **Text displayed:** “Loading Audio Files – Preparing virtual piano”  
+* A progress bar shows percentage until the full load is complete.  
+* Once loaded, the interface becomes visible but inactive until microphone access is granted.
+
+- - -
 
 ### 2. Microphone Activation
-- A faded piano interface is visible.  
-- Above it: **Enable Microphone** (large green button)  
-  - Clicking prompts browser mic access and activates real‑time pitch tracking.
 
----
+* A faded piano interface is visible.  
+* Above it: **Enable Microphone** (large green button)  
+
+  * Clicking prompts browser mic access and activates real‑time pitch tracking.
+
+- - -
 
 ### 3. Top‑Level Controls
 
-| Position  | Element | Function |
-|-----------|---------|----------|
-| Top‑left  | ❌ **Close** | Exits the piano and returns user to the Pitch Training levels page |
-| Top‑right | ⚙️ **Settings** | Opens the Practice Settings popup for training customization |
+| Position  | Element         | Function                                                           |
+| --------- | --------------- | ------------------------------------------------------------------ |
+| Top‑left  | ❌ **Close**     | Exits the piano and returns user to the Pitch Training levels page |
+| Top‑right | ⚙️ **Settings** | Opens the Practice Settings popup for training customization       |
 
----
+- - -
 
 ### 4. Practice Settings Panel (⚙️)
+
 Opens as a popup modal, divided into three configuration blocks:
 
 1. **Limit Practice to My Range** (Toggle)  
-   - **Default:** OFF (grays out this section)  
-   - When switched **ON:**  
-     - **Lowest note:** dropdown (e.g., C3)  
-     - **Highest note:** dropdown (e.g., A4)  
-     - **Edge behavior** (for both low and high limits):  
-       - *Start going down*  
-       - *Continue on the note*  
-       - *Stop the exercise*  
-     - **Apply** button reloads exercise with selected range  
 
+   * **Default:** OFF (grays out this section)  
+   * When switched **ON:**  
+
+     * **Lowest note:** dropdown (e.g., C3)  
+     * **Highest note:** dropdown (e.g., A4)  
+     * **Edge behavior** (for both low and high limits):  
+
+       * *Start going down*  
+       * *Continue on the note*  
+       * *Stop the exercise*  
+     * **Apply** button reloads exercise with selected range  
 2. **Pause Between Melody Runs**  
-   - **Options:**  
-     - *None* – Start next run immediately  
-     - *1 measure* – Short pause  
-     - *2 measures* – Longer pause  
-   - **Apply** button updates pacing  
 
+   * **Options:**  
+
+     * *None* – Start next run immediately  
+     * *1 measure* – Short pause  
+     * *2 measures* – Longer pause  
+   * **Apply** button updates pacing  
 3. **Choose Virtual Piano Sounds**  
-   - **Options:** Grand Piano, Acoustic Guitar  
-   - *Note:* Changing sound may take 1–2 minutes to reload  
-   - **Apply** button reloads audio assets  
+
+   * **Options:** Grand Piano, Acoustic Guitar  
+   * *Note:* Changing sound may take 1–2 minutes to reload  
+   * **Apply** button reloads audio assets  
 
 Popup controls: top‑right ❌ closes the modal.
 
----
+- - -
 
 ### 5. Live Pitch Detection Controls
 
-| Area | UI Element | Function |
-|------|------------|----------|
-| Top‑left | Mic icon (red) | Displays sung pitch (e.g., A3) or “–” when silent |
-| — | Tooltip | “Current Pitch” (on hover) |
-| — | Dropdown (blue arrow) | Mic selector – choose input device |
-| Center | ⬅️ Zoom Out / ➡️ Zoom In | Adjusts visible note range on virtual piano |
-| — | ⬅️ / ➡️ arrows | Scrolls left/right on the keyboard |
+| Area     | UI Element                   | Function                                                                       |
+| -------- | ---------------------------- | ------------------------------------------------------------------------------ |
+| Top‑left | Mic icon (red)               | Displays sung pitch (e.g., A3) or “–” when silent                              |
+| —        | Tooltip                      | “Current Pitch” (on hover)                                                     |
+| —        | Dropdown (blue arrow)        | Mic selector – choose input device                                             |
+| Center   | ⬅️ Zoom Out / ➡️ Zoom In     | Adjusts visible note range on virtual piano                                    |
+| —        | ⬅️ / ➡️ arrows               | Scrolls left/right on the keyboard                                             |
+| —        | 🎹 Piano icon / 🎵 Note icon | Switches between **Virtual Piano view** and **Sheet Music view** of the melody |
 
----
+- - -
 
 ### 6. Virtual Piano Interface
-- Full‑width keyboard (approx. C2 → C6) with octave labels (C3, C4, C5).  
-- **Key color:** white = naturals, black = sharps/flats.  
-- Vertical grid lines separate notes (half‑step markers).
+
+* Full‑width keyboard (approx. C2 → C6) with octave labels (C3, C4, C5).  
+* **Key color:** white = naturals, black = sharps/flats.  
+* Vertical grid lines separate notes (half‑step markers).
 
 #### Pitch Visualizations During Playback
-- **Blue vertical lines:** Target notes (drop toward keys).  
-- **Red vertical line:** Real‑time sung pitch (originates from key).  
-  - Straight & centered = on pitch  
-  - **Color feedback:**  
-    - Green = on pitch  
-    - Yellow = slightly off  
-    - Split color = partially accurate over time  
-    - Wavy/jagged = unstable pitch  
-- Clicking any piano key plays its sound.
 
----
+* **Blue vertical lines:** Target notes (drop toward keys).  
+* **Red vertical line:** Real‑time sung pitch (originates from key).  
+
+  * Straight & centered = on pitch  
+  * **Color feedback:**  
+
+    * Green = on pitch  
+    * Yellow = slightly off  
+    * Split color = partially accurate over time  
+    * Wavy/jagged = unstable pitch  
+* Clicking any piano key plays its sound.
+
+- - -
 
 ### 7. Playback and Replay Controls
 
-| Element | Function |
-|---------|----------|
-| ▶ **Play** | Starts melody playback and exercise (tooltip: *Play*) |
+| Element                   | Function                                                              |
+| ------------------------- | --------------------------------------------------------------------- |
+| ▶ **Play**                | Starts melody playback and exercise (tooltip: *Play*)                 |
 | ⏺ **Watch Replay** (grey) | Available after one attempt (tooltip: *Watch replay of your singing*) |
 
----
+- - -
 
 ### 8. Melody Navigation Controls
 
-| Icon | Action |
-|------|--------|
-| ⬅️ | “The melody will go lower and lower” |
-| 🔁 | “The melody will loop” |
-| ➡️ | “The melody will go higher and higher” |
+| Icon | Action                                 |
+| ---- | -------------------------------------- |
+| ⬅️   | “The melody will go lower and lower”   |
+| 🔁   | “The melody will loop”                 |
+| ➡️   | “The melody will go higher and higher” |
 
----
+- - -
 
 ### 9. BPM Selector (Tempo Control)
-- Located left of navigation arrows.  
-- Input box + up/down arrows (10 BPM steps).  
-- Users can enter tempo or increment/decrement; affects playback speed.
 
----
+* Located left of navigation arrows.  
+* Input box + up/down arrows (10 BPM steps).  
+* Users can enter tempo or increment/decrement; affects playback speed.
+
+- - -
 
 ### 10. Playback Behavior Dropdown
+
 Located right of navigation arrows; controls how melody plays:
 
-| Option | Behavior |
-|--------|----------|
-| **Play melody** | Plays full melody + beat |
-| **Play only first note** | Plays only starting note + beat |
-| **Play only the beat** | No melody, just metronome beat before start |
+| Option                   | Behavior                                    |
+| ------------------------ | ------------------------------------------- |
+| **Play melody**          | Plays full melody + beat                    |
+| **Play only first note** | Plays only starting note + beat             |
+| **Play only the beat**   | No melody, just metronome beat before start |
 
----
+- - -
 
 ### 11. Starting Note Selector
-- Bottom of interface.  
-- **Label:** *Start from note:*  
-- **Sub‑label:** *Highest note in current exercise: [note]*  
-- Clickable note buttons (C3, D#3, F4…). Selecting a note highlights it and starts melody from that pitch.
+
+* Bottom of interface.  
+* **Label:** *Start from note:*  
+* **Sub‑label:** *Highest note in current exercise: \[note]*  
+* Clickable note buttons (C3, D#3, F4…). Selecting a note highlights it and starts melody from that pitch.
+
+- - -
+
+## Gamification and Statistics
+
+Practice Mode is the fully customisable “free‑play” area. If you prefer to rehearse without chasing scores or leaderboards, you can do every exercise right here and ignore the competitive modes altogether. All other game modes are essentially built on top of this core tool—they take the same pitch‑matching engine, wrap preset melodies or time limits around it, and turn your singing into challenges that award scores.
+
+* **Every note you sing**—correct or incorrect—is logged.  
+* These note‑by‑note results are saved to your personal statistics and displayed on your dashboard.  
+* **Carrot Points:** You earn 1 point per note. When you reach your daily target, you collect bonus points; the daily goal is calibrated to give enough practice time while preventing over‑exercising.
+
+Use Practice Mode to warm up, fine‑tune melodies, or test your range, then head into the challenge modes whenever you want to convert that practice into scores and leaderboard positions.
 
 ---
 
-## Gamification and Statistics
-Practice Mode is the fully customisable “free‑play” area. If you prefer to rehearse without chasing scores or leaderboards, you can do every exercise right here and ignore the competitive modes altogether. All other game modes are essentially built on top of this core tool—they take the same pitch‑matching engine, wrap preset melodies or time limits around it, and turn your singing into challenges that award scores.
+## singing-carrots-all-round-vocalist-course.md
 
-- **Every note you sing**—correct or incorrect—is logged.  
-- These note‑by‑note results are saved to your personal statistics and displayed on your dashboard.  
-- **Carrot Points:** You earn 1 point per note. When you reach your daily target, you collect bonus points; the daily goal is calibrated to give enough practice time while preventing over‑exercising.
+# Singing Carrots – All-Round Vocalist Course: Full Technical Walkthrough
 
+**Page URL:**  
+<https://singingcarrots.com/singing-beginners>
 
-Use Practice Mode to warm up, fine‑tune melodies, or test your range, then head into the challenge modes whenever you want to convert that practice into scores and leaderboard positions.
+---
+
+## Page Header
+**Title:** All-Round Vocalist
+
+**Subtitle:** Self-Study, Hands-On 21-Lesson Course with Videos, Practical Exercises & Essential Theory
+
+**Illustration:** Songbook-style graphic.
+
+---
+
+## Introduction
+Looking to lift your singing to the next level?  
+Singing Carrots offers you this universal educational singing course. Even though it is tailored to vocalists without experience, singers of all skill levels can benefit from it.
+
+The course consists of 21 lessons. Each lesson contains a short video and a detailed read. Some lessons also introduce you to various warm-ups and cover practical vocal exercises with detailed instruction.
+
+To benefit most from it, we advise pairing these lessons with our interactive Pitch Training Tool designed by certified voice teachers.
+
+---
+
+## How Do You Schedule the Lessons?
+For absolute beginners, we advise going slowly through 1 lesson per week and combining it with practice sessions 3 to 5 times per week in our interactive Pitch Training Tool to work on intonation, rhythm and vocal range extension. The lessons will help you to learn the singing theory. Pitch Training will structure your practice routine and will help you to track your progress and boost your motivation.
+
+If you already have some singing background, or are already a professional singer, our vocal coaches suggest you look through the list of our vocal lessons yourself and choose the topics that you find most interesting.
+
+---
+
+## How Do I Start?
+We suggest you start from assessing your current level with one of our interactive singing tests:
+
+- 🥕 [Vocal Range Test](https://singingcarrots.com/docs/singing-carrots-vocal-range-test)
+- 🥕 [Singing Accuracy Test](https://singingcarrots.com/docs/singing-carrots-pitch-test)
+
+After that, you can start with the [pitch training](https://singingcarrots.com/docs/singing-carrots-pitch-training) or with the first lesson below.
+
+---
+
+## Lessons List
+- 🥕001: How to analyze your voice  
+- 🥕002: Voice types  
+- 🥕003: Breathing basics  
+- 🥕004: Voice registers & vocal break  
+- 🥕005: Breath support  
+- 🥕006: Open mouth & throat  
+- 🥕007: How to learn a song effectively  
+- 🥕008: Avoiding constrictions  
+- 🥕009: Pop/Jazz vs Classical singing  
+- 🥕010: Singing with intuition, skills, emotion, and thinking  
+- 🥕011: Contemporary vocal techniques: Heavy modal, Twang, Belting  
+- 🥕012: Vocal distortion & Growling  
+- 🥕013: Singing with Vibrato  
+- 🥕014: Articulation  
+- 🥕015: Why do we sing out of pitch?  
+- 🥕016: Resonance in singing  
+- 🥕017: How to find your own authentic voice  
+- 🥕018: Vocal health  
+- 🥕019: How posture affects your singing  
+- 🥕020: How to overcome stage fright  
+- 🥕021: Tips for performing on stage
+
+---
+
+## FAQ Section
+
+### Can I teach myself to sing?
+Yes, Singing Carrots is specifically designed to facilitate self-study in singing. Our unique technology offers instant visual feedback, which is a game-changer in learning how to sing. This feature makes the learning process not just effective, but also immensely fun and engaging. The visual feedback helps you understand and correct your pitch, tone, and rhythm in real-time, ensuring that your self-study is as productive as possible.
+
+Moreover, while a personal coach can provide valuable in-person guidance, Singing Carrots serves as an excellent starting point for those seeking affordable and flexible vocal training options. Our tools are designed to cater to learners of all levels, allowing you to progress at your own pace and in your own space.
+
+### Can I learn to sing if I have no talent?
+If there is one thing you should take away from this website, it is that you can sing.
+
+There is plenty of research that proves that unless you have a medical condition (which is very rare to find) you can develop your singing to a pretty decent level.
+
+Don't take my word for it. Read what people with a PhD say.  
+Or check this study showing that 'amusia' is uncommon.  
+I even wrote an article with a detailed break-down on why you might be struggling to hit the pitches at the moment.
+
+The rule of 10,000 hours applies to singing as well. That's it.  
+Invest time and you will become a better singer. It's that simple. And we are here to help :).
+
+### Will singing lessons improve my voice?
+Definitely! But only if you practice. At least 3 days a week for at least a month, and you will notice first results. There are no short-cuts - that's what any vocal instructor will tell you.
+
+Singing Carrots offers structured self-study lessons that focus on essential vocal techniques and exercises. Our instant feedback and visual aids help you understand and improve your vocal performance. But it's only you who has to put in passion and time.
+
+### How does Singing Carrots complement professional voice coaching?
+Private singing lessons are the most effective way to improve your vocals. But it has its own drawbacks: private lessons are expensive, and it's hard to find a tutor that clicks with you. For an absolute beginner, it might be a good idea to take a free first lesson online and see how it goes before investing too much time and money.
+
+While Singing Carrots is an excellent tool for self-study, it also serves as a great complement to professional voice coaching. Our technology can reinforce lessons learned with professionals, providing additional practice and feedback that enhances the overall learning experience.
+
+### What makes Singing Carrots unique in teaching singing skills?
+Singing Carrots stands out with its innovative use of technology, offering instant visual feedback and gamified learning experiences. This approach makes singing practice more engaging and effective, allowing learners to see real-time improvements in their skills.
+
+### Are your singing lessons suitable for kids and absolute beginners?
+Absolutely! Our lessons are perfectly suited for kids and absolute beginners. We ensure that the theory behind singing is conveyed in simple, easy-to-understand language without using complex terms.
+
+Our focus is heavily on the practical aspects of singing. This includes interactive exercises and visual feedback, making the learning process not only straightforward but also enjoyable and engaging. By breaking down singing concepts into manageable parts, we ensure that even the youngest learners or those starting from scratch can follow along comfortably and develop their singing skills effectively.
+
+### Do I need any previous singing experience or background to start lessons with Singing Carrots?
+Absolutely not! Singing Carrots is designed to be accessible and beneficial for everyone, regardless of their prior experience or background in singing.
+
+Our platform is ideal for beginners who are just starting their singing journey. We focus on providing clear, step-by-step guidance and exercises that build your skills from the ground up. With our intuitive visual feedback technology, you'll find it easy to start learning and see your progress in real-time.
+
+### Is Singing Carrots a good tool to prepare for an audition?
+Yes, Singing Carrots is an excellent tool for preparing for auditions. One of the unique features that makes it particularly useful for audition preparation is our comprehensive [vocal ranges database](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name). This allows you to search for songs that perfectly fit your vocal range, style, and gender.
+
+Moreover, our platform provides instant visual feedback on your singing, which is invaluable for fine-tuning your performance. This feature helps you to work on specific areas like pitch accuracy, rhythm, and vocal control, all of which are crucial for a successful audition.
+
+---
+
+## Footer
+Do you enjoy our tools?
+
+**Help us improve!** button → links to feedback page.
 
 ---
 
@@ -1501,6 +1668,127 @@ We calculated vocal range for each of them. Do you want to check it out?”
   “Do you enjoy our tools?”  
 * **Button:** Help us improve → \[Help Us Improve!](
   https://singingcarrots.com/help-carrots)
+
+---
+
+## singing-carrots-artists-page.md
+
+# Singing Carrots Artists Page: Full Technical Walkthrough
+
+## Overview
+The Artists Page is a central directory for exploring singers’ vocal ranges and related content. It allows visitors to search for specific artists, browse the most liked singers and musicals and discover top songs.
+
+## Page URL
+<https://singingcarrots.com/artists>
+
+---
+
+## Header & Search
+- **Page Title:** Singers' vocal ranges
+- **Search Prompt:** A search bar is displayed directly under the title.
+- **Search Field:** Placeholder text “search for an artist..”
+- **Search Button:** Clicking runs a query and displays matching results. Each result is clickable and redirects to the [artist’s dedicated profile page](https://singingcarrots.com/docs/singing-carrots-artist-page) with vocal range details.
+
+---
+
+## Top 100 Most Liked Artists and Musicals
+- A ranked list of 100 entries, ordered by popularity.
+- Each entry displays the artist or musical name.
+- Every item is a clickable link to its corresponding artist profile page.
+- This section functions as a discovery tool for new users who may not have a specific artist in mind but want to browse popular choices.
+
+---
+
+## Latest Videos on Singing Carrots
+- Displays the most recent video uploads or featured media.
+- A CTA button (**Try pitch training**) redirects to the Pitch Training tool: <https://singingcarrots.com/pitch-training>.
+- This section reinforces cross-navigation between content and training tools, encouraging users to practice immediately after exploring artists.
+
+---
+
+## Top 100 Most Liked Songs
+- A ranked list of 100 songs displayed in the format:
+  - **Artist – Song**
+- Each entry is clickable, linking directly to the respective [Song Page](https://singingcarrots.com/docs/singing-carrots-vocal-range-singing-guide-for-popular-songs).
+- This extends the artist exploration into a song-focused view, offering another way for users to find relevant practice material.
+
+---
+
+## Feedback Section
+- **Closing prompt:** Do you enjoy our tools?
+- **Help us improve!** button redirects to <https://singingcarrots.com/help-carrots>.
+- This section collects user feedback to guide platform improvements.
+
+---
+
+## singing-carrots-carrot-points-page.md
+
+# Singing Carrots Carrot Points Page: Full Technical Walkthrough
+
+**URL:** <https://singingcarrots.com/carrot-points>
+
+---
+
+## Page Header
+- **Title:** Carrot points history
+- **Counter Line:** Displays the number of entries shown versus the total (e.g., “Showing 1–25/300 of total carrot point events”).
+- **Exclude/Include Practice Hits Button:**
+  - Default state: Exclude practice hits.
+  - Clicking toggles to Include practice hits and updates the table accordingly by removing/adding practice hit events.
+- **Page Size Selector:** Dropdown with options 25, 50, or 100 entries per page.
+
+---
+
+## Points History Table
+The core of the page is a tabular log of all carrot points events.
+
+**Columns:**
+- **Date** – The exact date of the event (YYYY-MM-DD format).
+- **Type** – Displays an icon representing the event type.
+- **Reason** – A short description of the action or event. Examples include:
+  - Completion of a level or exercise (shows level name and mode).
+  - Daily goal reached.
+  - A course task finished.
+  - Replay watched.
+  - Practice note hits recorded.
+- **Points** – The number of carrot points earned, followed by a carrot icon.
+
+**Row Example Structure (generalized):**
+- A date on the left.
+- An icon in the type column (such as goblet for level reward).
+- A reason description (e.g., “Level 5 — Major scale (Basic)” or “Watched replay: Climb the ladder exercise”).
+- The points value (e.g., “75” with a carrot icon).
+
+---
+
+## Subtitle Under the Table
+Includes reward events (Level rewards, Daily goal, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.
+
+---
+
+## Pagination
+Navigation is available when the log exceeds one page.  
+**Format:** Previous 1 2 Next  
+Page numbers update dynamically depending on the actual number of entries.
+
+---
+
+## Legend
+A small key helps users interpret the event type icons:
+
+| Icon label        | Meaning                |
+|-------------------|------------------------|
+| Goblet icon       | Level reward           |
+| Flag icon         | Daily goal             |
+| Bullet list icon  | Course task            |
+| Play icon         | Replay watched         |
+| Note icon         | Practice note hits     |
+
+---
+
+## Footer
+**Prompt:** Do you enjoy our tools?  
+**Help us improve!** button → Links to <https://singingcarrots.com/help-carrots>
 
 ---
 
@@ -1971,6 +2259,71 @@ Displayed Data for Each User:
 Do you enjoy our tools?  
 **Button:** Help us improve  
 Link target: <https://singingcarrots.com/help-carrots>
+
+---
+
+## singing-carrots-login-page.md
+
+# Singing Carrots Login Page: Full Technical Walkthrough
+
+## Overview
+The Login page provides multiple ways for users to access their Singing Carrots account. Options include third-party authentication (Google or Facebook), email link login, and direct password login. It also guides users through troubleshooting common login issues and password recovery.
+
+## Page URL
+<https://singingcarrots.com/login>
+
+---
+
+## Step-by-Step User Flow
+
+### Step 1: Page Header
+- **Title:** Sign in to your account  
+- **Subtitle:** Do not have an account yet? Create an account  
+- The "Create an account" link leads to: <https://singingcarrots.com/sign-up>
+
+---
+
+### Step 2: Third-Party Login Options
+- **Sign in with Google**  
+  Opens a Google authentication window where the user can choose their Google account.
+- **Log in with Facebook**  
+  Intended to log in with Facebook credentials.
+
+---
+
+### Step 3: Log in with Email (Passwordless Authentication)
+- **Link:** Log in with email  
+- **Form fields:**
+  - Your email input field
+  - Next button
+- **Behavior after submission:**
+  - A message is displayed:
+    - **Log in email sent**  
+      A sign-in email with additional instructions was sent to [user email]. Check your email to complete sign-in.
+- **Troubleshooting Option:**
+  - **Button:** Trouble getting email?  
+    Expands to show common fixes:
+    - Check if the email was marked as spam or filtered.
+    - Verify internet connection.
+    - Confirm the email address is spelled correctly.
+    - Check if inbox space is full or other inbox settings block delivery.
+    - If issues persist, reload the page and try again. Doing so resends the email but deactivates the older login link.
+
+---
+
+### Step 4: Log in with Password
+- **Section:** Log in with password  
+- **Fields:**
+  - Your email
+  - Password
+  - **Button:** Next
+- **Error handling:**
+  - If no user exists:  
+    *Error: There is no user record corresponding to this identifier. The user may have been deleted.*
+  - If the password is wrong:  
+    *Error: The password is invalid or the user does not have a password.*
+- **Additional Help Text:**
+  - Forgot or do not have a password? Log in with email link and set a new password from the settings page.
 
 ---
 
@@ -2841,6 +3194,62 @@ This view reinforces what the user already has access to and helps them evaluate
 
 ---
 
+## singing-carrots-sign-up-page.md
+
+# Singing Carrots – Sign-Up Page: Full Technical Walkthrough
+
+## Page URL
+<https://singingcarrots.com/sign-up>
+
+---
+
+## Page Header
+- **Title:** Create an account  
+- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/docs/sign-in-–-singing-carrots-login-page)
+
+---
+
+## Sign-In Options
+- **Sign in with Google**  
+  Opens a Google account selection window.  
+  The user can choose their Google account to log in.
+- **Log in with Facebook**  
+  Intended to allow login with Facebook credentials.
+
+---
+
+## Sign Up with Email
+- **Field:** your email – input field for the user’s email.  
+- **Button:** Next
+
+**After entering the email and clicking Next, the system displays a confirmation message:**
+
+- **Message:**  
+  **Log in email sent**  
+  A sign-up email with additional instructions was sent to \[user email].  
+  Check your email to complete sign-in.
+
+---
+
+## Troubleshooting Email Delivery
+- **Button:** Trouble getting email?
+
+**Clicking reveals troubleshooting instructions:**
+
+**Try these common fixes:**
+- Check if the email was marked as spam or filtered.
+- Check your internet connection.
+- Check that you did not misspell your email.
+- Check that your inbox space is not running out or other inbox settings related issues.
+
+**If the steps above didn’t work:**
+- Reload the page and try to log in again.
+- A new email will be resent.
+
+**Note:** Resending will deactivate the link in the older email.
+
+---
+
 ## singing-carrots-stats-page.md
 
 # Singing Carrots Stats Page: Full Technical Documentation
@@ -2961,6 +3370,796 @@ Navigates to the Singing Carrots pitch training game
 ## 5. Feedback Section (Page Footer)
 Do you enjoy our tools?  
 “Help us improve” button – links to: https://singingcarrots.com/help-carrots
+
+---
+
+## singing-carrots-studio-ambassador-welcome-page.md
+
+**URL:** <https://singingcarrots.com/ambassador/welcome>
+
+## Page Header (Purple Background)
+
+### Welcome Message
+
+**Text:**
+
+> *Welcome to Singing Carrots Studio!*\
+> Your professional virtual classroom is ready! Start using all the Studio features below to teach your students online.
+
+### Referral Program Notice
+
+> *Referral Program:* Our team will review your application and optionally enroll you in our referral program where you can earn rewards when students upgrade.\
+> This is completely optional and doesn't affect your access to the Studio.
+
+- - -
+
+## Verification Status Messages
+
+### If Verification is Pending
+
+**Header:** Verification Pending\
+**Message:**
+
+> Your ambassador application is being reviewed. You have access to basic Studio features.\
+> Once verified, you'll unlock premium features including pitch training game and interactive virtual piano.
+
+- - -
+
+### If Profile is Verified
+
+**Header:** Verified Ambassador\
+**Message:**
+
+> Congratulations! You have full access to all Studio features including premium courses, pitch training, and MIDI downloads.\
+> Thank you for being part of our teaching community!
+
+- - -
+
+## Your Studio Toolbox
+
+This section provides teachers with direct access to core Studio tools through grouped feature boxes.
+
+- - -
+
+### **1. Virtual Classroom**
+
+Your professional video classroom with unlimited HD calls and studio-quality audio.\
+Start teaching immediately or schedule lessons with students.
+
+**Buttons:**
+
+* **Start a call** → <https://singingcarrots.com/video-room-host>  
+* **Schedule a lesson** → <https://singingcarrots.com/ambassador/schedule-lesson>
+
+- - -
+
+### **2. Vocal Ranges Database**
+
+Access Singing Carrots’ extensive library of over **75,000 songs** with detailed vocal range data.
+
+**Buttons:**
+
+* **Search songs** → <https://singingcarrots.com/search>  
+* **Browse artists** → <https://singingcarrots.com/artists>
+
+- - -
+
+### **3. Teaching Tools**
+
+Interactive online tools designed to help students improve pitch accuracy, intonation, and vocal range.
+
+**Buttons:**
+
+* **Pitch Monitor** → <https://singingcarrots.com/pitch-monitor>  
+* **Vocal Range Test** → <https://singingcarrots.com/vocal-range-test>
+
+- - -
+
+## ⭐ Premium Features Preview
+
+This section highlights advanced tools that teachers and their students can access after verification or upgrade.
+
+**Description:**
+
+> Explore these premium features available to your students when they upgrade.\
+> Test them out to better recommend the right tools for their vocal journey.
+
+- - -
+
+### **Pitch Training Game**
+
+Interactive game with progressive difficulty levels.\
+Students can practice pitch matching and develop ear training skills.\
+**Button:** *Try the game* → <https://singingcarrots.com/pitch-training#game>
+
+- - -
+
+### **Custom Practice Melodies**
+
+Upload MIDI files to create custom vocal exercises.\
+Students can then use the interactive piano to practice pitch matching with these melodies.\
+**Button:** *Create exercises* → <https://singingcarrots.com/my-custom-melodies>
+
+- - -
+
+### **Structured Courses**
+
+Review the official Singing Carrots courses to guide your students through structured learning paths.
+
+**Buttons:**
+
+* *Zero to Hero* → <https://singingcarrots.com/course/zero-to-hero>  
+* *All-Round Vocalist* → <https://singingcarrots.com/singing-beginners>
+
+- - -
+
+## 💰 Commission Tracking (Locked if Not Verified)
+
+Track your referrals and earnings in real time once your ambassador account is verified.
+
+**Text (for locked state):**
+
+> *Commission Tracking (locked)*\
+> Track your referrals and earnings in real-time.
+
+**Unlocked Preview Content:**
+
+* **Earn Commissions:** $20 per student when they upgrade to Pro  
+* **Track Referrals:** Real-time dashboard  
+* **Monthly Payouts:** Direct to your account
+
+- - -
+
+## Quick Start Guide
+
+| Action                 | Instruction                                                                                        |
+| ---------------------- | -------------------------------------------------------------------------------------------------- |
+| **Start Teaching**     | Go to “Virtual Classroom” → “Start or join a call” to enter your video classroom                   |
+| **Schedule Lessons**   | Use “Virtual Classroom” → “Schedule a lesson” to create email invitations with your classroom link |
+| **Find Songs**         | Use “Vocal Ranges Database” menu to find songs that match your students’ vocal ranges              |
+| **Use Teaching Tools** | Access pitch training tools and other features to help your students improve                       |
+| **Review Lessons**     | Go to “Virtual Classroom” → “Recordings” to access your lesson recordings and transcripts          |
+
+- - -
+
+## Summary
+
+The Ambassador Welcome Page serves as the **central onboarding hub** for Singing Carrots teachers.\
+It introduces available tools, explains the verification process, and provides access to everything needed for conducting online voice lessons — from real-time classrooms to pitch analysis tools and course recommendations.
+
+---
+
+## singing-carrots-studio-main-page.md
+
+## Access & Eligibility
+- **Who can use it:** Approved Teacher accounts for educational use only.  
+- **How to get access:**  
+  1. Go to the Singing Carrots homepage.  
+  2. Open the **For Teachers** menu.  
+  3. Click **Create free account** and complete registration.  
+  4. Log in to access the Studio.  
+- **Status indicators:**  
+  - **Under Review:** Displayed until the Teacher account is verified.  
+  - **Verified:** Displayed after approval (unlocks premium student resources).  
+- **Locked items:** Clicking any locked feature opens the Welcome page at <https://singingcarrots.com/ambassador/welcome>.
+
+---
+
+## Page Layout
+### Top Row
+- **Header:** `Singing Carrots studio`
+
+### Welcome Message
+`Thanks for being our champion and supporting our mission to unleash 1 million voices!`
+
+---
+
+## Expandable Menu (Left Sidebar)
+
+### Virtual Classroom
+- **Start or join a call** → <https://singingcarrots.com/video-room-host>  
+- **Schedule a lesson** → <https://singingcarrots.com/ambassador/schedule-lesson>  
+- **Recordings** → <https://singingcarrots.com/ambassador/video-recordings>
+
+### Vocal Ranges Database
+- **Find songs by range** → <https://singingcarrots.com/search>  
+- **Singers’ vocal ranges** → <https://singingcarrots.com/artists>  
+- **My repertoire (bookmarked songs)** → <https://singingcarrots.com/repertoire>  
+- **Submit a song / report mistake** → <https://singingcarrots.com/contribute>
+
+### Toolbox
+- **Vocal Range Test**  
+- **Simple Vocal Pitch Monitor**  
+- **Pitch Training Game** *(locked if account not approved)*  
+- **My Custom Melodies (MIDI)** *(locked if account not approved)*  
+- **Earn Commissions** *(locked if account not approved)*  
+
+> 🔒 **Locked Feature Behavior:** Redirects to <https://singingcarrots.com/ambassador/welcome>
+
+---
+
+## Main Content Sections
+
+### Video Calls
+- **Start or Join Call:** <https://singingcarrots.com/video-room-host>  
+- **Schedule a Lesson:** <https://singingcarrots.com/ambassador/schedule-lesson>  
+- **View Recordings & Transcripts:** <https://singingcarrots.com/ambassador/video-recordings>
+
+### Vocal Ranges Database
+- **Find Songs:** <https://singingcarrots.com/search>  
+- **Explore Artists:** <https://singingcarrots.com/artists>  
+- **Repertoire (Bookmarks):** <https://singingcarrots.com/repertoire>
+
+### Singing Carrots Toolbox
+- **Pitch Monitor:** <https://singingcarrots.com/pitch-monitor>  
+- **Vocal Range Test:** <https://singingcarrots.com/range-test>
+
+---
+
+## Premium Student Resources *(Visible only for Verified Accounts)*
+- **Pitch Training Game:** <https://singingcarrots.com/pitch-training#game>  
+- **Custom Melodies (MIDI Upload):** <https://singingcarrots.com/my-custom-melodies>  
+- **Zero to Hero Course:** <https://singingcarrots.com/course/zero-to-hero>  
+- **All-Round Vocalist Course:** <https://singingcarrots.com/singing-beginners>  
+
+**Note:** Review these resources to recommend appropriate content to your students.
+
+---
+
+## Earn Commissions *(Locked)*
+- **Coming soon:** <https://singingcarrots.com/>
+
+---
+
+## Administration
+- **My Students:** <https://singingcarrots.com/ambassador/my-students>  
+- **Settings & Billing:** <https://singingcarrots.com/me>
+
+---
+
+## Account State Permissions
+
+| Feature / Section                  | Under Review | Verified Teacher |
+|-----------------------------------|---------------|------------------|
+| Virtual Classroom (host/schedule/recordings) | ✅ Available | ✅ Available |
+| Vocal Ranges Database (search/artists/repertoire) | ✅ Available | ✅ Available |
+| Pitch Monitor / Vocal Range Test  | ✅ Available | ✅ Available |
+| Pitch Training Game               | 🔒 Locked (Welcome page) | ✅ Unlocked |
+| My Custom Melodies (MIDI)         | 🔒 Locked (Welcome page) | ✅ Unlocked |
+| Premium Student Resources section | ❌ Hidden | ✅ Visible |
+| Earn Commissions                  | 🔒 Locked | 🔒 Coming soon |
+| Status Badge                      | “Under Review” | “Verified” |
+
+---
+
+## Notes for Teachers
+- The Studio is free for **educational use only** — to teach singing.  
+- Use **Recordings** to access lesson replays and transcripts.  
+- Use the **Vocal Range Database** and **Repertoire** to select songs suited to each student’s voice.  
+- Assign students practice sessions through the **Pitch Monitor**, **Vocal Range Test**, or — once verified — **Pitch Training Game** and **Custom Melodies (MIDI)**.
+
+---
+
+---
+
+## singing-carrots-studio-my-students-page.md
+
+**URL:** <https://singingcarrots.com/ambassador/my-students>  
+**Access Level:** Teachers / Ambassadors (Studio users only)
+
+---
+
+## Page Header
+**Title:**  
+> *My Students*
+
+**Disclaimer (Displayed Below Title):**  
+> Students automatically appear on this page once they join their first video lesson with you using your invite link.  
+> Schedule a lesson to get your unique invite link and share it with your students.
+
+---
+
+## Connected Students Summary
+At the top of the page, a **green information box** displays the number of currently connected students.  
+This count updates automatically as new students join their first lessons.
+
+---
+
+## Search and Filtering
+Located to the right of the student count:
+
+- **Search Field:**  
+  Placeholder text — “Find Students”  
+  Allows teachers to search by name or email.
+
+- **Search Button:**  
+  Executes the search and filters the student list based on the entered term.
+
+---
+
+## Students Table
+
+Below the header, a structured table lists all students associated with the teacher’s account.
+
+### **Table Columns**
+| Column | Description |
+|---------|--------------|
+| **Name** | Displays the student’s full name as recorded during the session. |
+| **Email** | The student’s registered email address used to join lessons. |
+| **Actions** | Provides buttons for managing or viewing the student’s data. |
+
+---
+
+### **Action Buttons**
+Each student row includes three action buttons:
+
+1. **Practice Stats**  
+   - Redirects to: `https://singingcarrots.com/stats?studentid=[student_id]`  
+   - Displays detailed statistics about the student’s pitch training progress, including accuracy, daily practice notes, and activity trends.
+
+2. **Repertoire**  
+   - Redirects to: `https://singingcarrots.com/user/[username]`  
+   - Opens the student’s personal song collection and bookmarked repertoire for review.
+
+3. **Recordings**  
+   - Redirects to: `https://singingcarrots.com/ambassador/video-recordings?studentId=[student_id]`  
+   - Opens the **Video Recordings** page filtered specifically for this student, showing only their lesson recordings and transcripts.
+
+---
+
+## Behavior and Data Management
+- Students appear in the list automatically after joining their **first video call** with the teacher’s invite link.  
+- The teacher cannot manually add or remove students; this process is fully automated.  
+- The data displayed (name, email, statistics, recordings) is synchronized with each student’s account activity.  
+- Access to student data is restricted to verified teacher accounts.
+
+---
+
+## Summary
+The **My Students** page acts as the teacher’s central control panel for managing student relationships and monitoring learning progress.  
+It offers direct navigation to each student’s stats, repertoire, and recorded sessions — creating a structured, efficient workflow for educators using Singing Carrots Studio.
+
+---
+
+## singing-carrots-studio-schedule-a-lesson-page.md
+
+*URL:** <https://singingcarrots.com/ambassador/schedule-lesson>  
+**Access Level:** Teachers / Ambassadors (Studio users only)
+
+---
+
+## Page Header
+**Title:**  
+> *Schedule a Singing Lesson*
+
+---
+
+## 1. Permanent Classroom Link Section (Blue Box)
+This section provides teachers with a persistent video classroom link that can be reused for all future lessons.
+
+### Content:
+**Label:** *Your Permanent Classroom Link*  
+**Field Example:**  
+`https://singingcarrots.com/video-room/teacher-name`
+
+**Buttons:**
+- **Copy link** — copies the link to clipboard.
+
+---
+
+### Disclaimer (with ℹ️ icon)
+Displayed below the link field:
+
+> This is your permanent classroom link. You can use it for all your students.  
+>  
+> • If you already use a calendar or scheduling system, simply copy and paste this link there.  
+> • Students must "knock" before entering — you control who gets admitted.  
+> • The link only changes if you update your name in profile settings.
+
+**Additional Note:**  
+> *Optional:* Use the form below to create a lesson invitation email with all details and this link automatically included.
+
+---
+
+## 2. Lesson Invitation Form
+
+This form lets teachers generate and send a pre-filled lesson invitation email directly from Singing Carrots.  
+All fields marked with an asterisk (*) are required.
+
+---
+
+### **Section: Student Information**
+| Field | Label | Placeholder / Note |
+|--------|--------|-------------------|
+| **Student Name** | *Required* | “Enter student's full name” |
+| **Student Email** | *Required* | “student@example.com” |
+|  | *Small note:* “The calendar invite will be sent to this email.” |
+
+---
+
+### **Section: Lesson Details**
+| Field | Label | Placeholder / Dropdown Options |
+|--------|--------|-------------------|
+| **Lesson Date** | *Required* | `dd/mm/yyyy` |
+| **Lesson Time** | *Required* | (time input field) |
+| **Time Zone** | *Required* | Dropdown menu — “Select your time zone” |
+| **Lesson Duration** |  | Dropdown options: *30 minutes, 45 minutes, 1 hour, 1.5 hours, 2 hours* |
+| **Additional Notes (Optional)** |  | “Any special instructions or topics for this lesson…” |
+
+---
+
+### **Action Button**
+**Label:** *Send Lesson Invitation Email*  
+**Function:**  
+Clicking the button opens an **email draft** in the user’s default email application.  
+The draft includes:
+- The student’s name and email  
+- The scheduled date, time, and time zone  
+- The lesson duration and any additional notes  
+- The teacher’s permanent classroom link  
+
+**Success Message:**  
+> **Success!**  
+> Email draft opened with lesson details.  
+> Review and send to your student.
+
+---
+
+## Notes for Teachers
+- The permanent classroom link remains constant and only changes if the teacher updates their profile name.  
+- The email invitation is prepared automatically, ready for review and manual sending.  
+- The form provides a standardized template that ensures every invitation includes the correct classroom access information.
+
+---
+
+## Summary
+The **Schedule a Lesson** page provides Singing Carrots teachers with a simple scheduling tool.  
+It automatically fills an email draft with lesson details and the permanent classroom link, allowing quick, consistent lesson organization within the Studio environment.
+
+---
+
+## singing-carrots-studio-video-recordings-page.md
+
+**URL:** <https://singingcarrots.com/ambassador/video-recordings>  
+**Access Level:** Teachers / Ambassadors (Studio users)
+
+---
+
+## Page Header
+**Title:**  
+> *Video Call Recordings*
+
+**Subtitle:**  
+> View and manage recordings and transcripts from your video calls.
+
+**Navigation Link:**  
+← *Back to home page* — redirects to the Studio dashboard (`https://singingcarrots.com/`).
+
+---
+
+## Note Section
+Displayed below the header:
+
+> **Note:** Recordings and transcripts may take up to **30 minutes** to appear after a lesson has finished.  
+> Please refresh the page to check for new content.
+
+### Student Access Information
+> **For Students:**  
+> Students can access their own recordings directly at:  
+> `https://singingcarrots.com/student/video-recordings`  
+>  
+> The student version provides similar functionality — allowing playback, transcript download, and review of past sessions with their teacher.
+
+---
+
+## Conditional Display States
+
+### 1. No Recordings Found
+If no recordings are available, the following message appears:
+
+> **No Recordings Found**  
+> Your video call recordings will appear here once they are available.
+
+**Button:**  
+- **Start New Video Call**  
+  - Redirects to: <https://singingcarrots.com/video-room-host>
+
+---
+
+### 2. Recordings Available
+When recordings are available, they are displayed as a list of individual entries.
+
+#### **Recording Entry Structure**
+| Element | Description |
+|----------|-------------|
+| **Title** | *1-ON-1 Lesson with [Student Name]* |
+| **Date & Time** | Example: *Oct 9, 2025, 3:06 PM* |
+| **Clock Details** | Displays total session duration and join/leave timestamps |
+| **Session Info** | “You joined at [time]” / “Left at [time]” |
+| **Buttons** |  |
+| 🎥 **Video** | Downloads the lesson recording (`.mp4` format) |
+| 📝 **Transcript** | Downloads the auto-generated transcript (`.md` format) |
+
+Each entry includes complete session details for easy identification and file management.
+
+---
+
+## Teacher and Student Access Differences
+
+| Feature | Teachers | Students |
+|----------|-----------|-----------|
+| **View recordings** | ✅ All their lessons | ✅ Only their own lessons |
+| **Download video (.mp4)** | ✅ | ✅ |
+| **Download transcript (.md)** | ✅ | ✅ |
+| **Access path** | `/ambassador/video-recordings` | `/student/video-recordings` |
+
+Both interfaces share the same visual layout and structure, ensuring consistency between teacher and student experiences.
+
+---
+
+## Data Processing Behavior
+- Recordings are automatically generated after each video call session.  
+- Transcripts are processed automatically and appear within 30 minutes.  
+- Both teachers and students can access the files once they are available.  
+- File downloads are handled securely and are linked to session ownership.
+
+---
+
+## Summary
+The **Video Recordings** page serves as a central archive for both teachers and students in the Singing Carrots Studio environment.  
+Teachers can review and distribute recordings, while students gain on-demand access to their lessons for revision and practice.  
+The page supports downloading both **video recordings (.mp4)** and **transcripts (.md)**, ensuring a complete learning experience across all sessions.
+
+---
+
+## singing-carrots-studio-video-room-host-page.md
+
+**URL:** <https://singingcarrots.com/video-room-host>\
+**Access Level:** Teacher / Ambassador accounts only  
+
+- - -
+
+## 1. Account Identification
+
+At the top of the page:
+
+**Banner:**\
+`Ambassador Account` — displayed in **green** to confirm educator access.
+
+**Welcome Message:**  
+
+> *Welcome, Teacher!*\
+> Please set your name to continue.\
+> Your name will be displayed to your students during video lessons and on your profile.
+
+**Form:**  
+
+* **Label:** *Your Full Name*  
+* **Input Field:** (text box for entering display name)  
+* **Hint:** “This is how your students will see you.”  
+* **Continue Button:** *Continue*  
+
+- - -
+
+## 2. Invite Link Generation
+
+After typing in a name and clicking **Continue**, the system displays:
+
+* **Invite Link Field:**\
+  Example: `https://singingcarrots.com/video-room/teacher-name`
+* **Copy Button:** Copies the invite link to clipboard.
+
+- - -
+
+## 3. Pre-Call Test Popup
+
+Below the teacher’s invite link, there is a video screen where a **Pre-Call Test** popup appears.
+
+### Header
+
+> **Run a pre-call test**\
+> A quick test to ensure your equipment is working properly and there are no technical difficulties in the meeting.
+
+### Test Items
+
+* **Camera** (camera icon)  
+* **Speaker** (speaker icon)  
+* **Mic** (microphone icon)  
+* **Connection** (signal icon)
+
+### Buttons
+
+* **Skip test** — bypasses diagnostics.  
+* **Run test** — launches interactive checks.
+
+- - -
+
+## 4. Test Sequence
+
+### Step 1 – Camera Test
+
+* **Prompt:** *Can you see yourself?*  
+* **Instruction:** Ensure the correct camera is selected.  
+* **Dropdown:** Select video device.  
+* **Buttons:**  
+
+  * *No, I don’t*  
+  * *Yes, I see myself*\
+    (Both move to the next step.)
+
+- - -
+
+### Step 2 – Speaker Test
+
+* **Audio Visualization:** Music animation with speaker icon.  
+* **Prompt:** *Can you hear the music?*  
+* **Instruction:** Make sure the correct speaker is selected.  
+* **Dropdown:** Select output device.  
+* **Buttons:**  
+
+  * *No, I don’t* → goes to **Speaker Error** step.  
+  * *Yes, I hear music* → goes to **Microphone Test**.
+
+- - -
+
+### Step 2a – Speaker Error Step
+
+If user clicks **No, I don’t**:
+
+> *Microphone test needs a speaker.*\
+> We can’t successfully test your microphone without knowing your speaker is working.
+
+* **Speaker Selection Dropdown:** Greyed out.  
+* **Buttons:**  
+
+  * *Back*  
+  * *Skip this step*
+
+- - -
+
+### Step 3 – Microphone Test
+
+* **UI Change:** Microphone icon with *Recording* text → switches to Speaker icon with *Playback* label.  
+* **Instruction:**  
+
+  > Say a few words; can you hear yourself play back?\
+  > Make sure the correct microphone is selected.  
+* **Dropdown:** Choose microphone input.  
+* **Buttons:**  
+
+  * *No, I don’t*  
+  * *Yes, I hear myself*
+
+- - -
+
+### Step 4 – Connection Test
+
+After confirming the microphone:
+
+* **Loading Screen:**  
+
+  > Testing your connection\
+  > Please wait one moment…\
+  > Shows progress percentage.
+
+Then:
+
+> *Finalizing results…*
+
+- - -
+
+## 5. Test Results Screen
+
+### If all systems are good:
+
+> **Everything looks great!**\
+> All devices are working properly. You shouldn’t experience any problems during this meeting.
+
+### If issues are detected:
+
+> **You might experience issues**\
+> Some devices may not be working properly. See our steps to help fix any issues.
+
+**Device Summary Display:**
+| Device | Status |
+|---------|---------|
+| Camera | ✅ / ❌ |
+| Speaker | ✅ / ❌ |
+| Mic | ✅ / ❌ |
+| Connection | ✅ / ❌ |
+
+**Options:**
+
+* **Enable low data mode** (toggle) — reduces video resolution for slow connections.  
+* **Help me fix this** (link) → <https://whereby.helpscoutdocs.com/article/742-help-me-fix-this> (only if errors detected)  
+* **Run test again** — restarts diagnostics.  
+* **Continue** — proceeds to meeting lobby.
+
+- - -
+
+## 6. Lobby (Pre-Meeting)
+
+The teacher’s live **camera preview** is displayed.
+
+**Controls:**
+
+* **Settings (2 buttons):**
+
+  * One opens **Video/Audio Settings**.  
+  * The other opens **Effects Settings**.
+
+**Settings Popup Includes:**
+
+* **Video/Audio:**\
+  Select camera, mic, speaker; noise reduction; HD/widescreen/mirror options.
+* **Effects:**\
+  Background blur, preset images, or upload custom background.
+* **General:**\
+  Language, skin tone for reactions.
+* **Advanced:**\
+  Pre-call review, low data mode, reduce visual effects, picture-in-picture, keyboard shortcuts.
+
+**Other Buttons:**
+
+* **Turn off Camera** — join with camera disabled.  
+* **Turn off Mic** — join muted.  
+* **Join Meeting** — enters the live classroom.
+
+- - -
+
+## 7. Live Video Room Interface
+
+### Top Bar
+
+* **Top Left:**\
+  **People Counter** — e.g., `1/200`.\
+  Clicking opens room details:
+
+  * *Room size:* Large (up to 200 people).  
+  * *Locked room:* Guests need to knock to enter.
+* **Top Right:**  
+
+  * **Picture-in-Picture** — shows host’s video thumbnail when screen sharing.  
+  * **Meeting Diagnostics** — displays participant connection quality; allows disabling all videos.  
+  * **Settings (gear)** — opens settings menu.  
+  * **Three Dots Menu:** Meeting timer toggle and “Hide toolbars.”
+
+- - -
+
+### Bottom Toolbar
+
+| Button                 | Function                                                                                                                           |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Cam**                | Toggles camera. Hover opens video device selector, background effects, and video settings.                                         |
+| **Mic**                | Toggles microphone. Hover shows mic selector, noise reduction toggle, and audio settings.                                          |
+| **Record**             | Start/stop recording of the session.                                                                                               |
+| **Start Transcribing** | Start/stop automatic transcription.                                                                                                |
+| **Chat**               | Opens chat panel. Hover to raise hand or send emoji. Inside chat: access People panel, create breakout rooms, manage participants. |
+| **People**             | Opens People menu; hover allows breakout room management.                                                                          |
+| **Leave**              | Leave the meeting or end for all (host only).                                                                                      |
+
+- - -
+
+## 8. Additional Interface Elements
+
+* **Room Link Field:** Displays meeting URL with a **Copy** button.  
+* **Pitch Monitor Integration:**  
+
+  * **Button:** *Start Pitch Monitor* → activates real-time pitch display.  
+  * When active: Button changes to *Pitch Monitor Active* and shows the virtual piano with pitch line and note display.  
+  * **Link:** *Open full version in new tab* → <https://singingcarrots.com/pitch-monitor>
+
+- - -
+
+## Summary
+
+The **Video Room Host** page transforms Singing Carrots Studio into a full-fledged virtual teaching environment.\
+It allows teachers to:
+
+* Host professional-grade HD lessons with pitch tools.  
+* Run technical diagnostics for smooth sessions.  
+* Access live pitch tracking and transcription.  
+* Maintain structured classroom control and student management tools — all within the Singing Carrots ecosystem.
 
 ---
 
