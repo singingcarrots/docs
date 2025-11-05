@@ -105,6 +105,36 @@ Popup controls: top‑right ❌ closes the modal.
 
 - - -
 
+### 5.1 Notesheet View 
+
+A new visualization option is available next to the **🎹 Piano icon** in the top toolbar.  
+Clicking the **🎵 Note button** switches the interface from the virtual piano layout to a **musical notesheet view** of the melody.
+
+#### Display & Behavior
+- The melody is displayed on a horizontal **musical staff** instead of piano keys.  
+- A **moving arrow** above the staff progresses left to right in real time, synchronized with melody playback.  
+- Each note on the staff becomes dynamically highlighted as the user sings:
+
+| Status | Highlight | Indicator |
+|---------|------------|------------|
+| Correct pitch | Green | — |
+| Slightly off | Yellow | Blue down arrow (too low) / Red up arrow (too high) |
+
+
+This view provides a notation-based visualization of the same real-time pitch accuracy feedback available in piano mode, helping singers connect ear training with reading standard music notation.
+
+#### Transposition Controls
+In Notesheet View, the standard navigation arrows (⬅️ 🔁 ➡️) are replaced by two labeled buttons that control key transposition:
+
+| Button | Function |
+|---------|-----------|
+| **Next Down** | Transposes the entire melody **one semitone lower** (–1 note). |
+| **Next Up** | Transposes the entire melody **one semitone higher** (+1 note). |
+
+These buttons instantly reload the current exercise in the new key, allowing users to quickly adapt the melody to different vocal ranges while staying within the notation-based interface.
+
+- - -
+
 ### 6. Virtual Piano Interface
 
 * Full‑width keyboard (approx. C2 → C6) with octave labels (C3, C4, C5).  
