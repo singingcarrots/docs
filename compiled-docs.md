@@ -1332,7 +1332,20 @@ Opens as a popup modal, divided into three configuration blocks:
 
    * **Options:** Grand Piano, Acoustic Guitar  
    * *Note:* Changing sound may take 1–2 minutes to reload  
-   * **Apply** button reloads audio assets  
+   * **Apply** button reloads audio assets
+4. **Audio Latency Compensation (Bluetooth)**
+
+   * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
+   * **Control:** Slider ranging from 0–300ms in 10ms increments
+   * **Real‑time value display:** Shows current latency setting as you adjust
+   * **Typical values:**
+     * Standard Bluetooth devices: 100–200ms
+     * Older Bluetooth models: up to 300ms
+     * Wired audio: 0ms (no adjustment needed)
+   * **Latency tester:** Link to external tool (https://nullvoxpopuli.github.io/latency-tester/) helps measure actual device latency
+   * **Apply** button saves setting (persists across sessions via cookie)
+   * **How it works:** Delays visual rendering to stay synchronized with audio playback, compensating for Bluetooth transmission delay
+   * **Applies to:** All pitch training modes (practice, challenges, and tests)
 
 Popup controls: top‑right ❌ closes the modal.
 
@@ -1348,6 +1361,36 @@ Popup controls: top‑right ❌ closes the modal.
 | Center   | ⬅️ Zoom Out / ➡️ Zoom In     | Adjusts visible note range on virtual piano                                    |
 | —        | ⬅️ / ➡️ arrows               | Scrolls left/right on the keyboard                                             |
 | —        | 🎹 Piano icon / 🎵 Note icon | Switches between **Virtual Piano view** and **Sheet Music view** of the melody |
+
+- - -
+
+### 5.1 Notesheet View 
+
+A new visualization option is available next to the **🎹 Piano icon** in the top toolbar.  
+Clicking the **🎵 Note button** switches the interface from the virtual piano layout to a **musical notesheet view** of the melody.
+
+#### Display & Behavior
+- The melody is displayed on a horizontal **musical staff** instead of piano keys.  
+- A **moving arrow** above the staff progresses left to right in real time, synchronized with melody playback.  
+- Each note on the staff becomes dynamically highlighted as the user sings:
+
+| Status | Highlight | Indicator |
+|---------|------------|------------|
+| Correct pitch | Green | — |
+| Slightly off | Yellow | Blue down arrow (too low) / Red up arrow (too high) |
+
+
+This view provides a notation-based visualization of the same real-time pitch accuracy feedback available in piano mode, helping singers connect ear training with reading standard music notation.
+
+#### Transposition Controls
+In Notesheet View, the standard navigation arrows (⬅️ 🔁 ➡️) are replaced by two labeled buttons that control key transposition:
+
+| Button | Function |
+|---------|-----------|
+| **Next Down** | Transposes the entire melody **one semitone lower** (–1 note). |
+| **Next Up** | Transposes the entire melody **one semitone higher** (+1 note). |
+
+These buttons instantly reload the current exercise in the new key, allowing users to quickly adapt the melody to different vocal ranges while staying within the notation-based interface.
 
 - - -
 
@@ -2765,8 +2808,10 @@ A new modal window is shown with the title **"Pitch accuracy test"** and subtitl
 Message:  
 > In order for our test to work properly, you will need to use headphones and enable your mic. Please, put your headphones on 🎧.  
 
-- **Checkbox:** *Do not show this message again*  
-- **Button:** *I have my headphones on*  
+- **Checkbox:** *Do not show this message again*
+- **Button:** *I have my headphones on*
+
+**Note for Bluetooth users:** If using Bluetooth headphones and experiencing audio/visual desync during the test, you can adjust the latency compensation in the Practice Settings (⚙️ icon) under "Audio Latency Compensation (Bluetooth)". This setting applies to all pitch training modes including tests.
 
 ---
 
