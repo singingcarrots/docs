@@ -40,8 +40,10 @@ A new modal window is shown with the title **"Pitch accuracy test"** and subtitl
 Message:  
 > In order for our test to work properly, you will need to use headphones and enable your mic. Please, put your headphones on 🎧.  
 
-- **Checkbox:** *Do not show this message again*  
-- **Button:** *I have my headphones on*  
+- **Checkbox:** *Do not show this message again*
+- **Button:** *I have my headphones on*
+
+**Note for Bluetooth users:** If using Bluetooth headphones and experiencing audio/visual desync during the test, you can adjust the latency compensation in the Practice Settings (⚙️ icon) under "Audio Latency Compensation (Bluetooth)". This setting applies to all pitch training modes including tests.
 
 ---
 

@@ -86,7 +86,20 @@ Opens as a popup modal, divided into three configuration blocks:
 
    * **Options:** Grand Piano, Acoustic Guitar  
    * *Note:* Changing sound may take 1–2 minutes to reload  
-   * **Apply** button reloads audio assets  
+   * **Apply** button reloads audio assets
+4. **Audio Latency Compensation (Bluetooth)**
+
+   * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
+   * **Control:** Slider ranging from 0–300ms in 10ms increments
+   * **Real‑time value display:** Shows current latency setting as you adjust
+   * **Typical values:**
+     * Standard Bluetooth devices: 100–200ms
+     * Older Bluetooth models: up to 300ms
+     * Wired audio: 0ms (no adjustment needed)
+   * **Latency tester:** Link to external tool (https://nullvoxpopuli.github.io/latency-tester/) helps measure actual device latency
+   * **Apply** button saves setting (persists across sessions via cookie)
+   * **How it works:** Delays visual rendering to stay synchronized with audio playback, compensating for Bluetooth transmission delay
+   * **Applies to:** All pitch training modes (practice, challenges, and tests)
 
 Popup controls: top‑right ❌ closes the modal.
 
