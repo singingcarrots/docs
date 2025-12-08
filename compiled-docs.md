@@ -2811,7 +2811,22 @@ Message:
 - **Checkbox:** *Do not show this message again*
 - **Button:** *I have my headphones on*
 
-**Note for Bluetooth users:** If using Bluetooth headphones and experiencing audio/visual desync during the test, you can adjust the latency compensation in the Practice Settings (⚙️ icon) under "Audio Latency Compensation (Bluetooth)". This setting applies to all pitch training modes including tests.
+### Settings (⚙️ Gear Icon)
+
+A **gear icon** (⚙️) is available in the top-right corner of the test interface header. Clicking it opens a simplified settings modal with the following option:
+
+**Audio Latency Compensation (Bluetooth)**
+
+* **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
+* **Control:** Slider ranging from 0–2000ms
+* **Typical values:**
+  * Standard Bluetooth devices: 100–200ms
+  * Older Bluetooth models: up to 300ms
+  * Wired audio: 0ms (no adjustment needed)
+* **How it works:** Delays visual rendering to stay synchronized with audio playback, compensating for Bluetooth transmission delay
+* **Persistence:** Setting is saved via cookie and applies across all pitch training modes
+
+This is a simplified version of the full Practice Settings available in Practice Mode. For additional settings like instrument selection or range limiting, use the Practice Mode interface.
 
 ---
 
@@ -3026,6 +3041,9 @@ All stages use a version of the interactive piano interface, showing:
 - Real-time pitch stability visualization
 
 **Note:** All four modes use the interactive pitch training piano, but only Practice mode includes full settings and playback control. The Basic, Challenging, and Hard modes use a simplified version of the interface with fewer options to ensure consistent testing conditions.
+
+**Settings in Non-Practice Modes (⚙️ Gear Icon):**
+A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a simplified settings modal with the **Audio Latency Compensation** slider. This allows users to adjust for Bluetooth audio delay without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.
 
 ---
 
