@@ -4,14 +4,17 @@
 Documentation Compiler Tool
 
 Usage:
-  node compile-docs.js [docs-directory] [output-file]
+  node compile-docs.js [docs-directory] [output-file-base]
 
 Example for this project:
   node compile-docs.js docs compiled-docs.md
 
 Default values:
   docs-directory: ./docs
-  output-file: ./compiled-docs.md
+  output-file-base: ./compiled-docs.md
+
+Note: The output filename automatically includes the compilation date.
+  e.g., compiled-docs.md becomes compiled-docs-2025-12-09.md
 */
 
 const fs = require('fs');
@@ -53,9 +56,25 @@ function estimateTokens(text) {
   return Math.ceil(countWords(text) * 1.3);
 }
 
+function getDateString() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function insertDateIntoFilename(filename) {
+  const dateStr = getDateString();
+  const ext = path.extname(filename);
+  const base = filename.slice(0, -ext.length);
+  return `${base}-${dateStr}${ext}`;
+}
+
 function compileMarkdownFiles(docsDir, outputFile) {
   const markdownFiles = getAllMarkdownFiles(docsDir);
-  let compiledContent = '# Compiled Documentation\n\n';
+  const dateStr = getDateString();
+  let compiledContent = `# Compiled Documentation\n\n_Compiled on: ${dateStr}_\n\n`;
   
   console.log(`Found ${markdownFiles.length} markdown files`);
   
@@ -82,7 +101,8 @@ function compileMarkdownFiles(docsDir, outputFile) {
 }
 
 const docsDir = process.argv[2] || './docs';
-const outputFile = process.argv[3] || './compiled-docs.md';
+const outputFileArg = process.argv[3] || './compiled-docs.md';
+const outputFile = insertDateIntoFilename(outputFileArg);
 
 if (!fs.existsSync(docsDir)) {
   console.error(`❌ Directory ${docsDir} does not exist`);
