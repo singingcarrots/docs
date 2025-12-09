@@ -1255,18 +1255,18 @@ Never Stop Singing!
 
 **Tool URL (example):**\
 `https://singingcarrots.com/pitch-training/practice?exercise=[exercise-pattern]`\
-*(e.g., `?exercise=major-1-3-2-4-3-5-4-2-1`)*
+*(e.g., `?exercise=major-1-3-2-4-3-5-4-2-1`)*
 
 - - -
 
 ## Purpose
 
-**Practice Mode** is the heart of Singing Carrots. It turns your screen into an interactive piano lesson, combining a full‑range keyboard with real‑time pitch‑matching visuals so you can rehearse exactly the way a vocal teacher would guide you in class.  
+**Practice Mode** is the heart of Singing Carrots. It turns your screen into an interactive piano lesson, combining a full‑range keyboard with real‑time pitch‑matching visuals so you can rehearse exactly the way a vocal teacher would guide you in class.
 
-* **Sing with the piano, instantly see accuracy.** Blue target lines show the melody; a red live line mirrors your voice so you know the moment you’re on (or off) pitch.  
-* **Climb the scale like in a lesson.** Set any exercise—from simple arpeggios to octave jumps—and step through it up, down, or on loop to cover your whole range.  
-* **Hear yourself, improve faster.** After each run you can replay and relisten to your own recording, pinpointing where you nailed it and where you drifted.  
-* **Tailor every detail.** Choose the instrument sound, tempo, starting note, pauses, and even limit the exercise to just your comfortable notes.  
+* **Sing with the piano, instantly see accuracy.** Blue target lines show the melody; a red live line mirrors your voice so you know the moment you’re on (or off) pitch.
+* **Climb the scale like in a lesson.** Set any exercise—from simple arpeggios to octave jumps—and step through it up, down, or on loop to cover your whole range.
+* **Hear yourself, improve faster.** After each run you can replay and relisten to your own recording, pinpointing where you nailed it and where you drifted.
+* **Tailor every detail.** Choose the instrument sound, tempo, starting note, pauses, and even limit the exercise to just your comfortable notes.
 
 In short, Practice Mode replicates the core segment of a live vocal class—piano guidance plus instant feedback—so you can build pitch accuracy, range, and musical memory anytime, anywhere. Below you’ll find all the customization options in detail.
 
@@ -1278,17 +1278,17 @@ In short, Practice Mode replicates the core segment of a live vocal class—pi
 
 Upon accessing Practice Mode:
 
-* A loading screen appears.  
-* **Text displayed:** “Loading Audio Files – Preparing virtual piano”  
-* A progress bar shows percentage until the full load is complete.  
+* A loading screen appears.
+* **Text displayed:** “Loading Audio Files – Preparing virtual piano”
+* A progress bar shows percentage until the full load is complete.
 * Once loaded, the interface becomes visible but inactive until microphone access is granted.
 
 - - -
 
 ### 2. Microphone Activation
 
-* A faded piano interface is visible.  
-* Above it: **Enable Microphone** (large green button)  
+* A faded piano interface is visible.
+* Above it: **Enable Microphone** (large green button)
 
   * Clicking prompts browser mic access and activates real‑time pitch tracking.
 
@@ -1298,42 +1298,49 @@ Upon accessing Practice Mode:
 
 | Position  | Element         | Function                                                           |
 | --------- | --------------- | ------------------------------------------------------------------ |
-| Top‑left  | ❌ **Close**     | Exits the piano and returns user to the Pitch Training levels page |
-| Top‑right | ⚙️ **Settings** | Opens the Practice Settings popup for training customization       |
+| Top‑left  | ❌ **Close**     | Exits the piano and returns user to the Pitch Training levels page |
+| Top‑right | ⚙️ **Settings** | Opens the Practice Settings popup for training customization       |
 
 - - -
 
-### 4. Practice Settings Panel (⚙️)
+### 4. Practice Settings Panel (⚙️)
 
-Opens as a popup modal, divided into three configuration blocks:
+Opens as a popup modal with the following configuration sections:
 
-1. **Limit Practice to My Range** (Toggle)  
+1. **Microphone Input Device**
 
-   * **Default:** OFF (grays out this section)  
-   * When switched **ON:**  
+   * **Dropdown:** Lists all available audio input devices
+   * **Check button:** Tests the selected microphone and displays a real-time volume level indicator (green → yellow → red gradient)
+   * **Persistence:** Saved to localStorage and applies across all pitch training modes
+   * **Sync:** Changes automatically sync with the microphone dropdown in the header (and vice versa)
 
-     * **Lowest note:** dropdown (e.g., C3)  
-     * **Highest note:** dropdown (e.g., A4)  
-     * **Edge behavior** (for both low and high limits):  
+2. **Limit Practice to My Range** (Toggle)
 
-       * *Start going down*  
-       * *Continue on the note*  
-       * *Stop the exercise*  
-     * **Apply** button reloads exercise with selected range  
-2. **Pause Between Melody Runs**  
+   * **Default:** OFF (grays out this section)
+   * When switched **ON:**
 
-   * **Options:**  
+     * **Lowest note:** dropdown (e.g., C3)
+     * **Highest note:** dropdown (e.g., A4)
+     * **Edge behavior** (for both low and high limits):
 
-     * *None* – Start next run immediately  
-     * *1 measure* – Short pause  
-     * *2 measures* – Longer pause  
-   * **Apply** button updates pacing  
-3. **Choose Virtual Piano Sounds**  
+       * *Start going down*
+       * *Continue on the note*
+       * *Stop the exercise*
+     * **Apply** button reloads exercise with selected range
+3. **Pause Between Melody Runs**
 
-   * **Options:** Grand Piano, Acoustic Guitar  
-   * *Note:* Changing sound may take 1–2 minutes to reload  
+   * **Options:**
+
+     * *None* – Start next run immediately
+     * *1 measure* – Short pause
+     * *2 measures* – Longer pause
+   * **Apply** button updates pacing
+4. **Choose Virtual Piano Sounds**
+
+   * **Options:** Grand Piano, Acoustic Guitar
+   * *Note:* Changing sound may take 1–2 minutes to reload
    * **Apply** button reloads audio assets
-4. **Audio Latency Compensation (Bluetooth)**
+5. **Audio Latency Compensation (Bluetooth)**
 
    * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
    * **Control:** Slider ranging from 0–300ms in 10ms increments
@@ -1355,23 +1362,23 @@ Popup controls: top‑right ❌ closes the modal.
 
 | Area     | UI Element                   | Function                                                                       |
 | -------- | ---------------------------- | ------------------------------------------------------------------------------ |
-| Top‑left | Mic icon (red)               | Displays sung pitch (e.g., A3) or “–” when silent                              |
-| —        | Tooltip                      | “Current Pitch” (on hover)                                                     |
+| Top‑left | Mic icon (red)               | Displays sung pitch (e.g., A3) or “–” when silent                              |
+| —        | Tooltip                      | “Current Pitch” (on hover)                                                     |
 | —        | Dropdown (blue arrow)        | Mic selector – choose input device                                             |
-| Center   | ⬅️ Zoom Out / ➡️ Zoom In     | Adjusts visible note range on virtual piano                                    |
-| —        | ⬅️ / ➡️ arrows               | Scrolls left/right on the keyboard                                             |
+| Center   | ⬅️ Zoom Out / ➡️ Zoom In     | Adjusts visible note range on virtual piano                                    |
+| —        | ⬅️ / ➡️ arrows               | Scrolls left/right on the keyboard                                             |
 | —        | 🎹 Piano icon / 🎵 Note icon | Switches between **Virtual Piano view** and **Sheet Music view** of the melody |
 
 - - -
 
-### 5.1 Notesheet View 
+### 5.1 Notesheet View
 
-A new visualization option is available next to the **🎹 Piano icon** in the top toolbar.  
+A new visualization option is available next to the **🎹 Piano icon** in the top toolbar.
 Clicking the **🎵 Note button** switches the interface from the virtual piano layout to a **musical notesheet view** of the melody.
 
 #### Display & Behavior
-- The melody is displayed on a horizontal **musical staff** instead of piano keys.  
-- A **moving arrow** above the staff progresses left to right in real time, synchronized with melody playback.  
+- The melody is displayed on a horizontal **musical staff** instead of piano keys.
+- A **moving arrow** above the staff progresses left to right in real time, synchronized with melody playback.
 - Each note on the staff becomes dynamically highlighted as the user sings:
 
 | Status | Highlight | Indicator |
@@ -1396,22 +1403,22 @@ These buttons instantly reload the current exercise in the new key, allowing use
 
 ### 6. Virtual Piano Interface
 
-* Full‑width keyboard (approx. C2 → C6) with octave labels (C3, C4, C5).  
-* **Key color:** white = naturals, black = sharps/flats.  
+* Full‑width keyboard (approx. C2 → C6) with octave labels (C3, C4, C5).
+* **Key color:** white = naturals, black = sharps/flats.
 * Vertical grid lines separate notes (half‑step markers).
 
 #### Pitch Visualizations During Playback
 
-* **Blue vertical lines:** Target notes (drop toward keys).  
-* **Red vertical line:** Real‑time sung pitch (originates from key).  
+* **Blue vertical lines:** Target notes (drop toward keys).
+* **Red vertical line:** Real‑time sung pitch (originates from key).
 
-  * Straight & centered = on pitch  
-  * **Color feedback:**  
+  * Straight & centered = on pitch
+  * **Color feedback:**
 
-    * Green = on pitch  
-    * Yellow = slightly off  
-    * Split color = partially accurate over time  
-    * Wavy/jagged = unstable pitch  
+    * Green = on pitch
+    * Yellow = slightly off
+    * Split color = partially accurate over time
+    * Wavy/jagged = unstable pitch
 * Clicking any piano key plays its sound.
 
 - - -
@@ -1437,8 +1444,8 @@ These buttons instantly reload the current exercise in the new key, allowing use
 
 ### 9. BPM Selector (Tempo Control)
 
-* Located left of navigation arrows.  
-* Input box + up/down arrows (10 BPM steps).  
+* Located left of navigation arrows.
+* Input box + up/down arrows (10 BPM steps).
 * Users can enter tempo or increment/decrement; affects playback speed.
 
 - - -
@@ -1449,18 +1456,18 @@ Located right of navigation arrows; controls how melody plays:
 
 | Option                   | Behavior                                    |
 | ------------------------ | ------------------------------------------- |
-| **Play melody**          | Plays full melody + beat                    |
-| **Play only first note** | Plays only starting note + beat             |
+| **Play melody**          | Plays full melody + beat                    |
+| **Play only first note** | Plays only starting note + beat             |
 | **Play only the beat**   | No melody, just metronome beat before start |
 
 - - -
 
 ### 11. Starting Note Selector
 
-* Bottom of interface.  
-* **Label:** *Start from note:*  
-* **Sub‑label:** *Highest note in current exercise: \[note]*  
-* Clickable note buttons (C3, D#3, F4…). Selecting a note highlights it and starts melody from that pitch.
+* Bottom of interface.
+* **Label:** *Start from note:*
+* **Sub‑label:** *Highest note in current exercise: \[note]*
+* Clickable note buttons (C3, D#3, F4…). Selecting a note highlights it and starts melody from that pitch.
 
 - - -
 
@@ -1468,8 +1475,8 @@ Located right of navigation arrows; controls how melody plays:
 
 Practice Mode is the fully customisable “free‑play” area. If you prefer to rehearse without chasing scores or leaderboards, you can do every exercise right here and ignore the competitive modes altogether. All other game modes are essentially built on top of this core tool—they take the same pitch‑matching engine, wrap preset melodies or time limits around it, and turn your singing into challenges that award scores.
 
-* **Every note you sing**—correct or incorrect—is logged.  
-* These note‑by‑note results are saved to your personal statistics and displayed on your dashboard.  
+* **Every note you sing**—correct or incorrect—is logged.
+* These note‑by‑note results are saved to your personal statistics and displayed on your dashboard.
 * **Carrot Points:** You earn 1 point per note. When you reach your daily target, you collect bonus points; the daily goal is calibrated to give enough practice time while preventing over‑exercising.
 
 Use Practice Mode to warm up, fine‑tune melodies, or test your range, then head into the challenge modes whenever you want to convert that practice into scores and leaderboard positions.
@@ -2813,12 +2820,20 @@ Message:
 
 ### Settings (⚙️ Gear Icon)
 
-A **gear icon** (⚙️) is available in the top-right corner of the test interface header. Clicking it opens a simplified settings modal with the following option:
+A **gear icon** (⚙️) is available in the top-right corner of the test interface header. Clicking it opens a settings modal with the following options:
+
+**Microphone Input Device**
+
+* **Purpose:** Select which microphone to use for pitch detection
+* **Control:** Dropdown menu listing all available audio input devices
+* **Check button:** Tests the selected microphone and displays a real-time volume level indicator
+* **Persistence:** Setting is saved to localStorage and applies across all pitch training modes
+* **Sync:** Changes made here automatically sync with the microphone dropdown in the header (and vice versa)
 
 **Audio Latency Compensation (Bluetooth)**
 
 * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
-* **Control:** Slider ranging from 0–2000ms
+* **Control:** Slider ranging from 0–300ms
 * **Typical values:**
   * Standard Bluetooth devices: 100–200ms
   * Older Bluetooth models: up to 300ms
@@ -3043,7 +3058,11 @@ All stages use a version of the interactive piano interface, showing:
 **Note:** All four modes use the interactive pitch training piano, but only Practice mode includes full settings and playback control. The Basic, Challenging, and Hard modes use a simplified version of the interface with fewer options to ensure consistent testing conditions.
 
 **Settings in Non-Practice Modes (⚙️ Gear Icon):**
-A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a simplified settings modal with the **Audio Latency Compensation** slider. This allows users to adjust for Bluetooth audio delay without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.
+A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a settings modal with:
+- **Microphone Input Device** – Select which microphone to use, with a "Check" button to test input levels
+- **Audio Latency Compensation** – Slider to adjust for Bluetooth audio delay (0–300ms)
+
+This allows users to configure audio settings without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.
 
 ---
 

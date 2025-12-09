@@ -45,12 +45,20 @@ Message:
 
 ### Settings (⚙️ Gear Icon)
 
-A **gear icon** (⚙️) is available in the top-right corner of the test interface header. Clicking it opens a simplified settings modal with the following option:
+A **gear icon** (⚙️) is available in the top-right corner of the test interface header. Clicking it opens a settings modal with the following options:
+
+**Microphone Input Device**
+
+* **Purpose:** Select which microphone to use for pitch detection
+* **Control:** Dropdown menu listing all available audio input devices
+* **Check button:** Tests the selected microphone and displays a real-time volume level indicator
+* **Persistence:** Setting is saved to localStorage and applies across all pitch training modes
+* **Sync:** Changes made here automatically sync with the microphone dropdown in the header (and vice versa)
 
 **Audio Latency Compensation (Bluetooth)**
 
 * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
-* **Control:** Slider ranging from 0–2000ms
+* **Control:** Slider ranging from 0–300ms
 * **Typical values:**
   * Standard Bluetooth devices: 100–200ms
   * Older Bluetooth models: up to 300ms

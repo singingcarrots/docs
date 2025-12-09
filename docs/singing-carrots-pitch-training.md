@@ -134,7 +134,11 @@ All stages use a version of the interactive piano interface, showing:
 **Note:** All four modes use the interactive pitch training piano, but only Practice mode includes full settings and playback control. The Basic, Challenging, and Hard modes use a simplified version of the interface with fewer options to ensure consistent testing conditions.
 
 **Settings in Non-Practice Modes (⚙️ Gear Icon):**
-A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a simplified settings modal with the **Audio Latency Compensation** slider. This allows users to adjust for Bluetooth audio delay without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.
+A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a settings modal with:
+- **Microphone Input Device** – Select which microphone to use, with a "Check" button to test input levels
+- **Audio Latency Compensation** – Slider to adjust for Bluetooth audio delay (0–300ms)
+
+This allows users to configure audio settings without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.
 
 ---
 
