@@ -1489,7 +1489,7 @@ Use Practice Mode to warm up, fine‑tune melodies, or test your range, then h
 
 ## singing-carrots-ai-coach.md
 
-# Singing Carrots AI Coach: Full Technical Walkthrough
+# Singing Carrots AI Coach
 
 **URL:** <https://singingcarrots.com/ai-session>
 **Landing Page:** <https://singingcarrots.com/ai-singing-coach>
@@ -1498,16 +1498,14 @@ Use Practice Mode to warm up, fine‑tune melodies, or test your range, then h
 
 ## Overview
 
-The Singing Carrots AI Coach is an AI-powered vocal training system that provides personalized singing lessons with real-time pitch feedback. Unlike the standard Pitch Training levels, the AI Coach creates custom session plans based on your vocal history, adapts exercises to your performance, and provides conversational coaching throughout your practice.
-
-This documentation provides a complete walkthrough of the AI Coach interface, session flow, exercise mechanics, and all interactive elements available to users.
+The Singing Carrots AI Coach is your personal AI singing teacher that creates custom practice sessions based on your vocal history and goals. Unlike the standard Pitch Training levels, the AI Coach adapts exercises to your performance and provides conversational coaching throughout your practice.
 
 **Key Features:**
-- Personalized session planning using AI analysis of your vocal history
-- Real-time pitch detection and visual feedback on the piano interface
-- Conversational AI coach that responds to your performance and questions
-- Progressive milestone rewards system within each session
-- Works on both desktop and mobile devices
+- Personalized session plans based on your vocal history
+- Real-time pitch feedback with visual piano display
+- Chat with your AI coach - ask questions and get guidance
+- Earn carrot points as you reach milestones
+- Works on desktop and mobile
 - Session summaries with personalized feedback
 
 **Availability:**
@@ -1518,286 +1516,144 @@ This documentation provides a complete walkthrough of the AI Coach interface, se
 
 ---
 
-## Step-by-Step User Flow
+## How to Access
 
-### Step 1: Accessing AI Coach
+The AI Coach can be accessed from:
 
-The AI Coach can be accessed from multiple entry points:
-
-1. **Main Menu:** Navigate to Pitch Practice > AI Coach
-2. **Pitch Training Page:** Click the "AI Coach" button above the level list
+1. **Main Menu:** Pitch Practice > AI Coach
+2. **Pitch Training Page:** Click the "AI Coach" button
 3. **Course Practice:** Via the task pop-up during course exercises
-4. **Direct URL:** Visit https://singingcarrots.com/ai-session
+4. **Direct URL:** https://singingcarrots.com/ai-session
 
-**Access Requirements:**
+**Requirements:**
 - Must be logged in
 - Must have an active subscription (Starter, Self-Study, or Guided Edition)
-- Non-subscribers are redirected to the upgrade page
-- Legacy plan holders (pre-October 2025) do not have access by default
 
 ---
 
-### Step 2: Page Load - Audio Initialization
+## Starting a Session
 
-Upon loading the AI Coach page:
-- A loading spinner displays progress: "Loading audio files 0%"
-- Virtual piano samples are downloaded and cached
-- Progress updates as files load
-- Once complete, text changes to "Preparing virtual piano"
+### Prepare Your Session
 
-**Note:** Audio files are cached locally for faster subsequent loads.
+When you open AI Coach, you'll configure your session:
 
----
+**Duration:** Choose how long you want to practice (5-60 minutes). The AI paces exercises to fit your time.
 
-### Step 3: Pre-Session Configuration Modal
+**Focus Area (Optional):** Tell the coach what you'd like to work on:
+- "I want to work on high notes today"
+- "My voice feels tired"
+- "Focus on breath control"
 
-After audio loads, a modal appears: **"Prepare Your Session"**
+**Recent Sessions:** Review summaries from your previous sessions.
 
-**Duration Selection:**
-- Options: 5 min, 10 min, 15 min (default), 20 min, 30 min, 45 min, 60 min
-- Select how long you want to practice
-- The AI uses this to pace exercises and plan the session
-
-**Focus Area (Optional):**
-- Text input: "Anything you'd like to focus on?"
-- Placeholder: "E.g., 'I want to work on high notes today' or 'My voice feels tired' or 'Focus on breath control'"
-- This helps the AI customize exercises to your current needs
-
-**Recent Sessions:**
-- Accordion showing summaries of your previous AI Coach sessions
-- Click to expand and review past feedback
-- Helps the AI maintain continuity across sessions
-
-**Button:** "Create My Session Plan"
-- Triggers AI analysis and planning
-- Shows message: "Our AI will analyze your progress and create a personalized plan. This may take 1-2 minutes."
+Click **"Create My Session Plan"** to begin. The AI analyzes your progress and creates a personalized plan (this takes about 1-2 minutes).
 
 ---
 
-### Step 4: Session Planning (AI Analysis)
+## The Session Interface
 
-A loading overlay appears while the AI creates your session plan:
-- **Display:** "Creating your personalized practice plan..."
-- **Timer:** Shows elapsed time (e.g., "23s")
-- **Duration:** Typically 30-90 seconds
+### Desktop Layout
+- **Left side:** Piano visualization showing target notes and your pitch
+- **Right side:** Chat area with your AI coach
 
-**What the AI Analyzes:**
-- Your vocal range history (from Vocal Range Test)
-- Recent pitch training performance (notes hit, accuracy by note)
-- Previous AI Coach sessions and their summaries
-- Course progress (if enrolled)
-- Your stated focus area for this session
+### Mobile Layout
+- Chat takes the full screen
+- Tap "Show Exercise" to see the piano visualization
+- Piano overlay appears automatically when singing
 
----
-
-### Step 5: Main Session Interface
-
-After planning completes, the main interface appears with two columns:
-
-#### Left Column: Visual Area (Desktop) / Canvas Overlay (Mobile)
-- **Piano Visualization:** Shows target notes (blue lines) and your pitch (red line)
-- **Exercise Display:** Current exercise pattern with note indicators
-- **Pitch Chart:** Real-time tracking of pitch accuracy
-- **Controls:**
-  - Zoom in/out buttons for piano view
-  - Left/right navigation buttons
-  - Microphone input selector dropdown
-
-#### Right Column: Chat Area
-- **Header:** Shows AI Coach avatar and "AI Coach" title
-- **Chat Messages:** Scrollable area with conversation history
-- **Input Field:** "Ask your coach..." placeholder text
-- **Ask Coach Button:** Sends message to AI
+### Header
+- **Progress bar:** Shows notes toward your next milestone
+- **Daily goal:** Your progress toward 300 notes today (desktop only)
+- **Finish button:** End session and get feedback
+- **Settings:** Adjust microphone and audio settings
 
 ---
 
-### Step 6: Session Header
-
-The header displays key session metrics:
-
-**Left Side:**
-- **Back Button (X):** Returns to Pitch Training page
-- **Title:** "AI Session"
-
-**Center: Milestone Progress**
-- **Trophy Icon:** Next milestone indicator
-- **Progress Display:** "X / Y notes" (e.g., "15 / 30 notes")
-- **Progress Bar:** Visual fill showing progress toward next milestone
-- **Percentage:** Current progress percentage
-- **Reward Preview:** "+60" with carrot icon (points earned at milestone)
-
-**Right Side:**
-- **Daily Goal (Desktop only):** "Today: X/300" notes
-- **Finish Button:** "Finish & Get Feedback"
-- **Settings (Gear Icon):** Opens settings modal
-
----
-
-### Step 7: AI Coach Introduction
-
-The AI Coach begins with a personalized welcome message including:
-- Greeting and session plan overview
-- First exercise with instructions
-- Encouragement based on your history
-
-**Example Welcome Message:**
-> "Welcome back! Based on your progress, today we'll focus on strengthening your mid-range and working on breath control. Let's start with a simple warm-up to get your voice ready."
-
----
-
-### Step 8: Exercise Flow
+## Exercise Flow
 
 Each exercise follows this pattern:
 
-#### A. AI Presents Exercise
-The coach sends a message with:
-- **Instruction Text:** What to do and why
-- **Exercise Details:** Starting note, tempo, pattern description
-- **Listen Button:** Plays the melody so you can hear it first
-- **Sing Button:** Starts the test with pitch detection
+### 1. Coach Gives Instructions
+The AI explains the exercise and why it's helpful for you.
 
-#### B. Listen Phase
-Clicking "Listen":
-- The melody plays through your speakers/headphones
-- Piano keys light up showing the target notes
-- Metronome provides tempo reference
-- "Playing melody..." indicator appears on mobile
+### 2. Listen
+Click **"Listen"** to hear the melody first. Piano keys light up showing the target notes.
 
-#### C. Sing Phase
-Clicking "Sing":
-- **Canvas Overlay (Mobile):** Automatically shows on mobile
-- **Countdown:** Brief countdown before exercise starts
-- **Pitch Detection:** Your voice is analyzed in real-time
-- **Visual Feedback:**
-  - Blue lines: Target notes
-  - Red line: Your actual pitch
-  - Green highlights: Notes hit on pitch
-  - Yellow highlights: Slightly off pitch
+### 3. Sing
+Click **"Sing"** to start. You'll see:
+- **Blue lines:** Target notes to hit
+- **Red line:** Your actual pitch
+- **Green:** Notes you hit on pitch
+- **Yellow:** Notes slightly off pitch
 
-#### D. Results Display
-After singing:
-- **Results Box:** Shows performance metrics inline in chat
-  - Notes hit: X / Y
-  - Precision: X%
-  - Sustain: X%
-- **Action Buttons:**
-  - **Listen Again:** Replay the melody
-  - **Sing Again:** Retry the exercise
-  - **Watch Replay:** See your performance playback with recorded audio
-- **Ask Coach Button:** Enabled to send feedback to AI
+### 4. See Results
+After singing, you'll see:
+- Notes hit (e.g., "8 / 10")
+- Precision percentage
+- Sustain percentage
+
+### 5. Choose Next Action
+- **Listen Again:** Replay the melody
+- **Sing Again:** Retry the exercise
+- **Watch Replay:** See your performance with your recorded audio
+- **Ask Coach:** Get feedback and the next exercise
 
 ---
 
-### Step 9: Conversational Coaching
+## Chat with Your Coach
 
-After each exercise, you can:
+You can interact with the AI coach throughout your session:
 
-**Send Performance:**
-- Click "Ask Coach" without typing to submit your results
-- The AI responds with feedback and the next exercise
+**After an exercise:**
+- Click "Ask Coach" to submit your results and get the next exercise
+- Or type a message first to add context
 
-**Ask Questions:**
-- Type in the chat input field
-- Examples: "Why is my high G always flat?", "Can we try something slower?"
-- The AI provides personalized guidance
+**Ask questions anytime:**
+- "Why is my high G always flat?"
+- "Can we try something slower?"
+- "I'm having trouble with this pattern"
 
-**Request Adjustments:**
-- Ask for easier/harder exercises
+**Request changes:**
+- Ask for easier or harder exercises
 - Request specific note ranges
 - Ask to focus on particular skills
 
 ---
 
-### Step 10: Milestone Celebrations
+## Earning Milestones
 
-As you practice, you earn milestones:
+As you practice, you earn milestones and carrot points:
 
-**Milestone Thresholds:** 30, 60, 90, 120, 150, 180, 210, 240, 270, 300 notes
+**Milestones:** 30, 60, 90, 120, 150, 180, 210, 240, 270, 300 notes
 
-**When a Milestone is Reached:**
-- **Toast Notification:** Appears at top of screen with trophy icon
-- **Display:** "Milestone Reached! X notes"
-- **Points:** "+60 carrot points" per milestone
-- **Progress Bar:** Updates to show next milestone
-
----
-
-### Step 11: Finishing the Session
-
-Click "Finish & Get Feedback" when ready to end:
-
-**Confirmation Dialog:**
-> "Finish this session? You will receive a personalized summary with feedback on your practice."
-
-**Summary Generation:**
-- Loading overlay: "Analyzing your session..."
-- Timer shows elapsed time
-- Duration: 30-60 seconds
+**When you reach a milestone:**
+- A celebration appears on screen
+- You earn **+60 carrot points**
+- Progress bar updates to show your next goal
 
 ---
 
-### Step 12: Session Summary Modal
+## Finishing Your Session
 
-After analysis completes:
+Click **"Finish & Get Feedback"** when you're ready to end.
 
-**Header:** "Session Complete!" with green checkmark
-
-**Summary Content:**
+**Session Summary includes:**
 - Personalized feedback on your performance
 - What you did well
 - Areas for improvement
-- Recommendations for next session
-- Total notes sung and accuracy overview
+- Recommendations for next time
 
-**Feedback Section:**
-- **Star Rating:** 1-5 stars - rate your session experience
-- **Text Feedback:** Optional textarea for detailed feedback
-- **Submit Button:** Send your rating
-
-**Exit Button:** "Continue to Pitch Training"
+**Rate your session:** Give 1-5 stars and optional written feedback to help improve the AI coach.
 
 ---
 
-## Mobile Interface
+## Settings
 
-On mobile devices (screen width <= 992px), the interface adapts:
+Click the gear icon to adjust:
 
-### Chat-First Design
-- Chat area takes full screen
-- Exercises appear as chat messages
-- Toggle button: "Show Exercise" / "Hide Exercise"
+**Microphone:** Select which microphone to use and test input levels.
 
-### Canvas Overlay
-When practicing:
-- Tap "Show Exercise" to reveal piano visualization
-- Canvas overlays top portion of screen
-- Close button (X) in top-right corner
-- Automatically shows during Sing and Replay phases
-- Automatically hides after exercise completes
-
-### Compact Header
-- Back button and progress bar in single row
-- Daily goal hidden on mobile
-- Finish button shows "Finish" (short text)
-
----
-
-## Settings Modal
-
-Click the gear icon to access settings:
-
-**Microphone Input Device:**
-- Dropdown to select microphone
-- "Check" button to test input levels
-- Volume indicator shows current input strength
-
-**Audio Latency Compensation:**
-- Slider: 0-300ms
-- Purpose: Compensates for Bluetooth audio delay
-- Typical values:
-  - Wired audio: 0ms
-  - Bluetooth: 100-200ms
-  - Older Bluetooth: up to 300ms
+**Audio Latency:** If using Bluetooth headphones, adjust the slider (100-200ms typical) to sync audio with visuals.
 
 ---
 
@@ -1806,91 +1662,40 @@ Click the gear icon to access settings:
 | Shortcut | Action |
 |----------|--------|
 | Space | Listen (play melody) |
-| Enter | Sing (start test) |
+| Enter | Sing (start exercise) |
 | R | Watch Replay |
-| Shift+Space | Listen Again (retry) |
-| Shift+Enter | Sing Again (retry) |
-
-**Note:** Shortcuts are disabled when typing in the chat input.
-
----
-
-## Session States
-
-### Active Session
-- Can continue where you left off
-- Session persists for up to 4 hours of inactivity
-- Chat history and progress preserved
-
-### Stale Session (Previous Session Found)
-If you return after a session timeout:
-- Modal: "Previous Session Found"
-- Shows summary of the previous session
-- Button: "Start New Session"
-
-### Daily Goal Reached
-When you hit 300 notes for the day:
-- Congratulations modal appears
-- Session summary shows daily achievement
-- Can continue practicing or exit
-
-### Session Blocked
-If close to daily goal when starting:
-- Modal: "Great Progress Today!"
-- Explains remaining notes are too few for effective session
-- Suggests returning tomorrow
-
----
-
-## Technical Notes
-
-### AI Models Used
-- **Session Planning:** High-reasoning AI model for comprehensive analysis
-- **Operational Responses:** Fast model for quick exercise generation
-- **Summaries:** Reasoning model for insightful session analysis
-
-### Async Processing
-Long operations (planning, summaries) use async polling to avoid timeouts:
-- Initial request returns immediately with job ID
-- Frontend polls for completion
-- Loading overlay shows progress
-
-### Performance Data Sent to AI
-Each exercise attempt includes:
-- Notes hit count
-- Precision percentage
-- Sustain percentage
-- Per-note accuracy (flat/sharp/precise)
-- Pitch stability metrics
-
----
-
-## Related Documentation
-
-- [Pitch Training Documentation](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Standard pitch training levels and modes
-- [Virtual Piano Interface](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) - Detailed piano visualization documentation
-- [Pitch Test](https://singingcarrots.com/docs/singing-carrots-pitch-test) - Pitch accuracy assessment
-- [Stats Page](https://singingcarrots.com/docs/singing-carrots-stats-page) - Track your vocal progress
-- [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Subscription options
+| Shift+Space | Listen Again |
+| Shift+Enter | Sing Again |
 
 ---
 
 ## FAQ
 
 **Q: How is AI Coach different from regular Pitch Training?**
-A: Regular Pitch Training offers fixed levels with preset exercises. AI Coach analyzes your entire vocal history to create personalized sessions, adapts in real-time to your performance, and provides conversational coaching.
+A: Regular Pitch Training has fixed levels with preset exercises. AI Coach creates personalized sessions based on your history, adapts to your performance, and lets you chat with your coach.
 
-**Q: Do I need special equipment?**
+**Q: What equipment do I need?**
 A: Just a microphone (built-in works fine), headphones (recommended), and a quiet space. Works in any modern browser.
 
-**Q: How long should my sessions be?**
-A: 15-20 minutes is ideal for most users. The AI will pace exercises to fit your selected duration while ensuring effective practice.
+**Q: How long should sessions be?**
+A: 15-20 minutes is ideal for most users. The AI paces exercises to fit your selected duration.
 
 **Q: Can I ask the AI coach questions?**
-A: Yes! Type any question in the chat input. Ask about technique, request different exercises, or get feedback on specific challenges.
+A: Yes! Type any question in the chat. Ask about technique, request different exercises, or get feedback on challenges.
 
 **Q: Does progress carry over between sessions?**
-A: Yes. The AI remembers your vocal history, previous sessions, and progress. Each new session builds on what you've practiced before.
+A: Yes. The AI remembers your history and previous sessions. Each new session builds on what you've practiced before.
+
+**Q: What if I leave and come back?**
+A: If you return within a few hours, you can continue your session. After that, you'll see a summary of your previous session and can start fresh.
+
+---
+
+## Related Documentation
+
+- [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Standard pitch training levels
+- [Virtual Piano Interface](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) - Piano visualization details
+- [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Subscription options
 
 ---
 
