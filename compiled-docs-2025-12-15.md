@@ -1510,7 +1510,11 @@ This documentation provides a complete walkthrough of the AI Coach interface, se
 - Works on both desktop and mobile devices
 - Session summaries with personalized feedback
 
-**Availability:** AI Coach requires a Pro subscription (Starter, Self-Study, or Guided Edition).
+**Availability:**
+- **Starter Edition:** Limited access
+- **Self-Study Edition:** Extended access
+- **Guided Edition:** Extended access
+- **Legacy Plans:** Not included (Effective Learner, Pro Membership, Lifetime Access purchased before October 2025)
 
 ---
 
@@ -1527,8 +1531,9 @@ The AI Coach can be accessed from multiple entry points:
 
 **Access Requirements:**
 - Must be logged in
-- Must have an active Pro subscription
-- Non-Pro users are redirected to the upgrade page
+- Must have an active subscription (Starter, Self-Study, or Guided Edition)
+- Non-subscribers are redirected to the upgrade page
+- Legacy plan holders (pre-October 2025) do not have access by default
 
 ---
 
