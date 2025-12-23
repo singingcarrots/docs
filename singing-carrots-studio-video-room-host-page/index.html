@@ -1,0 +1,704 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Video Room Host Page is the central entry point for Singing Carrots teachers to host online lessons.
+It provides a personalized classroom link, pre-call diagnostics, and access to a feature-rich video meeting interface tailored for singing instruction — including HD video, audio testing, transcription, and even a live Pitch Monitor.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-studio-video-room-host-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Studio: Video Room Host Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-account-identification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-account-identification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Account Identification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-invite-link-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Invite Link Generation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-pre-call-test-popup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Pre-Call Test Popup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Pre-Call Test Popup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#test-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buttons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-test-sequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Test Sequence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Test Sequence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-camera-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 – Camera Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-speaker-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 – Speaker Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2a-speaker-error-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2a – Speaker Error Step
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-microphone-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 – Microphone Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-connection-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 – Connection Test
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-test-results-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Test Results Screen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Test Results Screen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-all-systems-are-good" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If all systems are good:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-issues-are-detected" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If issues are detected:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-lobby-pre-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Lobby (Pre-Meeting)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-live-video-room-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Live Video Room Interface
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Live Video Room Interface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#top-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Top Bar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bottom-toolbar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bottom Toolbar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-additional-interface-elements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Additional Interface Elements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Singing Carrots Studio: Video Room Host Page</h1>
+
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/video-room-host">https://singingcarrots.com/video-room-host</a>\
+<strong>Access Level:</strong> Teacher / Ambassador accounts only  </p>
+<hr />
+<h2 id="1-account-identification">1. Account Identification</h2>
+<p>At the top of the page:</p>
+<p><strong>Banner:</strong>\
+<code>Ambassador Account</code> — displayed in <strong>green</strong> to confirm educator access.</p>
+<p><strong>Welcome Message:</strong>  </p>
+<blockquote>
+<p><em>Welcome, Teacher!</em>\
+Please set your name to continue.\
+Your name will be displayed to your students during video lessons and on your profile.</p>
+</blockquote>
+<p><strong>Form:</strong>  </p>
+<ul>
+<li><strong>Label:</strong> <em>Your Full Name</em>  </li>
+<li><strong>Input Field:</strong> (text box for entering display name)  </li>
+<li><strong>Hint:</strong> “This is how your students will see you.”  </li>
+<li><strong>Continue Button:</strong> <em>Continue</em>  </li>
+</ul>
+<hr />
+<h2 id="2-invite-link-generation">2. Invite Link Generation</h2>
+<p>After typing in a name and clicking <strong>Continue</strong>, the system displays:</p>
+<ul>
+<li><strong>Invite Link Field:</strong>\
+  Example: <code>https://singingcarrots.com/video-room/teacher-name</code></li>
+<li><strong>Copy Button:</strong> Copies the invite link to clipboard.</li>
+</ul>
+<hr />
+<h2 id="3-pre-call-test-popup">3. Pre-Call Test Popup</h2>
+<p>Below the teacher’s invite link, there is a video screen where a <strong>Pre-Call Test</strong> popup appears.</p>
+<h3 id="header">Header</h3>
+<blockquote>
+<p><strong>Run a pre-call test</strong>\
+A quick test to ensure your equipment is working properly and there are no technical difficulties in the meeting.</p>
+</blockquote>
+<h3 id="test-items">Test Items</h3>
+<ul>
+<li><strong>Camera</strong> (camera icon)  </li>
+<li><strong>Speaker</strong> (speaker icon)  </li>
+<li><strong>Mic</strong> (microphone icon)  </li>
+<li><strong>Connection</strong> (signal icon)</li>
+</ul>
+<h3 id="buttons">Buttons</h3>
+<ul>
+<li><strong>Skip test</strong> — bypasses diagnostics.  </li>
+<li><strong>Run test</strong> — launches interactive checks.</li>
+</ul>
+<hr />
+<h2 id="4-test-sequence">4. Test Sequence</h2>
+<h3 id="step-1-camera-test">Step 1 – Camera Test</h3>
+<ul>
+<li><strong>Prompt:</strong> <em>Can you see yourself?</em>  </li>
+<li><strong>Instruction:</strong> Ensure the correct camera is selected.  </li>
+<li><strong>Dropdown:</strong> Select video device.  </li>
+<li>
+<p><strong>Buttons:</strong>  </p>
+</li>
+<li>
+<p><em>No, I don’t</em>  </p>
+</li>
+<li><em>Yes, I see myself</em>\
+    (Both move to the next step.)</li>
+</ul>
+<hr />
+<h3 id="step-2-speaker-test">Step 2 – Speaker Test</h3>
+<ul>
+<li><strong>Audio Visualization:</strong> Music animation with speaker icon.  </li>
+<li><strong>Prompt:</strong> <em>Can you hear the music?</em>  </li>
+<li><strong>Instruction:</strong> Make sure the correct speaker is selected.  </li>
+<li><strong>Dropdown:</strong> Select output device.  </li>
+<li>
+<p><strong>Buttons:</strong>  </p>
+</li>
+<li>
+<p><em>No, I don’t</em> → goes to <strong>Speaker Error</strong> step.  </p>
+</li>
+<li><em>Yes, I hear music</em> → goes to <strong>Microphone Test</strong>.</li>
+</ul>
+<hr />
+<h3 id="step-2a-speaker-error-step">Step 2a – Speaker Error Step</h3>
+<p>If user clicks <strong>No, I don’t</strong>:</p>
+<blockquote>
+<p><em>Microphone test needs a speaker.</em>\
+We can’t successfully test your microphone without knowing your speaker is working.</p>
+</blockquote>
+<ul>
+<li><strong>Speaker Selection Dropdown:</strong> Greyed out.  </li>
+<li>
+<p><strong>Buttons:</strong>  </p>
+</li>
+<li>
+<p><em>Back</em>  </p>
+</li>
+<li><em>Skip this step</em></li>
+</ul>
+<hr />
+<h3 id="step-3-microphone-test">Step 3 – Microphone Test</h3>
+<ul>
+<li><strong>UI Change:</strong> Microphone icon with <em>Recording</em> text → switches to Speaker icon with <em>Playback</em> label.  </li>
+<li><strong>Instruction:</strong>  </li>
+</ul>
+<blockquote>
+<p>Say a few words; can you hear yourself play back?\
+Make sure the correct microphone is selected.<br />
+<em> </em><em>Dropdown:</em><em> Choose microphone input.<br />
+</em> <strong>Buttons:</strong>  </p>
+</blockquote>
+<ul>
+<li><em>No, I don’t</em>  </li>
+<li><em>Yes, I hear myself</em></li>
+</ul>
+<hr />
+<h3 id="step-4-connection-test">Step 4 – Connection Test</h3>
+<p>After confirming the microphone:</p>
+<ul>
+<li><strong>Loading Screen:</strong>  </li>
+</ul>
+<blockquote>
+<p>Testing your connection\
+Please wait one moment…\
+Shows progress percentage.</p>
+</blockquote>
+<p>Then:</p>
+<blockquote>
+<p><em>Finalizing results…</em></p>
+</blockquote>
+<hr />
+<h2 id="5-test-results-screen">5. Test Results Screen</h2>
+<h3 id="if-all-systems-are-good">If all systems are good:</h3>
+<blockquote>
+<p><strong>Everything looks great!</strong>\
+All devices are working properly. You shouldn’t experience any problems during this meeting.</p>
+</blockquote>
+<h3 id="if-issues-are-detected">If issues are detected:</h3>
+<blockquote>
+<p><strong>You might experience issues</strong>\
+Some devices may not be working properly. See our steps to help fix any issues.</p>
+</blockquote>
+<p><strong>Device Summary Display:</strong>
+| Device | Status |
+|---------|---------|
+| Camera | ✅ / ❌ |
+| Speaker | ✅ / ❌ |
+| Mic | ✅ / ❌ |
+| Connection | ✅ / ❌ |</p>
+<p><strong>Options:</strong></p>
+<ul>
+<li><strong>Enable low data mode</strong> (toggle) — reduces video resolution for slow connections.  </li>
+<li><strong>Help me fix this</strong> (link) → <a href="https://whereby.helpscoutdocs.com/article/742-help-me-fix-this">https://whereby.helpscoutdocs.com/article/742-help-me-fix-this</a> (only if errors detected)  </li>
+<li><strong>Run test again</strong> — restarts diagnostics.  </li>
+<li><strong>Continue</strong> — proceeds to meeting lobby.</li>
+</ul>
+<hr />
+<h2 id="6-lobby-pre-meeting">6. Lobby (Pre-Meeting)</h2>
+<p>The teacher’s live <strong>camera preview</strong> is displayed.</p>
+<p><strong>Controls:</strong></p>
+<ul>
+<li>
+<p><strong>Settings (2 buttons):</strong></p>
+</li>
+<li>
+<p>One opens <strong>Video/Audio Settings</strong>.  </p>
+</li>
+<li>The other opens <strong>Effects Settings</strong>.</li>
+</ul>
+<p><strong>Settings Popup Includes:</strong></p>
+<ul>
+<li><strong>Video/Audio:</strong>\
+  Select camera, mic, speaker; noise reduction; HD/widescreen/mirror options.</li>
+<li><strong>Effects:</strong>\
+  Background blur, preset images, or upload custom background.</li>
+<li><strong>General:</strong>\
+  Language, skin tone for reactions.</li>
+<li><strong>Advanced:</strong>\
+  Pre-call review, low data mode, reduce visual effects, picture-in-picture, keyboard shortcuts.</li>
+</ul>
+<p><strong>Other Buttons:</strong></p>
+<ul>
+<li><strong>Turn off Camera</strong> — join with camera disabled.  </li>
+<li><strong>Turn off Mic</strong> — join muted.  </li>
+<li><strong>Join Meeting</strong> — enters the live classroom.</li>
+</ul>
+<hr />
+<h2 id="7-live-video-room-interface">7. Live Video Room Interface</h2>
+<h3 id="top-bar">Top Bar</h3>
+<ul>
+<li>
+<p><strong>Top Left:</strong>\
+  <strong>People Counter</strong> — e.g., <code>1/200</code>.\
+  Clicking opens room details:</p>
+</li>
+<li>
+<p><em>Room size:</em> Large (up to 200 people).  </p>
+</li>
+<li><em>Locked room:</em> Guests need to knock to enter.</li>
+<li>
+<p><strong>Top Right:</strong>  </p>
+</li>
+<li>
+<p><strong>Picture-in-Picture</strong> — shows host’s video thumbnail when screen sharing.  </p>
+</li>
+<li><strong>Meeting Diagnostics</strong> — displays participant connection quality; allows disabling all videos.  </li>
+<li><strong>Settings (gear)</strong> — opens settings menu.  </li>
+<li><strong>Three Dots Menu:</strong> Meeting timer toggle and “Hide toolbars.”</li>
+</ul>
+<hr />
+<h3 id="bottom-toolbar">Bottom Toolbar</h3>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cam</strong></td>
+<td>Toggles camera. Hover opens video device selector, background effects, and video settings.</td>
+</tr>
+<tr>
+<td><strong>Mic</strong></td>
+<td>Toggles microphone. Hover shows mic selector, noise reduction toggle, and audio settings.</td>
+</tr>
+<tr>
+<td><strong>Record</strong></td>
+<td>Start/stop recording of the session.</td>
+</tr>
+<tr>
+<td><strong>Start Transcribing</strong></td>
+<td>Start/stop automatic transcription.</td>
+</tr>
+<tr>
+<td><strong>Chat</strong></td>
+<td>Opens chat panel. Hover to raise hand or send emoji. Inside chat: access People panel, create breakout rooms, manage participants.</td>
+</tr>
+<tr>
+<td><strong>People</strong></td>
+<td>Opens People menu; hover allows breakout room management.</td>
+</tr>
+<tr>
+<td><strong>Leave</strong></td>
+<td>Leave the meeting or end for all (host only).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="8-additional-interface-elements">8. Additional Interface Elements</h2>
+<ul>
+<li><strong>Room Link Field:</strong> Displays meeting URL with a <strong>Copy</strong> button.  </li>
+<li>
+<p><strong>Pitch Monitor Integration:</strong>  </p>
+</li>
+<li>
+<p><strong>Button:</strong> <em>Start Pitch Monitor</em> → activates real-time pitch display.  </p>
+</li>
+<li>When active: Button changes to <em>Pitch Monitor Active</em> and shows the virtual piano with pitch line and note display.  </li>
+<li><strong>Link:</strong> <em>Open full version in new tab</em> → <a href="https://singingcarrots.com/pitch-monitor">https://singingcarrots.com/pitch-monitor</a></li>
+</ul>
+<hr />
+<h2 id="summary">Summary</h2>
+<p>The <strong>Video Room Host</strong> page transforms Singing Carrots Studio into a full-fledged virtual teaching environment.\
+It allows teachers to:</p>
+<ul>
+<li>Host professional-grade HD lessons with pitch tools.  </li>
+<li>Run technical diagnostics for smooth sessions.  </li>
+<li>Access live pitch tracking and transcription.  </li>
+<li>Maintain structured classroom control and student management tools — all within the Singing Carrots ecosystem.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

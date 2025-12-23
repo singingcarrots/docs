@@ -1,0 +1,374 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Track your vocal pitch in real time with our interactive pitch monitor. Sing, see the notes you hit, and improve your singing accuracy. No sign-up needed.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-pitch-monitor/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Pitch Monitor - Free Vocal Pitch Monitor for Singers - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-pitch-monitor-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-page-load-microphone-access-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Page Load – Microphone Access Prompt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-main-interface-vocal-pitch-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Main Interface – Vocal Pitch Monitor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-pitch-feedback-display" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Pitch Feedback Display
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-interactive-piano-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Interactive Piano Keyboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-pitch-accuracy-zones-gray-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Pitch Accuracy Zones (Gray Bar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-pitch-accuracy-guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Pitch Accuracy Guidelines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-calltoaction-pitch-accuracy-test-invitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Call‑to‑Action – Pitch Accuracy Test Invitation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-pitch-monitor-full-technical-walkthrough">Singing Carrots Pitch Monitor: Full Technical Walkthrough</h1>
+<h2 id="overview">Overview</h2>
+<p>The Singing Carrots Vocal Pitch Monitor (https://singingcarrots.com/pitch-monitor) is a real-time vocal pitch detection tool designed to help singers visually track the notes they are singing. It uses the user’s microphone to analyze vocal input and displays pitch data both on a piano keyboard and an accuracy graph.<br />
+This documentation provides a detailed, step-by-step breakdown of the entire user journey - from the moment the page loads to real-time interaction with the pitch monitoring interface.</p>
+<hr />
+<h2 id="step-by-step-user-flow">Step-by-Step User Flow</h2>
+<h3 id="step-1-page-load-microphone-access-prompt">Step 1: Page Load – Microphone Access Prompt</h3>
+<p>Upon loading the page, the user is greeted with a modal popup titled:<br />
+<strong>"Launching pitch detector"</strong>  </p>
+<p>The popup includes:
+- <strong>Mic illustration</strong><br />
+- <strong>Message:</strong> “We will display the notes you sing or play on our interactive piano. To detect the notes, we will need access to your microphone.”<br />
+- A single <strong>“Ok”</strong> button to proceed.</p>
+<p>⚠️ Browser permissions are required at this stage. Users must allow microphone access to proceed with pitch detection.</p>
+<hr />
+<h3 id="step-2-main-interface-vocal-pitch-monitor">Step 2: Main Interface – Vocal Pitch Monitor</h3>
+<p>Once the user grants microphone access, the main tool interface is displayed. The layout consists of several interactive and informational components:
+- <strong>Title:</strong> Vocal Pitch Monitor<br />
+- <strong>Subtitle:</strong> Just sing anything... and see it!</p>
+<hr />
+<h3 id="step-3-pitch-feedback-display">Step 3: Pitch Feedback Display</h3>
+<p><strong>Pitch Detection Zone:</strong>
+- Located near the top, next to a microphone icon.<br />
+- Displays the current pitch detected, in scientific pitch notation (e.g., A3, F#4).<br />
+- When no sound is detected, a “–” is shown next to the mic icon.<br />
+- This real-time display updates as the user sings or plays notes through their microphone.</p>
+<hr />
+<h3 id="step-4-interactive-piano-keyboard">Step 4: Interactive Piano Keyboard</h3>
+<p>An interactive on-screen piano spans the middle section of the interface:
+- Hovering over each key reveals the corresponding note name (e.g., C4, D#3).<br />
+- When the user sings, the note being sung is highlighted in red on the piano.<br />
+- A red line moves vertically downwards from the key being sung, providing a visual representation of pitch stability:<br />
+  - Straight, steady lines indicate stable pitch.<br />
+  - Wavy or diverging lines indicate instability or vibrato.</p>
+<hr />
+<h3 id="step-5-pitch-accuracy-zones-gray-bar">Step 5: Pitch Accuracy Zones (Gray Bar)</h3>
+<p>Above the piano is a gray accuracy bar, divided into 5 color‑coded pitch zones, helping users understand the precision of their intonation:</p>
+<table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>Labels</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>"b (flat)" on the left 12¢ on the right (a musical meter equivalent to 2/2 time)</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>–5¢ on the right</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Green center band</td>
+<td>Highlights accurate intonation range</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>+5¢ ()* on the right</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>+12¢ (**) on the left"# (sharp)" on the right</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>As the user sings, a red dot or line appears and moves horizontally along this gray bar to indicate the note and its intonation accuracy (flat, sharp, or in tune).</p>
+<hr />
+<h3 id="step-6-pitch-accuracy-guidelines">Step 6: Pitch Accuracy Guidelines</h3>
+<p>Below the piano interface, the system explains the meaning of pitch deviation in alla breve (¢):</p>
+<ul>
+<li>(*) ±5¢: Considered a just interval; differences in pitch are barely noticeable even to trained ears.  </li>
+<li>(**) ±12¢: A commonly audible pitch difference; noticeable even by most untrained ears.  </li>
+</ul>
+<p>This educates users on how precise their pitch is and what deviations are acceptable.</p>
+<hr />
+<h3 id="step-7-calltoaction-pitch-accuracy-test-invitation">Step 7: Call‑to‑Action – Pitch Accuracy Test Invitation</h3>
+<p>At the bottom of the page, users are encouraged to continue improving their pitch skills through the full pitch accuracy test:</p>
+<ul>
+<li><strong>Message:</strong> Like our voice pitch detector?  </li>
+<li><strong>Prompt:</strong> Try our singing accuracy test!  </li>
+<li><strong>Button:</strong> <strong>“Start the test”</strong> → Navigates to Pitch Accuracy Test</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

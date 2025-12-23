@@ -1,0 +1,299 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Explore vocal ranges of singers and musicals, search for artists, and browse the top 100 most liked artists and songs. Discover new repertoire and practice with Singing Carrots tools.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-artists-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Artists Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-artists-page-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#header-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Header &amp; Search
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#top-100-most-liked-artists-and-musicals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Top 100 Most Liked Artists and Musicals
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#latest-videos-on-singing-carrots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Latest Videos on Singing Carrots
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#top-100-most-liked-songs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Top 100 Most Liked Songs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback Section
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-artists-page-full-technical-walkthrough">Singing Carrots Artists Page: Full Technical Walkthrough</h1>
+<h2 id="overview">Overview</h2>
+<p>The Artists Page is a central directory for exploring singers’ vocal ranges and related content. It allows visitors to search for specific artists, browse the most liked singers and musicals and discover top songs.</p>
+<h2 id="page-url">Page URL</h2>
+<p><a href="https://singingcarrots.com/artists">https://singingcarrots.com/artists</a></p>
+<hr />
+<h2 id="header-search">Header &amp; Search</h2>
+<ul>
+<li><strong>Page Title:</strong> Singers' vocal ranges</li>
+<li><strong>Search Prompt:</strong> A search bar is displayed directly under the title.</li>
+<li><strong>Search Field:</strong> Placeholder text “search for an artist..”</li>
+<li><strong>Search Button:</strong> Clicking runs a query and displays matching results. Each result is clickable and redirects to the <a href="https://singingcarrots.com/docs/singing-carrots-artist-page">artist’s dedicated profile page</a> with vocal range details.</li>
+</ul>
+<hr />
+<h2 id="top-100-most-liked-artists-and-musicals">Top 100 Most Liked Artists and Musicals</h2>
+<ul>
+<li>A ranked list of 100 entries, ordered by popularity.</li>
+<li>Each entry displays the artist or musical name.</li>
+<li>Every item is a clickable link to its corresponding artist profile page.</li>
+<li>This section functions as a discovery tool for new users who may not have a specific artist in mind but want to browse popular choices.</li>
+</ul>
+<hr />
+<h2 id="latest-videos-on-singing-carrots">Latest Videos on Singing Carrots</h2>
+<ul>
+<li>Displays the most recent video uploads or featured media.</li>
+<li>A CTA button (<strong>Try pitch training</strong>) redirects to the Pitch Training tool: <a href="https://singingcarrots.com/pitch-training">https://singingcarrots.com/pitch-training</a>.</li>
+<li>This section reinforces cross-navigation between content and training tools, encouraging users to practice immediately after exploring artists.</li>
+</ul>
+<hr />
+<h2 id="top-100-most-liked-songs">Top 100 Most Liked Songs</h2>
+<ul>
+<li>A ranked list of 100 songs displayed in the format:</li>
+<li><strong>Artist – Song</strong></li>
+<li>Each entry is clickable, linking directly to the respective <a href="https://singingcarrots.com/docs/singing-carrots-vocal-range-singing-guide-for-popular-songs">Song Page</a>.</li>
+<li>This extends the artist exploration into a song-focused view, offering another way for users to find relevant practice material.</li>
+</ul>
+<hr />
+<h2 id="feedback-section">Feedback Section</h2>
+<ul>
+<li><strong>Closing prompt:</strong> Do you enjoy our tools?</li>
+<li><strong>Help us improve!</strong> button redirects to <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a>.</li>
+<li>This section collects user feedback to guide platform improvements.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,320 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="View your complete Carrot Points history on Singing Carrots. Track rewards from level completions, daily goals, course tasks, replays, and practice hits. Stay motivated with detailed logs of your singing progress.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-carrot-points-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Carrot Points Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-carrot-points-page-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#page-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page Header
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#points-history-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Points History Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subtitle-under-the-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subtitle Under the Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pagination" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pagination
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#footer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Footer
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-carrot-points-page-full-technical-walkthrough">Singing Carrots Carrot Points Page: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/carrot-points">https://singingcarrots.com/carrot-points</a></p>
+<hr />
+<h2 id="page-header">Page Header</h2>
+<ul>
+<li><strong>Title:</strong> Carrot points history</li>
+<li><strong>Counter Line:</strong> Displays the number of entries shown versus the total (e.g., “Showing 1–25/300 of total carrot point events”).</li>
+<li><strong>Exclude/Include Practice Hits Button:</strong></li>
+<li>Default state: Exclude practice hits.</li>
+<li>Clicking toggles to Include practice hits and updates the table accordingly by removing/adding practice hit events.</li>
+<li><strong>Page Size Selector:</strong> Dropdown with options 25, 50, or 100 entries per page.</li>
+</ul>
+<hr />
+<h2 id="points-history-table">Points History Table</h2>
+<p>The core of the page is a tabular log of all carrot points events.</p>
+<p><strong>Columns:</strong>
+- <strong>Date</strong> – The exact date of the event (YYYY-MM-DD format).
+- <strong>Type</strong> – Displays an icon representing the event type.
+- <strong>Reason</strong> – A short description of the action or event. Examples include:
+  - Completion of a level or exercise (shows level name and mode).
+  - Daily goal reached.
+  - A course task finished.
+  - Replay watched.
+  - Practice note hits recorded.
+- <strong>Points</strong> – The number of carrot points earned, followed by a carrot icon.</p>
+<p><strong>Row Example Structure (generalized):</strong>
+- A date on the left.
+- An icon in the type column (such as goblet for level reward).
+- A reason description (e.g., “Level 5 — Major scale (Basic)” or “Watched replay: Climb the ladder exercise”).
+- The points value (e.g., “75” with a carrot icon).</p>
+<hr />
+<h2 id="subtitle-under-the-table">Subtitle Under the Table</h2>
+<p>Includes reward events (Level rewards, Daily goal, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.</p>
+<hr />
+<h2 id="pagination">Pagination</h2>
+<p>Navigation is available when the log exceeds one page.<br />
+<strong>Format:</strong> Previous 1 2 Next<br />
+Page numbers update dynamically depending on the actual number of entries.</p>
+<hr />
+<h2 id="legend">Legend</h2>
+<p>A small key helps users interpret the event type icons:</p>
+<table>
+<thead>
+<tr>
+<th>Icon label</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goblet icon</td>
+<td>Level reward</td>
+</tr>
+<tr>
+<td>Flag icon</td>
+<td>Daily goal</td>
+</tr>
+<tr>
+<td>Bullet list icon</td>
+<td>Course task</td>
+</tr>
+<tr>
+<td>Play icon</td>
+<td>Replay watched</td>
+</tr>
+<tr>
+<td>Note icon</td>
+<td>Practice note hits</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="footer">Footer</h2>
+<p><strong>Prompt:</strong> Do you enjoy our tools?<br />
+<strong>Help us improve!</strong> button → Links to <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

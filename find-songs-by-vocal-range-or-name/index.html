@@ -1,0 +1,422 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Search thousands of songs by your vocal range, difficulty, genre, or artist. Use the interactive piano tool to find the songs that fit your voice. Add favorites to your personal repertoire.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Song Search Page - Find Songs by Vocal Range or Name - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-song-search-page-full-technical-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-search-mode-toggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Search Mode Toggle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-search-by-range-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Search by Range Mode
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Search by Range Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-piano-range-selector" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Piano &amp; Range Selector
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-song-result-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Song Result List
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-filter-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Filter Panel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Filter Panel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-performer-gender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Performer Gender
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-original-key-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Original Key Filter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-difficulty-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3. Difficulty Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-genre-filter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4. Genre Filter
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-search-by-name-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Search by Name Mode*
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-footer-feedback-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Footer Feedback Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-song-search-page-full-technical-documentation">Singing Carrots Song Search Page: Full Technical Documentation</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/search">https://singingcarrots.com/search</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The Singing Carrots Search Page is an advanced tool that allows singers to find songs that match their vocal range, skill level, and preferences. It includes two primary modes: <strong>Search by Range</strong> and <strong>Search by Name</strong>. Users can filter songs based on difficulty, genre, vocal range, gender of the performer, and more. This page also connects directly with the user’s personal repertoire.</p>
+<hr />
+<h2 id="1-search-mode-toggle">1. Search Mode Toggle</h2>
+<p>At the top of the page, users can choose between two modes:<br />
+- <strong>Search by Range</strong> (default view)<br />
+- <strong>Search by Name</strong>  </p>
+<p>Clicking either option dynamically switches the interface without reloading the page.</p>
+<hr />
+<h2 id="2-search-by-range-mode">2. Search by Range Mode</h2>
+<h3 id="21-piano-range-selector">2.1. Piano &amp; Range Selector</h3>
+<ul>
+<li>An interactive on-screen piano keyboard is displayed.  </li>
+<li>Above the keyboard, six vocal range presets are available:  </li>
+<li><strong>Bass</strong> (E2–E4)  </li>
+<li><strong>Baritone</strong> (A2–A4)  </li>
+<li><strong>Tenor</strong> (C3–C5)  </li>
+<li><strong>Contralto</strong> (F3–F5)  </li>
+<li><strong>Mezzo-soprano</strong> (A3–A5)  </li>
+<li><strong>Soprano</strong> (C4–C6)  </li>
+<li>Selecting a preset automatically adjusts the range slider positioned above the keys.  </li>
+<li>Users can manually drag the slider handles to customize their vocal range.  </li>
+<li>This range determines which songs appear in the result list.  </li>
+</ul>
+<h3 id="22-song-result-list">2.2. Song Result List</h3>
+<p>Located to the right of the piano interface. Songs update automatically based on range and filters. Each song entry includes:  </p>
+<p><strong>1. Title &amp; Artist</strong><br />
+- <strong>Format:</strong> Artist – Song<br />
+- Clicking the artist's name opens their Singing Carrots profile.<br />
+- Clicking the song title opens the dedicated song page.  </p>
+<p><strong>2. Song Action Tabs</strong><br />
+Each song entry includes quick-access tabs that help users find all essential resources needed to sing the song:<br />
+- <strong>Pitch Practice</strong> – Green “Pitch Practice” tag appears next to songs with linked MIDI melodies. Clicking this tab takes the user directly to Singing Carrots Pitch Training with that song preloaded for real-time pitch practice.
+- <strong>Chords</strong> – external link.
+- <strong>Sheet music</strong> – external link.
+- <strong>Lyrics</strong> – external link.
+- <strong>Sing karaoke</strong> – external link.
+- <strong>Song details</strong> – internal link to Singing Carrots song page.
+- <strong>Favorites (star + number)</strong> – shows how many users added the song to their repertoire.</p>
+<p>These external links are included to provide users with all the tools they may need to practice or perform a song. Instead of manually searching the web, singers can quickly access relevant chords, notation, lyrics, or karaoke tracks - streamlining the preparation process.<br />
+The <strong>Song details</strong> link leads to Singing Carrots' own database, containing vocal analysis, pitch profiles, range comparison, and other relevant data.  </p>
+<p><strong>3. Difficulty Indicators</strong><br />
+Displays difficulty level in:<br />
+- Original key<br />
+- Transposed key<br />
+Possible values: <strong>Easy</strong>, <strong>Moderate</strong>, <strong>Challenging</strong>, <strong>Very challenging</strong>*<br />
+* explanation for the values can be found in part 3.3 of the documentation  </p>
+<p><strong>4. Repertoire Toggle</strong><br />
+- A star icon labeled <strong>“Save in my repertoire”</strong><br />
+- Clicking changes it to <strong>“In my repertoire”</strong> with a filled star<br />
+- The label is clickable and links to the user’s Repertoire Page  </p>
+<hr />
+<h2 id="3-filter-panel">3. Filter Panel</h2>
+<p>Located on the left-hand side in <strong>"Search by Range"</strong> mode:  </p>
+<h3 id="31-performer-gender">3.1. Performer Gender</h3>
+<p>Options:<br />
+- Any gender<br />
+- Female<br />
+- Male  </p>
+<h3 id="32-original-key-filter">3.2. Original Key Filter</h3>
+<ul>
+<li><strong>Checkbox:</strong> “I want to sing only in the original key”  </li>
+<li><strong>Subtext:</strong> “Keep this option ON to find songs for Karaoke”*<br />
+* Most karaoke tracks are available only in their original key, or offer limited transposition options that often result in poor sound quality or pitch artifacts. This toggle ensures that all suggested songs match the original karaoke versions available online, giving users a more reliable practice or performance experience.  </li>
+</ul>
+<h3 id="33-difficulty-selection">3.3. Difficulty Selection</h3>
+<p>The difficulty is automatically adjusted to the user’s range he has in his account<br />
+- Any difficulty<br />
+- <strong>Easy</strong> — User’s range significantly wider than song<br />
+- <strong>Moderate</strong> — User’s range difference is of 2 to 6 semitones<br />
+- <strong>Challenging</strong> — Ranges are almost identical<br />
+- <strong>Very challenging</strong> — Song exceeds user's range by 1–2 semitones  </p>
+<h3 id="34-genre-filter">3.4. Genre Filter</h3>
+<ul>
+<li>Search field to narrow down available genres  </li>
+<li>Alphabetical list of genres with checkboxes  </li>
+<li>Multiple genres can be selected simultaneously  </li>
+</ul>
+<hr />
+<h2 id="4-search-by-name-mode">4. Search by Name Mode*</h2>
+<p>When this mode is selected:<br />
+- A search bar appears with the placeholder:<br />
+<strong>“Search for song or artist by name”</strong><br />
+- As users type, a list of matching songs and artists is displayed in real time.<br />
+- The song result entries follow the exact format and structure as described in <strong>2.2</strong>.  </p>
+<p>* This mode is ideal for singers who already have a specific song or artist in mind and want to check:<br />
+- If the song fits their current vocal range<br />
+- How difficult the song would be to sing<br />
+- Whether they should transpose the song for better comfort  </p>
+<p>It’s a quick way to evaluate a known piece before rehearsing or performing it.  </p>
+<hr />
+<h2 id="5-footer-feedback-prompt">5. Footer Feedback Prompt</h2>
+<p>At the bottom of the page:<br />
+<strong>Do you enjoy our tools?</strong><br />
+<strong>“Help us improve!”</strong> button – links to: <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a>  </p>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
