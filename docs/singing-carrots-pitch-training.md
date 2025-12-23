@@ -136,6 +136,7 @@ All stages use a version of the interactive piano interface, showing:
 **Settings in Non-Practice Modes (⚙️ Gear Icon):**
 A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a settings modal with:
 - **Microphone Input Device** – Select which microphone to use, with a "Check" button to test input levels
+- **Output Device** – Select which speakers or headphones to use for audio playback, with a "Test" button that plays a single note (C4) to verify the selected device is working
 - **Audio Latency Compensation** – Slider to adjust for Bluetooth audio delay (0–300ms)
 
 This allows users to configure audio settings without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.

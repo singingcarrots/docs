@@ -68,7 +68,14 @@ Opens as a popup modal with the following configuration sections:
    * **Persistence:** Saved to localStorage and applies across all pitch training modes
    * **Sync:** Changes automatically sync with the microphone dropdown in the header (and vice versa)
 
-2. **Limit Practice to My Range** (Toggle)
+2. **Output Device**
+
+   * **Dropdown:** Lists all available audio output devices (speakers, headphones)
+   * **Test button:** Plays a single note (C4) through the selected output device to verify it's working
+   * **Persistence:** Saved to localStorage and applies across all pitch training modes
+   * **Browser support:** Requires browser support for setSinkId; gracefully falls back to system default on unsupported browsers
+
+4. **Limit Practice to My Range** (Toggle)
 
    * **Default:** OFF (grays out this section)
    * When switched **ON:**
@@ -81,7 +88,7 @@ Opens as a popup modal with the following configuration sections:
        * *Continue on the note*
        * *Stop the exercise*
      * **Apply** button reloads exercise with selected range
-3. **Pause Between Melody Runs**
+5. **Pause Between Melody Runs**
 
    * **Options:**
 
@@ -89,12 +96,12 @@ Opens as a popup modal with the following configuration sections:
      * *1 measure* – Short pause
      * *2 measures* – Longer pause
    * **Apply** button updates pacing
-4. **Choose Virtual Piano Sounds**
+6. **Choose Virtual Piano Sounds**
 
    * **Options:** Grand Piano, Acoustic Guitar
    * *Note:* Changing sound may take 1–2 minutes to reload
    * **Apply** button reloads audio assets
-5. **Audio Latency Compensation (Bluetooth)**
+7. **Audio Latency Compensation (Bluetooth)**
 
    * **Purpose:** Fixes audio/visual desync when using Bluetooth headphones or speakers
    * **Control:** Slider ranging from 0–300ms in 10ms increments

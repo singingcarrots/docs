@@ -168,6 +168,8 @@ Click the gear icon to adjust:
 
 **Microphone:** Select which microphone to use and test input levels.
 
+**Output Device:** Select which speakers or headphones to use for audio playback. Use the Test button to play a note through the selected device.
+
 **Audio Latency:** If using Bluetooth headphones, adjust the slider (100-200ms typical) to sync audio with visuals.
 
 ---
