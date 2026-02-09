@@ -1,8 +1,8 @@
 ---
 title: Singing Carrots AI Coach - Personal AI Singing Teacher
-description: Train your voice with Singing Carrots' AI Coach. Get personalized vocal
-  lessons, real-time pitch feedback, and adaptive exercises. Available 24/7 on
-  desktop and mobile.
+description: Train your voice with Singing Carrots' AI Coach. Get personalized
+  vocal lessons, real-time pitch feedback, and adaptive exercises. Available
+  24/7 on desktop and mobile.
 ---
 # Singing Carrots AI Coach
 
@@ -29,14 +29,46 @@ The Singing Carrots AI Coach is your personal AI singing teacher that creates cu
 - **Guided Edition:** Extended access
 - **Legacy Plans:** Not included (Effective Learner, Pro Membership, Lifetime Access purchased before October 2025)
 
+
+## Weekly Session Limits
+
+We’re introducing weekly session limits for the AI Coach. Each plan includes a weekly allowance of sessions, and users can purchase extra credits if they need more.
+
+### Weekly limits by plan
+
+| Plan | Sessions per week |
+|------|-------------------|
+| Starter | 3 sessions/week |
+| Self Study | 6 sessions/week |
+| Guided | 6 sessions/week |
+| Legacy plans (PRO, Effective Learner) | 3 sessions/week |
+
+
+
+### How it works
+
+- Unused sessions roll over to the next week (capped at **1-4** depending on plan).
+- The week resets **every Monday at midnight** in the user’s timezone.
+- When a user runs out of sessions, they see a prompt to either **buy credits** or **upgrade their plan**.
+- Credit packs are **10 sessions** each and are purchased via **Stripe**.
+- Credit purchases are **one-time payments**, not subscriptions.
+- Credits **don’t expire**.
+
+### What users will see
+
+- Session balance shown on the AI Coach page (e.g. “3 sessions available”)
+- Low sessions warning when sessions are running low
+- When out of sessions: a modal directing the user to buy credits or upgrade
+- A new quota page: **/virtual-coach/quota** showing balance breakdown, usage history, and purchase option
+
 ---
 
 ## How to Access
 
 The AI Coach can be accessed from:
 
-1. **Main Menu:** Pitch Practice > AI Coach
-2. **Pitch Training Page:** Click the "AI Coach" button
+1. **Main Menu:** Practice > AI Vocal Coach
+2. **Pitch Training Page:** Click the "Start AI Session" button
 3. **Course Practice:** Via the task pop-up during course exercises
 4. **Direct URL:** https://singingcarrots.com/ai-session
 
