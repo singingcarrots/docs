@@ -1,0 +1,326 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Explore Singing Carrots’ subscription plans side by side. Compare features across Starter, Self-Study, and Guided Editions to find the best way to improve your singing.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-product-tiers/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Product Tiers - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-product-tiers-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-behavior-based-on-user-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page Behavior Based on User Status
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Page Behavior Based on User Status">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-the-user-is-not-logged-in-or-not-subscribed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If the user is not logged in or not subscribed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-the-user-is-logged-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        If the user is logged in
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#features-comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Features Comparison Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-product-tiers-full-technical-walkthrough">Singing Carrots Product Tiers: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/product-tiers">https://singingcarrots.com/product-tiers</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The Product Tiers page provides a clear and structured comparison of Singing Carrots’ subscription plans. It is designed to help users—whether new, returning, or currently subscribed—evaluate which plan best matches their vocal goals and access needs. The page adapts dynamically depending on whether a user is logged in and/or subscribed.</p>
+<hr />
+<h2 id="page-behavior-based-on-user-status">Page Behavior Based on User Status</h2>
+<h3 id="if-the-user-is-not-logged-in-or-not-subscribed">If the user is <strong>not logged in or not subscribed</strong></h3>
+<p>On an orange background at the top of the page:
+- <strong>Main prompt:</strong> <em>Not sure which plan to choose?</em><br />
+- <strong>Subtext:</strong> <em>Compare the features of our plans below.</em><br />
+- <strong>Button:</strong> <strong>See the prices</strong> (green CTA)<br />
+  - <strong>Action:</strong> Redirects to <a href="https://singingcarrots.com/pro">https://singingcarrots.com/pro</a>  </p>
+<p>This section orients new users and encourages plan selection by linking directly to the pricing page.</p>
+<hr />
+<h3 id="if-the-user-is-logged-in">If the user <strong>is logged in</strong></h3>
+<p>The top section changes to reflect the user's subscription status:
+- <strong>Heading:</strong> <em>My purchases</em><br />
+- <strong>Displayed information:</strong> <em>Current plan: [name of plan]</em><br />
+- <strong>Subtext:</strong> <em>Features by plan</em>  </p>
+<p>This view reinforces what the user already has access to and helps them evaluate whether an upgrade or change would be beneficial.</p>
+<hr />
+<h2 id="features-comparison-table">Features Comparison Table</h2>
+<table>
+<thead>
+<tr>
+<th>What’s Included</th>
+<th style="text-align: center;"><strong>Starter Edition</strong><br>(The easiest way to start singing—even with zero musical experience)</th>
+<th style="text-align: center;"><strong>Self‑Study Edition</strong><br>(A perfect, self‑paced way to teach yourself to sing)</th>
+<th style="text-align: center;"><strong>Guided Edition</strong><br>(Ideal for mastering specific repertoire or adding teacher guidance)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4‑week “From Zero to Singing Hero” course</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>21‑week “All‑Round Vocalist” course</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Interactive gamified pitch‑training playground with scores &amp; competition</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Voice analysis toolkit &amp; progress tracker</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>My custom melodies (MIDI import)</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>Songs ranges database &amp; repertoire organiser</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>1 weekly custom song or melody for your singing practice</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✅</td>
+</tr>
+<tr>
+<td>1 monthly video feedback from our voice teacher</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: center;">✅</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Legend:</strong><br />
+- ✅ Green checkmark = included<br />
+- ❌ Red cross = not included</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

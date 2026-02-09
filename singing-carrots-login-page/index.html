@@ -1,0 +1,323 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Access your Singing Carrots account to continue vocal training. Log in with Google, Facebook, email link, or password to track progress and practice singing with our tools.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-login-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Login Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-login-page-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page URL
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-page-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Page Header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-third-party-login-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Third-Party Login Options
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-log-in-with-email-passwordless-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Log in with Email (Passwordless Authentication)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-log-in-with-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Log in with Password
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-login-page-full-technical-walkthrough">Singing Carrots Login Page: Full Technical Walkthrough</h1>
+<h2 id="overview">Overview</h2>
+<p>The Login page provides multiple ways for users to access their Singing Carrots account. Options include third-party authentication (Google or Facebook), email link login, and direct password login. It also guides users through troubleshooting common login issues and password recovery.</p>
+<h2 id="page-url">Page URL</h2>
+<p><a href="https://singingcarrots.com/login">https://singingcarrots.com/login</a></p>
+<hr />
+<h2 id="step-by-step-user-flow">Step-by-Step User Flow</h2>
+<h3 id="step-1-page-header">Step 1: Page Header</h3>
+<ul>
+<li><strong>Title:</strong> Sign in to your account  </li>
+<li><strong>Subtitle:</strong> Do not have an account yet? Create an account  </li>
+<li>The "Create an account" link leads to: <a href="https://singingcarrots.com/sign-up">https://singingcarrots.com/sign-up</a></li>
+</ul>
+<hr />
+<h3 id="step-2-third-party-login-options">Step 2: Third-Party Login Options</h3>
+<ul>
+<li><strong>Sign in with Google</strong><br />
+  Opens a Google authentication window where the user can choose their Google account.</li>
+<li><strong>Log in with Facebook</strong><br />
+  Intended to log in with Facebook credentials.</li>
+</ul>
+<hr />
+<h3 id="step-3-log-in-with-email-passwordless-authentication">Step 3: Log in with Email (Passwordless Authentication)</h3>
+<ul>
+<li><strong>Link:</strong> Log in with email  </li>
+<li><strong>Form fields:</strong></li>
+<li>Your email input field</li>
+<li>Next button</li>
+<li><strong>Behavior after submission:</strong></li>
+<li>A message is displayed:<ul>
+<li><strong>Log in email sent</strong><br />
+  A sign-in email with additional instructions was sent to [user email]. Check your email to complete sign-in.</li>
+</ul>
+</li>
+<li><strong>Troubleshooting Option:</strong></li>
+<li><strong>Button:</strong> Trouble getting email?<br />
+    Expands to show common fixes:<ul>
+<li>Check if the email was marked as spam or filtered.</li>
+<li>Verify internet connection.</li>
+<li>Confirm the email address is spelled correctly.</li>
+<li>Check if inbox space is full or other inbox settings block delivery.</li>
+<li>If issues persist, reload the page and try again. Doing so resends the email but deactivates the older login link.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="step-4-log-in-with-password">Step 4: Log in with Password</h3>
+<ul>
+<li><strong>Section:</strong> Log in with password  </li>
+<li><strong>Fields:</strong></li>
+<li>Your email</li>
+<li>Password</li>
+<li><strong>Button:</strong> Next</li>
+<li><strong>Error handling:</strong></li>
+<li>If no user exists:<br />
+<em>Error: There is no user record corresponding to this identifier. The user may have been deleted.</em></li>
+<li>If the password is wrong:<br />
+<em>Error: The password is invalid or the user does not have a password.</em></li>
+<li><strong>Additional Help Text:</strong></li>
+<li>Forgot or do not have a password? Log in with email link and set a new password from the settings page.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,393 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Bookmark your favorite songs and track custom notes with the Singing Carrots Repertoire tool. Stay organized, monitor vocal progress, and personalize your singing journey with ease.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-manage-your-vocal-repertoire/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots - Manage Your Vocal Repertoire - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-repertoire-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#page-layout-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Page Layout &amp; User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Page Layout &amp; User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-page-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Page Header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-song-list-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Song List Table
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Song List Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#table-headers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table Headers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#column-song" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column: Song
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#column-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Column: Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remove-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remove Button
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-empty-state-no-songs-added" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Empty State (No Songs Added)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-footer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Footer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-repertoire-full-technical-walkthrough">Singing Carrots Repertoire: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/repertoire">https://singingcarrots.com/repertoire</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The Repertoire page is a personalized space where users can bookmark their favorite songs and add custom notes to each. It serves as a curated collection of practice material tailored to each user’s interests and vocal abilities. This page integrates directly with the Singing Carrots search system, allowing users to manage, revisit, and annotate songs they’re working on.<br />
+This documentation outlines the complete interface and user interactions available on the Repertoire page.</p>
+<hr />
+<h2 id="page-layout-user-flow">Page Layout &amp; User Flow</h2>
+<h3 id="step-1-page-header">Step 1: Page Header</h3>
+<ul>
+<li><strong>Title:</strong> Repertoire  </li>
+<li><strong>Subtitle:</strong> My bookmarked songs  </li>
+</ul>
+<p><strong>Top‑Right Action</strong><br />
+- <strong>Button:</strong> Search Songs<br />
+  - <strong>Function:</strong> Navigates to the Search Page – <a href="https://singingcarrots.com/search">https://singingcarrots.com/search</a></p>
+<hr />
+<h3 id="step-2-song-list-table">Step 2: Song List Table</h3>
+<h4 id="table-headers">Table Headers</h4>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Song</strong></td>
+<td>Bookmarked song details</td>
+</tr>
+<tr>
+<td><strong>Notes</strong></td>
+<td>User notes for the song</td>
+</tr>
+</tbody>
+</table>
+<h4 id="column-song">Column: Song</h4>
+<p>Each row includes a bookmarked song with the following components:</p>
+<ul>
+<li><strong>Artist Name:</strong> Clickable → redirects to the Artist Page.  </li>
+<li><strong>Song Title:</strong> Clickable → redirects to the Song Page.  </li>
+<li><strong>Resource Tabs (under the song title):</strong>  </li>
+<li><strong>Chords</strong> – opens external chord resource  </li>
+<li><strong>Sheet Music</strong> – opens external sheet music resource  </li>
+<li><strong>Lyrics</strong> – opens external lyrics source  </li>
+<li><strong>Sing Karaoke</strong> – opens karaoke video on YouTube  </li>
+</ul>
+<h4 id="column-notes">Column: Notes</h4>
+<p><strong>Initial State</strong><br />
+- <strong>Green Button:</strong> Add note<br />
+  - <strong>Function:</strong> Opens a note input field for the song  </p>
+<p><strong>After Note Is Added</strong><br />
+- Note text is displayed directly in the row.<br />
+- <strong>Edit Icon:</strong> A pen icon replaces the "Add note" button.<br />
+  - <strong>Function:</strong> Clicking the icon allows the user to update or overwrite the note.  </p>
+<p><strong>Common Note Uses</strong><br />
+Users often use this field to jot down helpful reminders and customizations related to their vocal practice. Common examples include:<br />
+- noting the preferred key for singing,<br />
+- indicating transposition needs for guitar (e.g., “Capo on 3rd fret”),<br />
+- flagging vocal technique considerations like “requires falsetto” or “use mixed voice in chorus.”  </p>
+<p>Some singers also track their progress with notes like:<br />
+- “almost ready for performance” or<br />
+- “focus on breath support in verse.”  </p>
+<p>Others use it for:<br />
+- arrangement tips (“skip second verse”),<br />
+- practice goals,<br />
+- language pronunciation cues, or<br />
+- plans like “record demo next week.”  </p>
+<p>This flexibility helps tailor each song to the user's learning journey.</p>
+<h4 id="remove-button">Remove Button</h4>
+<ul>
+<li>Located on the far right of each row.  </li>
+<li><strong>Grey Button:</strong> Remove  </li>
+<li><strong>Function:</strong> Deletes the song from the repertoire list.</li>
+</ul>
+<hr />
+<h3 id="step-3-empty-state-no-songs-added">Step 3: Empty State (No Songs Added)</h3>
+<p>If the user hasn't added any songs yet, the following message appears:</p>
+<blockquote>
+<p><strong>Message:</strong><br />
+“Your saved songs will appear here once you add them to your favorites.”</p>
+</blockquote>
+<p><strong>Button:</strong> Search Songs<br />
+- <strong>Redirects to:</strong> <a href="https://singingcarrots.com/search">https://singingcarrots.com/search</a></p>
+<hr />
+<h3 id="step-4-footer">Step 4: Footer</h3>
+<ul>
+<li><strong>Prompt:</strong> Do you enjoy our tools?  </li>
+<li><strong>Button:</strong> Help us improve!  </li>
+<li><strong>Redirects to:</strong> <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

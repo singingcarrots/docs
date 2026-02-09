@@ -1,0 +1,453 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Track your vocal range, pitch accuracy, and daily practice with interactive graphs and filters on the Singing Carrots Stats Page.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-stats-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Stats Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-stats-page-full-technical-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-page-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Page Header
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-vocal-range-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Vocal Range Progress
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Vocal Range Progress">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-graph-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Graph Section
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2.1. Graph Section">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#last-7-attempts-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Last 7 Attempts View:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-range-tab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Custom Range Tab:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-below-graph-navigation-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Below Graph – Navigation Buttons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-pitch-training-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Pitch Training Progress
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Pitch Training Progress">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-section-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. Section Header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-pitch-accuracy-per-note" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. Pitch Accuracy per Note
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-pitch-accuracy-over-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3. Pitch Accuracy Over Time
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-amount-of-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4. Amount of Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-call-to-action-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Call-to-Action Button
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-feedback-section-page-footer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Feedback Section (Page Footer)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-stats-page-full-technical-documentation">Singing Carrots Stats Page: Full Technical Documentation</h1>
+<p>URL: https://singingcarrots.com/stats</p>
+<h2 id="overview">Overview</h2>
+<p>The Singing Carrots Stats Page is a personalized dashboard that tracks a user's singing development over time. It focuses on three main areas: vocal range progress, pitch accuracy, and practice quantity. Interactive graphs, filters, and dynamic feedback help users reflect on their improvement and inform their next steps in vocal training.<br />
+This documentation covers all interface elements and user interactions on the page.</p>
+<h2 id="1-page-header">1. Page Header</h2>
+<p>Title: "My statistics"</p>
+<p>Icon: Small graph icon displayed next to the title</p>
+<h2 id="2-vocal-range-progress">2. Vocal Range Progress</h2>
+<h3 id="21-graph-section">2.1. Graph Section</h3>
+<p>A block graph visualizing the evolution of the user’s vocal range over time.<br />
+Tabs Above the Graph:</p>
+<ul>
+<li>Last 7 attempts (default view)</li>
+<li>Custom range</li>
+</ul>
+<p>Graph Legend (always visible above chart):</p>
+<ul>
+<li>Yellow line: Highest note reached</li>
+<li>Blue line: Lowest note reached</li>
+</ul>
+<h4 id="last-7-attempts-view">Last 7 Attempts View:</h4>
+<p>The X-axis displays the dates of the last 7 vocal range tests (e.g., Jun 23, Jun 24, …).</p>
+<p>The Y-axis shows note index numbers (from ~10 to 55 or 60).</p>
+<p>Data points:</p>
+<ul>
+<li>Yellow dots for highest note on each test day</li>
+<li>Blue dots for lowest note</li>
+</ul>
+<p>Hover Effect: Shows details like:<br />
+Year-month-date note:index value from Y axis<br />
+Interactivity:<br />
+Clicking on "Highest note" or "Lowest note" in the legend toggles their visibility, allowing focused comparison.</p>
+<h4 id="custom-range-tab">Custom Range Tab:</h4>
+<p>Replaces the 7-day view with a date range dropdown and interactive calendar.</p>
+<p>Dropdown Options:</p>
+<ul>
+<li>Today</li>
+<li>Yesterday</li>
+<li>Last 7 days</li>
+<li>Last 30 days</li>
+<li>Last 90 days</li>
+<li>1 year</li>
+<li>Custom range</li>
+</ul>
+<p>Custom Range Selection:</p>
+<ul>
+<li>Opens a calendar where users choose start and end dates</li>
+<li>Buttons: Cancel and Apply</li>
+<li>Graph updates to reflect the selected time frame</li>
+</ul>
+<h3 id="22-below-graph-navigation-buttons">2.2. Below Graph – Navigation Buttons</h3>
+<p>Explore songs for your range – Navigates to Search Page</p>
+<p>Do vocal range test – Navigates to Vocal Range Test</p>
+<h2 id="3-pitch-training-progress">3. Pitch Training Progress</h2>
+<h3 id="31-section-header">3.1. Section Header</h3>
+<p>Title: Pitch Training Progress</p>
+<p>Date Range Filter:<br />
+Same dropdown and calendar functionality as Vocal Range section</p>
+<h3 id="32-pitch-accuracy-per-note">3.2. Pitch Accuracy per Note</h3>
+<p>This section displays a horizontal piano keyboard (from C2 to A#6) with pitch accuracy bars shown above each corresponding key.<br />
+Graph Style:<br />
+For each note on the keyboard, a vertical accuracy bar extends upward from the piano key.</p>
+<p>Bar Color Segmentation:</p>
+<ul>
+<li>Green segment (bottom part of the bar): Percentage of times the note was sung in tune</li>
+<li>Yellow segment (top part of the bar): Percentage of times the note was out of tune</li>
+</ul>
+<p>Bar Height:<br />
+Reflects the number of times the user attempted to sing that specific note.<br />
+Hover Functionality:<br />
+Hovering over a segment reveals:</p>
+<ul>
+<li>The note name</li>
+<li>The percentage of accurate or inaccurate attempts</li>
+<li>The total number of attempts recorded for that pitch</li>
+</ul>
+<p>Purpose:<br />
+This visualization helps users evaluate their pitch accuracy per note, understand which notes are stable, and identify areas that may need further training.<br />
+It is also useful for identifying the user's actual, functional vocal range, as the histogram shows which notes the user can consistently sustain in tune.<br />
+Additionally, it may help detect a vocal break — a noticeable drop in accuracy around the notes where the user transitions between vocal registers (e.g., chest to head voice).</p>
+<h3 id="33-pitch-accuracy-over-time">3.3. Pitch Accuracy Over Time</h3>
+<p>A horizontal line graph</p>
+<ul>
+<li>Y-axis: Accuracy scale from 0 to 1</li>
+<li>X-axis: Dates from the selected date range</li>
+<li>Graph shows how the user’s pitch accuracy has changed over time</li>
+</ul>
+<h3 id="34-amount-of-practice">3.4. Amount of Practice</h3>
+<p>Bar chart measuring how many notes were practiced per day</p>
+<ul>
+<li>Y-axis: From 0 to 400 (in steps of 50)</li>
+<li>X-axis: Dates from selected date range</li>
+<li>Bars: Orange vertical bars above each date</li>
+<li>Hover Info: Example – "Note hits: # (number of notes)"</li>
+</ul>
+<h2 id="4-call-to-action-button">4. Call-to-Action Button</h2>
+<p>Button Text: Open Pitch Training</p>
+<p>Navigates to the Singing Carrots pitch training game</p>
+<h2 id="5-feedback-section-page-footer">5. Feedback Section (Page Footer)</h2>
+<p>Do you enjoy our tools?<br />
+“Help us improve” button – links to: https://singingcarrots.com/help-carrots</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,437 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Manage your Singing Carrots account, update your password and avatar, control public visibility, view purchases, and access your personal repertoire.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-my-profile-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots My Profile Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-my-profile-page-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stepbystep-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step‑by‑Step User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step‑by‑Step User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-page-load-settings-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Page Load – Settings &amp; Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 1: Page Load – Settings &amp; Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#password-page-set-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Password Page (/set-password)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-account-removal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Account Removal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-personal-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Personal Details
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-repertoire-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Repertoire Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-public-profile-visibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Public Profile Visibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-my-purchases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: My Purchases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-7-plan-features-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Plan Features Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-8-my-coupons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: My Coupons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-9-feedback-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Feedback Section
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-my-profile-page-full-technical-walkthrough">Singing Carrots “My Profile” Page: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/me">https://singingcarrots.com/me</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The <strong>My Profile</strong> page is the user’s personal dashboard on Singing Carrots. It allows them to manage their account, privacy settings, subscription details, and public visibility. The page also serves as a launch point to track vocal‑training progress, customize the user avatar, and access personalized content such as repertoire and competitions.</p>
+<hr />
+<h2 id="stepbystep-user-flow">Step‑by‑Step User Flow</h2>
+<h3 id="step-1-page-load-settings-security">Step 1: Page Load – Settings &amp; Security</h3>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Settings</strong> (gear icon)</td>
+<td>Opens profile settings</td>
+</tr>
+<tr>
+<td><strong>Create or change password</strong> (key icon)</td>
+<td>Navigates to <a href="https://singingcarrots.com/set-password">https://singingcarrots.com/set-password</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="password-page-set-password">Password Page (<code>/set-password</code>)</h4>
+<ul>
+<li><strong>Title:</strong> <em>Create or update password</em>  </li>
+<li><strong>Subtitle:</strong> <em>Your email will be used as login</em>  </li>
+<li><strong>Form:</strong> Email, Password, Confirm password, <strong>SAVE</strong> button  </li>
+</ul>
+<p><strong>Security Notes</strong>
+- Singing Carrots uses <strong>Google Firebase Authentication</strong>—no passwords or sensitive data are stored on Singing Carrots servers.<br />
+- Users sign up via Email, Google, or Facebook; password creation happens post‑registration here.<br />
+- If <strong>SAVE</strong> fails, log out and sign in again before retrying.<br />
+- Logging in with a Google account is the most reliable method (Google lets you link non‑Gmail emails).</p>
+<p><strong>Footer</strong></p>
+<blockquote>
+<p><em>Do you enjoy our tools?</em>   <strong>Help us improve</strong> → <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a></p>
+</blockquote>
+<hr />
+<h3 id="step-2-account-removal">Step 2: Account Removal</h3>
+<ul>
+<li><strong>Button:</strong> <em>Request account removal</em> (trash icon)  </li>
+<li><strong>Action:</strong> Redirects to the <a href="https://singingcarrots.com/docs/singing-carrots-contact-page">Contact page</a> with deletion instructions.</li>
+</ul>
+<hr />
+<h3 id="step-3-personal-details">Step 3: Personal Details</h3>
+<ul>
+<li><strong>Section Title:</strong> <em>My personal details</em>  </li>
+<li><strong>Displays:</strong>  </li>
+<li>Email address  </li>
+<li>Avatar image (default: carrot with sunglasses)  </li>
+<li><strong>Upload image</strong> button → opens square image‑crop uploader</li>
+</ul>
+<hr />
+<h3 id="step-4-repertoire-summary">Step 4: Repertoire Summary</h3>
+<ul>
+<li><strong>Label:</strong> <em>My repertoire: X songs</em>  </li>
+<li><strong>Link:</strong> Redirects to <a href="https://singingcarrots.com/repertoire">https://singingcarrots.com/repertoire</a></li>
+</ul>
+<hr />
+<h3 id="step-5-public-profile-visibility">Step 5: Public Profile Visibility</h3>
+<table>
+<thead>
+<tr>
+<th>State</th>
+<th>Indicator</th>
+<th>Toggle Button</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Public</td>
+<td>“Your profile is <strong>public</strong>” (green)</td>
+<td><strong>Hide my profile</strong></td>
+<td>Hides page, removes from leaderboard</td>
+</tr>
+<tr>
+<td>Hidden</td>
+<td>“Your profile is <strong>hidden</strong>” (red)</td>
+<td><strong>Go public</strong></td>
+<td>Makes page public, joins leaderboard</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Explanation:</strong> Public profile shows your vocal range, carrot points, and repertoire and allows participation in the weekly competition (<a href="https://singingcarrots.com/weekly-standings">https://singingcarrots.com/weekly-standings</a>).<br />
+<strong>Preview Link:</strong> <em>This is how other people see your page:</em> <code>https://singingcarrots.com/user/username</code></p>
+<hr />
+<h3 id="step-6-my-purchases">Step 6: My Purchases</h3>
+<ul>
+<li><strong>Heading:</strong> <em>My purchases</em>  </li>
+<li><strong>Current plan:</strong> e.g., <em>Pro Membership Life Time Deal</em>  </li>
+<li><strong>Link:</strong> <em>Features by plan</em> → jumps to plan‑comparison resource (see next step).</li>
+</ul>
+<hr />
+<h3 id="step-7-plan-features-reference">Step 7: Plan Features Reference</h3>
+<p>➡️ <strong>NOTE:</strong> Instead of duplicating the feature matrix here, Singing Carrots maintains a single source of truth on the <strong>Singing Carrots Product Tiers</strong> documentation page.<br />
+<strong>Link:</strong> <a href="https://singingcarrots.com/docs/singing-carrots-product-tiers">https://singingcarrots.com/docs/singing-carrots-product-tiers</a>  </p>
+<p><em>(This link contains the up‑to‑date comparison of Starter, Self‑Study, and Guided editions.)</em></p>
+<hr />
+<h3 id="step-8-my-coupons">Step 8: My Coupons</h3>
+<ul>
+<li><strong>Section Title:</strong> <em>My coupons</em>  </li>
+<li><strong>If empty:</strong> <em>Nothing here for now</em>  </li>
+<li><strong>Description:</strong> From time to time, Singing Carrots runs promotional campaigns or partnership-based offers. If a user is eligible for discount coupons, they will appear in this section automatically. </li>
+</ul>
+<hr />
+<h3 id="step-9-feedback-section">Step 9: Feedback Section</h3>
+<blockquote>
+<p><em>Do you enjoy our tools?</em>   <strong>Help us improve!</strong> → <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a></p>
+</blockquote>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

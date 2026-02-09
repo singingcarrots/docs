@@ -1,0 +1,267 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Explore the top 100 singers for each Pitch Training level in hard mode. See who hits the most accurate notes and join the challenge at Singing Carrots.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-level-rankings-page/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Level Rankings Page - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-level-rankings-page-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#section-1-page-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Page Header
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2-level-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Level Selection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-3-rankings-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 3: Rankings Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-4-feedback-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 4: Feedback Prompt
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-level-rankings-page-full-technical-walkthrough">Singing Carrots Level Rankings Page: Full Technical Walkthrough</h1>
+<p>Page URL:<br />
+<a href="https://singingcarrots.com/pitch-training/level-rankings?level=#">https://singingcarrots.com/pitch-training/level-rankings?level=#</a></p>
+<p><strong>Purpose:</strong><br />
+This page displays the leaderboard for a selected level in Singing Carrots' Pitch Training tool. It highlights users who achieved the highest number of accurate pitch matches (note hits) in hard mode for a specific training level.<br />
+Unlike the main leaderboard, which promotes consistent practice and rewards dedication regardless of skill level, this page focuses on technical precision.<br />
+It is designed to recognize the most skillful users—those who demonstrate excellent pitch accuracy on individual exercises.  </p>
+<p>This structure supports Singing Carrots’ broader gamification strategy:<br />
+<em> The main weekly competition encourages regular use and inclusivity.<br />
+</em> The level-based rankings provide space for performance-based achievement and skill recognition.  </p>
+<p>Only hard mode scores are counted. Rankings are limited to the top 100 users per level and are updated automatically based on recorded performance data.</p>
+<hr />
+<h2 id="section-1-page-header">Section 1: Page Header</h2>
+<ul>
+<li><strong>Title Line:</strong><br />
+  Rankings by game level<br />
+  (A squared flag icon appears next to the title.)</li>
+<li><strong>Subtitle:</strong><br />
+  “Here we count only hard mode results. Join the competition in <a href="https://singingcarrots.com/docs/singing-carrots-pitch-training">Pitch Training</a>”</li>
+</ul>
+<hr />
+<h2 id="section-2-level-selection">Section 2: Level Selection</h2>
+<p><strong>Level Dropdown:</strong><br />
+<em> </em><em>Label:</em><em> Level number: followed by the current level name (as defined in Pitch Training, e.g., “Climb the major ladder”)<br />
+</em> <strong>Control:</strong> A <em>change</em> dropdown allows users to select from all available levels.<br />
+* Selecting a different level dynamically updates the rankings below to reflect the leaderboard for that specific exercise.</p>
+<hr />
+<h2 id="section-3-rankings-table">Section 3: Rankings Table</h2>
+<p>Displayed Data for Each User:<br />
+<em> </em><em>Clickable Username:</em><em> links to the user's public profile<br />
+</em> <strong>Number of Notes Hit:</strong> shown next to a small note icon 🎵  </p>
+<p><strong>Ranking Logic:</strong><br />
+<em> Sorted in descending order by the number of correctly hit notes<br />
+</em> Only hard mode scores are considered<br />
+* A maximum of 100 users are displayed per level  </p>
+<p><strong>Pagination:</strong><br />
+* Only the top 100 results are shown; no further pages available  </p>
+<p><strong>Footer Note Below List:</strong><br />
+“Note: We show only the first top 100 results.”</p>
+<hr />
+<h2 id="section-4-feedback-prompt">Section 4: Feedback Prompt</h2>
+<p>Do you enjoy our tools?<br />
+<strong>Button:</strong> Help us improve<br />
+Link target: <a href="https://singingcarrots.com/help-carrots">https://singingcarrots.com/help-carrots</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

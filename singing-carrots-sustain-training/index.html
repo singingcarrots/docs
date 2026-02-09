@@ -1,0 +1,902 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Develop breath control and pitch stability with Singing Carrots' Sustain Training tool. Practice holding notes accurately, track progress with visual feedback, and earn carrot points for building vocal stamina.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-sustain-training/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Sustain Training - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-sustain-training-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Concept
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Concept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-level-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Level System
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-page-load-and-initialization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Page Load and Initialization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-main-interface-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Main Interface Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Main Interface Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interactive-piano-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interactive Piano Keyboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#control-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Control Buttons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pitch-visualization-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pitch Visualization Area
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-3-sustain-training-gameplay" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 3: Sustain Training Gameplay
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 3: Sustain Training Gameplay">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-feedback-during-sustaining" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visual Feedback During Sustaining
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#progress-tracking-and-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Progress Tracking and Visualization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Progress Tracking and Visualization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stacking-blocks-display" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stacking Blocks Display
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-tiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Color Tiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-day-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Day Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#carrot-points-reward-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Carrot Points Reward System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Carrot Points Reward System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reward-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reward Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cumulative-level-rewards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cumulative Level Rewards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculation-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculation Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#daily-record-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Daily Record Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daily-stats-panel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Daily Stats Panel
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Daily Stats Panel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stats-displayed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stats Displayed
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#best-day-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Day Stats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Details
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#midi-note-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MIDI Note System
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Endpoints
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FAQ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-and-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access and Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#progress-and-rewards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Progress and Rewards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Tips
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Documentation
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-sustain-training-full-technical-walkthrough">Singing Carrots Sustain Training: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/sustain-training">https://singingcarrots.com/sustain-training</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>Sustain Training is a premium vocal exercise tool designed to help singers develop breath control, pitch stability, and vocal stamina. Users practice holding individual notes accurately for extended periods while receiving real-time visual feedback. Progress is tracked per note with a level system, and carrot points are awarded based on achievement.</p>
+<p><strong>Availability:</strong> Paid subscribers only (all Pro plans). No free trial available.</p>
+<hr />
+<h2 id="core-concept">Core Concept</h2>
+<h3 id="the-level-system">The Level System</h3>
+<p>Each note in the user's vocal range has an independent level that increases with sustained accurate singing:</p>
+<table>
+<thead>
+<tr>
+<th>Duration Sustained</th>
+<th>Level Achieved</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 seconds</td>
+<td>Level 1</td>
+</tr>
+<tr>
+<td>10 seconds</td>
+<td>Level 2</td>
+</tr>
+<tr>
+<td>15 seconds</td>
+<td>Level 3</td>
+</tr>
+<tr>
+<td>20 seconds</td>
+<td>Level 4</td>
+</tr>
+<tr>
+<td>25 seconds</td>
+<td>Level 5</td>
+</tr>
+<tr>
+<td>...and so on</td>
+<td>+1 level per 5 seconds</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Points:</strong>
+- Levels are tracked separately for each MIDI note
+- Progress resets daily (encourages consistent practice)
+- All-time best is tracked separately for long-term progress visualization</p>
+<hr />
+<h2 id="step-by-step-user-flow">Step-by-Step User Flow</h2>
+<h3 id="section-1-page-load-and-initialization">Section 1: Page Load and Initialization</h3>
+<p>Upon page load:
+1. <strong>Loading Modal</strong> appears with progress indicator while audio samples load
+2. <strong>Intro Modal</strong> displays with instructions
+3. Once loaded, the main interface appears with:
+   - Interactive piano keyboard
+   - Pitch visualization area
+   - Daily stats panel
+   - Control buttons</p>
+<h3 id="section-2-main-interface-components">Section 2: Main Interface Components</h3>
+<h4 id="interactive-piano-keyboard">Interactive Piano Keyboard</h4>
+<ul>
+<li><strong>Location:</strong> Bottom of the visualization area</li>
+<li><strong>Function:</strong> Click any key to select that note as the target</li>
+<li><strong>Visual Indicators:</strong></li>
+<li>Selected note highlighted in green</li>
+<li>Currently sung pitch highlighted in pink</li>
+<li>Blue indicator shows target note position</li>
+<li>Octave labels (C2, C3, C4, etc.) on white keys</li>
+</ul>
+<h4 id="control-buttons">Control Buttons</h4>
+<ul>
+<li><strong>Listen Button:</strong> Plays the target note audio so user can hear the pitch to match</li>
+<li><strong>Scaling Buttons:</strong> Adjust how many octaves are visible on the piano (2-5 octaves)</li>
+</ul>
+<h4 id="pitch-visualization-area">Pitch Visualization Area</h4>
+<ul>
+<li><strong>Real-time pitch chart:</strong> Shows user's sung pitch over time</li>
+<li><strong>Target note indicator:</strong> Horizontal line showing the note to match</li>
+<li><strong>Zoom view:</strong> Detailed pitch accuracy display centered on target note</li>
+<li><strong>Circular progress indicator:</strong> Shows progress toward next level during active sustaining</li>
+</ul>
+<h3 id="section-3-sustain-training-gameplay">Section 3: Sustain Training Gameplay</h3>
+<h4 id="how-to-practice">How to Practice</h4>
+<ol>
+<li><strong>Select a note</strong> by clicking on the piano keyboard</li>
+<li><strong>Tap "Listen"</strong> to hear the target pitch</li>
+<li><strong>Sing the note</strong> into your microphone</li>
+<li><strong>Watch the visualization</strong> to see if you're on pitch</li>
+<li><strong>Sustain accurately</strong> to build levels (5 seconds per level)</li>
+</ol>
+<h4 id="visual-feedback-during-sustaining">Visual Feedback During Sustaining</h4>
+<ul>
+<li><strong>Pitch line:</strong> Real-time display of sung pitch relative to target</li>
+<li><strong>Progress circle:</strong> Fills up as you approach the next level threshold</li>
+<li><strong>"Nice start!" bubble:</strong> Appears after 2 seconds of accurate sustaining (first level only)</li>
+<li><strong>Level achievement celebration:</strong> Visual and audio feedback when a level is reached</li>
+</ul>
+<hr />
+<h2 id="progress-tracking-and-visualization">Progress Tracking and Visualization</h2>
+<h3 id="stacking-blocks-display">Stacking Blocks Display</h3>
+<p>Progress is visualized as colored blocks stacking on each note of the piano:</p>
+<ul>
+<li>Each block represents one level achieved</li>
+<li>Block height corresponds to 5 seconds of sustain time</li>
+<li>Blocks stack vertically on their respective piano key</li>
+</ul>
+<h3 id="color-tiers">Color Tiers</h3>
+<p>Block colors change based on <strong>consecutive notes</strong> mastered at each level:</p>
+<table>
+<thead>
+<tr>
+<th>Consecutive Notes</th>
+<th>Color</th>
+<th>Hex Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-5 notes</td>
+<td>Blue</td>
+<td>#007bff</td>
+</tr>
+<tr>
+<td>6-11 notes</td>
+<td>Bronze</td>
+<td>#CD7F32</td>
+</tr>
+<tr>
+<td>12-23 notes</td>
+<td>Silver</td>
+<td>#C0C0C0</td>
+</tr>
+<tr>
+<td>24-35 notes</td>
+<td>Gold</td>
+<td>#FFD700</td>
+</tr>
+<tr>
+<td>36+ notes</td>
+<td>Diamond/Purple</td>
+<td>#871094</td>
+</tr>
+</tbody>
+</table>
+<p><strong>How consecutive notes are counted:</strong>
+- The system looks at each level independently
+- For a given level, it counts how many adjacent notes (going both up and down) have achieved that level or higher
+- Higher streaks = higher tier color = more carrot points</p>
+<h3 id="best-day-comparison">Best Day Comparison</h3>
+<ul>
+<li>Light gray background blocks show the user's best-ever performance for each note</li>
+<li>Current day's colored blocks overlay on top</li>
+<li>Allows users to see if they're matching or exceeding their personal best</li>
+</ul>
+<hr />
+<h2 id="carrot-points-reward-system">Carrot Points Reward System</h2>
+<h3 id="reward-structure">Reward Structure</h3>
+<p>Carrot points are earned based on levels achieved and consecutive note streaks:</p>
+<table>
+<thead>
+<tr>
+<th>Consecutive Notes at Level</th>
+<th>Carrots per Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-5 notes</td>
+<td>3 carrots</td>
+</tr>
+<tr>
+<td>6-11 notes</td>
+<td>4 carrots</td>
+</tr>
+<tr>
+<td>12-23 notes</td>
+<td>5 carrots</td>
+</tr>
+<tr>
+<td>24-35 notes</td>
+<td>6 carrots</td>
+</tr>
+<tr>
+<td>36+ notes</td>
+<td>7 carrots</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cumulative-level-rewards">Cumulative Level Rewards</h3>
+<p><strong>Important:</strong> A note at level N earns rewards for ALL levels 1 through N.</p>
+<p><strong>Example:</strong>
+- Note A at Level 3 → earns carrots for levels 1, 2, AND 3 (3 rewards)
+- Note B at Level 2 → earns carrots for levels 1 AND 2 (2 rewards)
+- Note C at Level 1 → earns carrots for level 1 only (1 reward)</p>
+<h3 id="calculation-example">Calculation Example</h3>
+<p>If a user has achieved:
+- C4 at Level 3 (within a 10-note streak)
+- D4 at Level 2 (within a 10-note streak)
+- E4 at Level 1 (within a 10-note streak)</p>
+<p><strong>Reward calculation:</strong>
+- C4: 3 levels × 4 carrots (bronze tier) = 12 carrots
+- D4: 2 levels × 4 carrots (bronze tier) = 8 carrots
+- E4: 1 level × 4 carrots (bronze tier) = 4 carrots
+- <strong>Total: 24 carrots</strong></p>
+<h3 id="daily-record-management">Daily Record Management</h3>
+<ul>
+<li>One carrot points record per user per day (score_type: SUSTAIN_LEVEL)</li>
+<li>Record is recalculated and updated on each progress save (not duplicated)</li>
+<li>Rewards appear in real-time as the user practices</li>
+</ul>
+<hr />
+<h2 id="daily-stats-panel">Daily Stats Panel</h2>
+<h3 id="stats-displayed">Stats Displayed</h3>
+<ul>
+<li><strong>Total Levels:</strong> Sum of all levels achieved across all notes today</li>
+<li><strong>Carrots Earned:</strong> Total carrot points earned from sustain training today</li>
+</ul>
+<h3 id="best-day-stats">Best Day Stats</h3>
+<ul>
+<li>Loads and displays the user's best-ever single-day performance</li>
+<li>Provides a target for users to beat</li>
+</ul>
+<hr />
+<h2 id="technical-details">Technical Details</h2>
+<h3 id="midi-note-system">MIDI Note System</h3>
+<p>Sustain Training uses an <strong>adjusted MIDI system</strong> (same as AI vocal coach):</p>
+<table>
+<thead>
+<tr>
+<th>Note</th>
+<th>Adjusted (Our System)</th>
+<th>Canonical MIDI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C4</td>
+<td>37</td>
+<td>60</td>
+</tr>
+</tbody>
+</table>
+<p>The offset is -23 from canonical MIDI. All note values in the system use this adjusted notation.</p>
+<h3 id="data-persistence">Data Persistence</h3>
+<ul>
+<li><strong>Cookies:</strong> Progress saved locally for non-authenticated users</li>
+<li><strong>API:</strong> Progress synced to server for authenticated users</li>
+<li><strong>Cookie key format:</strong> <code>sustain-training-progress-YYYY-MM-DD</code></li>
+</ul>
+<h3 id="api-endpoints">API Endpoints</h3>
+<ul>
+<li><strong>POST</strong> <code>/api/v1/user-stats/sustain-progress</code> - Save progress for a note</li>
+<li>Parameters: <code>note</code>, <code>level</code>, <code>date</code></li>
+<li>Returns: <code>totalReward</code>, <code>newCarrots</code></li>
+<li><strong>GET</strong> <code>/api/v1/user-stats/sustain-progress</code> - Load progress</li>
+<li>Parameters: <code>date</code></li>
+<li>Returns: <code>noteLevels</code> (map), <code>totalRewards</code></li>
+</ul>
+<hr />
+<h2 id="faq">FAQ</h2>
+<h3 id="access-and-availability">Access and Availability</h3>
+<p><strong>Q: Who can access Sustain Training?</strong>
+A: Sustain Training is available exclusively to paid subscribers. It's included in all Pro plans. There is no free trial for this feature.</p>
+<p><strong>Q: Does it work on mobile?</strong>
+A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.</p>
+<p><strong>Q: Do I need to download an app?</strong>
+A: No. It runs directly in your web browser.</p>
+<h3 id="progress-and-rewards">Progress and Rewards</h3>
+<p><strong>Q: Why does my progress reset daily?</strong>
+A: Daily resets encourage consistent practice habits. Your all-time best is tracked separately so you can see long-term improvement.</p>
+<p><strong>Q: How are carrot points calculated?</strong>
+A: You earn 3-7 carrots per level depending on how many consecutive notes you've mastered. Higher streaks = more carrots. Each level achieved earns rewards cumulatively (Level 3 pays for levels 1, 2, and 3).</p>
+<p><strong>Q: Do my carrot points count toward the weekly leaderboard?</strong>
+A: Yes. Carrot points from Sustain Training contribute to your weekly total and leaderboard ranking.</p>
+<h3 id="practice-tips">Practice Tips</h3>
+<p><strong>Q: How long should I practice?</strong>
+A: Start with 10-15 minutes. Sustaining notes is more tiring than it seems—don't strain your voice.</p>
+<p><strong>Q: What if I can't sustain for 5 seconds?</strong>
+A: Start with notes in your comfortable middle range. As your breath control improves, you'll reach 5 seconds and beyond.</p>
+<p><strong>Q: Should I warm up first?</strong>
+A: Yes. Start with comfortable notes before pushing into the edges of your range.</p>
+<h3 id="technical-issues">Technical Issues</h3>
+<p><strong>Q: The pitch detection seems inaccurate. What can I do?</strong>
+A: Use headphones to reduce echo, find a quiet environment, and keep your device at a consistent distance from your mouth.</p>
+<p><strong>Q: My progress isn't saving. Why?</strong>
+A: Make sure you're logged in for server-side sync. Progress also saves to cookies locally as a backup.</p>
+<hr />
+<h2 id="related-documentation">Related Documentation</h2>
+<ul>
+<li><a href="../singing-carrots-pitch-training/">Pitch Training</a> - Melodic exercises and pitch accuracy games</li>
+<li><a href="../singing-carrots-ai-coach/">AI Coach</a> - Personalized vocal coaching sessions</li>
+<li><a href="../singing-carrots-carrot-points-page/">Carrot Points</a> - How the reward system works</li>
+<li><a href="../singing-carrots-product-tiers/">Product Tiers</a> - Subscription plans and features</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

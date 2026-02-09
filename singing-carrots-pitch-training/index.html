@@ -1,0 +1,805 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Improve your singing accuracy with Singing Carrots’ interactive Pitch Training game. Master pitch control, memory, and range through customizable exercises and daily challenges. Track your stats and climb the leaderboard.">
+      
+      
+      
+        <link rel="canonical" href="https://singingcarrots.com/docs/singing-carrots-pitch-training/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Singing Carrots Pitch Training - Singing Carrots Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#singing-carrots-pitch-training-full-technical-walkthrough" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-user-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step User Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step User Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-page-load-daily-goal-and-stats-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Page Load – Daily Goal and Stats Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-leaderboard-and-progress-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Leaderboard and Progress Chart
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-3-pitch-training-levels-overview-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 3: Pitch Training: Levels Overview &amp; Logic
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 3: Pitch Training: Levels Overview &amp; Logic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#four-training-stages-per-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Four Training Stages Per Level
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mode-unlocking-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mode Unlocking Logic
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#note-target-progress-counter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Note Target Progress Counter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-feedback-top-scores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Feedback &amp; Top Scores
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#level-list-and-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level List and Details
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Level List and Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-1-climb-the-major-ladder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 1: Climb the Major Ladder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-2-mingle-around-the-height" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 2: Mingle Around the Height
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-3-going-wider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 3: Going Wider
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-4-a-glide-with-a-twist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 4: A Glide with a Twist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-5-major-scale-full" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 5: Major Scale (Full)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-6-one-more-mingle-but-with-a-wider-range-this-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 6: One More Mingle, but with a Wider Range This Time
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-7-minor-scale-full" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 7: Minor Scale (Full)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-8-sakura-mood" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 8: Sakura Mood
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-9-eastern-minor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 9: Eastern Minor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-10-gallop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 10: Gallop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-11-test-your-patience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 11: Test Your Patience
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-12-sandman" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 12: Sandman
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-13-my-bonnie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 13: My Bonnie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-14-happy-birthday" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 14: Happy Birthday
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-15-oh-when-the-saints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 15: Oh When the Saints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-16-over-the-rainbow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 16: Over the Rainbow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-01-the-simplest-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 0.1: The Simplest Start
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-02-simple-start-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 0.2: Simple Start #2
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#level-03-major-breath" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Level 0.3: Major Breath
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="singing-carrots-pitch-training-full-technical-walkthrough">Singing Carrots Pitch Training: Full Technical Walkthrough</h1>
+<p><strong>URL:</strong> <a href="https://singingcarrots.com/pitch-training#game">https://singingcarrots.com/pitch-training#game</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The Singing Carrots Pitch Training page is an interactive training platform designed to help singers improve their pitch accuracy, ear training, vocal control, and melodic memory. It is structured around a daily note goal and a set of progressively harder levels, each consisting of <strong>Practice</strong>, <strong>Basic</strong>, <strong>Challenging</strong>, and <strong>Hard</strong> modes. Real-time pitch feedback, customizable exercises, and gamified rewards are core to the experience.<br />
+This documentation outlines all components of the page, including the interface, real-time pitch game engine, leaderboard, daily goal tracking, and in-depth logic behind each difficulty mode.</p>
+<hr />
+<h2 id="step-by-step-user-flow">Step-by-Step User Flow</h2>
+<h3 id="section-1-page-load-daily-goal-and-stats-overview">Section 1: Page Load – Daily Goal and Stats Overview</h3>
+<p>Upon page load, users see a progress field at the top:
+- <strong>Header:</strong> “My Daily Goal”
+- <strong>Goal Text:</strong> “Hit 300 notes and get 600 carrot points”
+- <strong>Tooltip:</strong> Hovering the <code>?</code> icon shows:</p>
+<blockquote>
+<p>“Try to do it in one session to warm-up your voice and prepare your body to sing songs.”
+- <strong>Blue Progress Bar:</strong> Visually indicates % of daily note target completed</p>
+</blockquote>
+<p><strong>User Stats Panel (right of the goal area):</strong>
+- <strong>"Today:"</strong>
+  - <strong>Carrot Points:</strong> [icon] + number<br />
+<em>Tooltip:</em> “You earn carrot points when you sing notes on pitch, complete challenges, goals and quests.”
+  - <strong>Notes Hit:</strong> [note icon] + number<br />
+<em>Tooltip:</em> “Notes hit on pitch today”
+  - <strong>Accuracy:</strong> [% icon] + %<br />
+<em>Tooltip:</em> “My daily pitch accuracy”</p>
+<hr />
+<h3 id="section-2-leaderboard-and-progress-chart">Section 2: Leaderboard and Progress Chart</h3>
+<p><strong>Leaderboard Section</strong>
+- <strong>Header:</strong> "Leaderboard" 
+-👉 <a href="https://singingcarrots.com/docs/singing-carrots-weekly-competition-page">Weekly Competition Documentation</a>
+- <strong>Countdown:</strong> Days:Hours:Minutes (until week end)
+  <em>Tooltip:</em> “Your week end might be different from the week end of other players. It depends on your timezone.”
+- <strong>Two Tabs:</strong>
+  - <strong><a href="https://singingcarrots.com/docs/singing-carrots-weekly-competition-page">This Week</a></strong> (default)
+  - <strong><a href="https://singingcarrots.com/docs/singing-carrots-hall-of-fame">Hall of Fame</a></strong> (with goblet icon)</p>
+<p>👉 <a href="https://singingcarrots.com/docs/singing-carrots-hall-of-fame">Hall of Fame Documentation</a></p>
+<p><strong>Each row in the leaderboard includes:</strong>
+- Rank number
+- Player nickname
+- Position change arrow (green or red) with +/– value<br />
+<em>Tooltip:</em> “Positions compared to last week”
+- Carrot point total (number + carrot icon)
+- Scrollable list
+- <strong>At the bottom:</strong> “Your position” (clickable – jumps to your row)</p>
+<p><strong>Progress Chart</strong>
+- <strong>Label:</strong> “Progress”
+- <strong>Bar Graph:</strong><br />
+  - Y-axis: Note hits
+  - X-axis: Days (e.g., Jul 3, Jul 4…)
+  - Orange bars show per-day pitch activity
+  - <em>Hovering displays:</em> “Note hits: [number]”
+- <strong>More stats:</strong> (link to My Statistics)</p>
+<hr />
+<h3 id="section-3-pitch-training-levels-overview-logic">Section 3: Pitch Training: Levels Overview &amp; Logic</h3>
+<p>The Pitch Training Game on Singing Carrots is structured around progressive levels, each designed to train different aspects of pitch accuracy, vocal memory, and control. Every level is centered around a specific melodic pattern and includes visual, interactive, and auditory tools to guide the user through multiple stages of increasing difficulty.</p>
+<h4 id="level-structure">Level Structure</h4>
+<p>Each level includes:
+- <strong>Title</strong> – Describes the musical focus or technique being practiced (e.g., arpeggios, intervals, scales).
+- <strong>Tabs</strong> – Tags that summarize the focus and difficulty of the level.<br />
+<em>Hovering over each tab shows an explanatory tooltip.</em></p>
+<p><strong>Available Tabs and Their Meanings:</strong>
+- Pitch tuning – This exercise is good for practising the notes in tune
+- Arpeggio – This exercise helps to learn arpeggio
+- Minor – This helps to practice Minor scale
+- Major – This helps to practice Major scale
+- Pentatonic – This helps to practice Pentatonic scale
+- Diatonic – This helps to practice Diatonic scale
+- Range Extension – This exercise is good for developing range extension
+- Speed training – This exercise is good for developing runs or fioritura
+- Easy – The exercise is good for starting your warm-up
+- Average – The exercise is suitable for singers of all levels
+- Challenging – This exercise helps to learn arpeggio
+- Duration training – This exercise is good for working on the maintenance of the air and breath support</p>
+<ul>
+<li><strong>Subtitle</strong> – A short, motivating phrase to describe what this level helps develop.</li>
+<li><strong>Level Icon</strong> – A carrot character with a black speech bubble indicating the level number (e.g., “1”, “2”, etc.).</li>
+</ul>
+<hr />
+<h4 id="four-training-stages-per-level">Four Training Stages Per Level</h4>
+<p>Each level consists of four stages, arranged left to right:</p>
+<p><strong>Practice</strong>
+- A fully customizable training environment with interactive piano and visual pitch feedback.
+- Users can adjust BPM, select playback type, loop melodies, shift note direction, or limit training to their vocal range.
+- Includes metronome, pitch reference sounds, and replay functionality.
+- Access full documentation:<br />
+  👉 <a href="https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface">Practice Mode: Virtual Piano Documentation</a></p>
+<p><strong>Basic</strong>
+- A guided version of the same melodic exercise.
+- The user hears both the metronome and melody during the exercise.
+- <strong>Goal:</strong> Match pitch and rhythm based on full audio support.</p>
+<p><strong>Challenging</strong>
+- Same melodic pattern, but with reduced guidance.
+- Only the metronome is played, no pitch reference.
+- User must recall the melody from memory after hearing it once.
+- Allows 3 mistakes before ending.</p>
+<p><strong>Hard</strong>
+- The most advanced form of training.
+- No sound is played during the test — no melody, no metronome.
+- The user must rely entirely on internal pitch memory and vocal control.
+- Success is tracked and compared with global <a href="https://singingcarrots.com/docs/singing-carrots-level-rankings-page">top scores</a>.</p>
+<p>All stages use a version of the interactive piano interface, showing:
+- Target notes (as blue lines)
+- User's pitch input (as red line)
+- Color-coded feedback: green (in tune), yellow (slightly off)
+- Real-time pitch stability visualization</p>
+<p><strong>Note:</strong> All four modes use the interactive pitch training piano, but only Practice mode includes full settings and playback control. The Basic, Challenging, and Hard modes use a simplified version of the interface with fewer options to ensure consistent testing conditions.</p>
+<p><strong>Settings in Non-Practice Modes (⚙️ Gear Icon):</strong>
+A gear icon is available in the header of Basic, Challenging, and Hard modes, providing access to a settings modal with:
+- <strong>Microphone Input Device</strong> – Select which microphone to use, with a "Check" button to test input levels
+- <strong>Output Device</strong> – Select which speakers or headphones to use for audio playback, with a "Test" button that plays a single note (C4) to verify the selected device is working
+- <strong>Audio Latency Compensation</strong> – Slider to adjust for Bluetooth audio delay (0–300ms)</p>
+<p>This allows users to configure audio settings without leaving the exercise. The full settings panel (instrument selection, range limiting, pause configuration) is only available in Practice mode.</p>
+<hr />
+<h4 id="mode-unlocking-logic">Mode Unlocking Logic</h4>
+<ul>
+<li>When a user first opens a level: Only Practice and Basic modes are available.</li>
+<li>Challenging and Hard modes are greyed out and show this popup on hover or click:<br />
+<strong>“Complete BASIC to unlock”</strong></li>
+<li>Once the user successfully completes the Basic mode, both Challenging and Hard become available for that day.</li>
+</ul>
+<p><strong>Level Progress Resets Daily</strong>
+- Completing any mode marks it as complete only for the current day. The next day, all levels reset to encourage daily vocal training.</p>
+<hr />
+<h4 id="note-target-progress-counter">Note Target Progress Counter</h4>
+<p>Each level displays a note hit tracker for the current day:<br />
+<strong>Format:</strong> <code>0 / X</code><br />
+(e.g., <code>0 / 9</code>, <code>4 / 57</code> — where X is the required number of correctly hit notes)<br />
+The counter increases as the user successfully sings the required notes on pitch.<br />
+This indicator helps track daily goal completion per level and provides motivation for practice consistency.</p>
+<hr />
+<h4 id="performance-feedback-top-scores">Performance Feedback &amp; Top Scores</h4>
+<p>Each non-practice stage ends with a results popup, displaying:
+- Notes hit
+- Precision %
+- Sustain %
+- Carrot rewards
+- Option to watch replay for extra carrots
+- Encouraging messages from the carrot assistant</p>
+<p>If the user performs particularly well (especially in Challenging or Hard mode), they’ll see:
+- <strong>Leaderboard prompt</strong> (“Standings”)
+- <strong>Option to view top scores 👉 <a href="https://singingcarrots.com/docs/singing-carrots-level-rankings-page">Weekly Top Scores Documentation</a></strong>
+- <strong>CTA to Try Hard Mode</strong> (from Challenging)</p>
+<p>This system ensures that users progressively build muscle memory, pitch accuracy, and ear training through structured daily repetition and increasing difficulty. It balances flexibility (Practice mode) with challenge and gamification (Basic → Hard modes + note goals + leaderboard integration).</p>
+<hr />
+<h2 id="level-list-and-details">Level List and Details</h2>
+<h3 id="level-1-climb-the-major-ladder">Level 1: Climb the Major Ladder</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Arpeggio, Major, Average</li>
+<li><strong>Subtitle:</strong> Let’s make the melody a bit more interesting</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-2-mingle-around-the-height">Level 2: Mingle Around the Height</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Speed training, Arpeggio, Major, Average</li>
+<li><strong>Subtitle:</strong> Melody moves up and jumps around the high part</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-3-going-wider">Level 3: Going Wider</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Arpeggio, Major, Challenging</li>
+<li><strong>Subtitle:</strong> Let’s cover the whole octave</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-4-a-glide-with-a-twist">Level 4: A Glide with a Twist</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Duration training, Major, Diatonic, Challenging</li>
+<li><strong>Subtitle:</strong> The melody glides all the way down, until the final jump happens</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-5-major-scale-full">Level 5: Major Scale (Full)</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Duration training, Major, Diatonic, Average</li>
+<li><strong>Subtitle:</strong> Build your foundation</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-6-one-more-mingle-but-with-a-wider-range-this-time">Level 6: One More Mingle, but with a Wider Range This Time</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Speed training, Duration training, Major, Diatonic, Challenging</li>
+<li><strong>Subtitle:</strong> Get set, on your mark, go!</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-7-minor-scale-full">Level 7: Minor Scale (Full)</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Minor, Diatonic, Average</li>
+<li><strong>Subtitle:</strong> 15 "sad" notes on one breath, what can be funnier?</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-8-sakura-mood">Level 8: Sakura Mood</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Pitch tuning, Duration training, Pentatonic, Average</li>
+<li><strong>Subtitle:</strong> Pentatonic major scale with an eastern flavor</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-9-eastern-minor">Level 9: Eastern Minor</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Range Extension, Duration training, Pentatonic, Minor, Average</li>
+<li><strong>Subtitle:</strong> Pentatonic minor scale at your service</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-10-gallop">Level 10: Gallop</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Speed training, Arpeggio, Duration training, Major, Diatonic, Challenging</li>
+<li><strong>Subtitle:</strong> Get ready! Things are about to get really challenging</li>
+<li><strong>Available Modes:</strong> Practice, Basic</li>
+<li>🚫 No top scores section</li>
+</ul>
+<h3 id="level-11-test-your-patience">Level 11: Test Your Patience</h3>
+<ul>
+<li><strong>Tabs:</strong> Range Extension, Speed training, Duration training, Major, Diatonic, Challenging</li>
+<li><strong>Subtitle:</strong> That's a tricky one. But we believe in you!</li>
+<li><strong>Available Modes:</strong> Practice, Basic</li>
+<li>🚫 No top scores section</li>
+</ul>
+<h3 id="level-12-sandman">Level 12: Sandman</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Speed training, Major, Diatonic, Challenging</li>
+<li><strong>Subtitle:</strong> A piece inspired by the song Mr. Sandman by Pat Ballard</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-13-my-bonnie">Level 13: My Bonnie</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Duration training, Major, Average</li>
+<li><strong>Subtitle:</strong> My Bonnie lies over the ocean... song intro</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-14-happy-birthday">Level 14: Happy Birthday</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Duration training, Major, Average</li>
+<li><strong>Subtitle:</strong> Happy Birthday to You!</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-15-oh-when-the-saints">Level 15: Oh When the Saints</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Major, Easy</li>
+<li><strong>Subtitle:</strong> A traditional gospel hymn</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-16-over-the-rainbow">Level 16: Over the Rainbow</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Major, Average</li>
+<li><strong>Subtitle:</strong> A snippet from the classic song</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-01-the-simplest-start">Level 0.1: The Simplest Start</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Major, Easy</li>
+<li><strong>Subtitle:</strong> Start your warm-up from this simple sequence</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-02-simple-start-2">Level 0.2: Simple Start #2</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Major, Easy</li>
+<li><strong>Subtitle:</strong> Another simple scale</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+<h3 id="level-03-major-breath">Level 0.3: Major Breath</h3>
+<ul>
+<li><strong>Tabs:</strong> Pitch tuning, Duration training, Major, Diatonic, Easy</li>
+<li><strong>Subtitle:</strong> The melody is simple, but can you sing it with one breath?</li>
+<li><strong>Available Modes:</strong> Practice, Basic, Challenging, Hard</li>
+<li>✅ Top scores available (Hard mode)</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: singingcarrots/docs
+  base_url: https://sc-oauth.vercel.app
+  auth_endpoint: api/begin
+  app_id: GITHUB_CLIENT_ID
+
+publish_mode: editorial_workflow
+
+media_folder: docs/images          # where uploads are stored in the repo
+public_folder: /docs/images        # how the site refers to them
+
+collections:
+  - name: pages                    # <- visible only to CMS, keep it short
+    label: Pages                   # <- sidebar label in the CMS UI
+    folder: docs                   # MkDocs source folder
+    create: true                   # writers can create new docs
+    slug: "{{slug}}"               # filename when a new page is created
+    format: frontmatter            # YAML front‑matter + Markdown body
+    extension: md
+    fields:                        # <‑‑  REQUIRED
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
