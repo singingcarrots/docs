@@ -18,6 +18,8 @@ Never Stop Singing!
 
 * [Singing Carrots Homepage](https://singingcarrots.com/docs/singing-carrots-homepage-paid) - Paid User
 
+* [Singing Carrots Homepage](https://singingcarrots.com/docs/singing-carrots-homepage-authenticated-user) - Authenticated User
+
 * [Singing Carrots Pitch Monitor](https://singingcarrots.com/docs/singing-carrots-pitch-monitor) - Free Vocal Pitch Monitor for Singers
 
 * [Singing Carrots Pitch Test](https://singingcarrots.com/docs/singing-carrots-pitch-test) - Free Online Pitch Test for Singers
