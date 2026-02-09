@@ -1,5 +1,5 @@
 ---
-title: Singing Carrots Homepage - Authenticated Users
+title: Singing Carrots Homepage - Authenticated User
 description: The Singing Carrots homepage functions as a personalized daily
   practice hub, showing users exactly what to work on today based on their
   progress. It highlights course status, offers guided or DIY practice options,
