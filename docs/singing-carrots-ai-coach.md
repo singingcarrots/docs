@@ -18,6 +18,7 @@ The Singing Carrots AI Coach is your personal AI singing teacher that creates cu
 **Key Features:**
 - Personalized session plans based on your vocal history
 - Real-time pitch feedback with visual piano display
+- Stave notation view - see exercises as sheet music with proper clef, key signature, and note durations
 - Chat with your AI coach - ask questions and get guidance
 - Earn carrot points as you reach milestones
 - Works on desktop and mobile
@@ -100,19 +101,41 @@ Click **"Create My Session Plan"** to begin. The AI analyzes your progress and c
 ## The Session Interface
 
 ### Desktop Layout
-- **Left side:** Piano visualization showing target notes and your pitch
+- **Left side:** Piano or stave visualization showing target notes and your pitch
 - **Right side:** Chat area with your AI coach
 
 ### Mobile Layout
 - Chat takes the full screen
-- Tap "Show Exercise" to see the piano visualization
-- Piano overlay appears automatically when singing
+- Tap "Show Exercise" to see the piano or stave visualization
+- Piano/stave overlay appears automatically when singing
 
-### Header
+### Toolbar
 - **Progress bar:** Shows notes toward your next milestone
 - **Daily goal:** Your progress toward 300 notes today (desktop only)
+- **Microphone toggle:** Enable/disable mic input
+- **Zoom controls:** Adjust piano zoom level (piano view only)
+- **View toggle:** Switch between Piano and Stave (notation) view
 - **Finish button:** End session and get feedback
 - **Settings:** Adjust microphone and audio settings
+
+### Stave (Notation) View
+
+Toggle between the piano roll and sheet music notation using the view mode buttons in the toolbar. The stave view renders exercises as traditional music notation with:
+
+- Treble or bass clef (selected automatically based on note range)
+- Key signature with proper accidentals
+- Note durations with dots and ties
+- Time signature (4/4)
+- Solfege annotations (do, re, mi) below notes
+
+Your view preference is remembered across sessions.
+
+**Availability:**
+- **Self-Study, Guided Edition:** Full access to stave view
+- **Starter Edition:** Stave button is visible but shows an upgrade prompt when tapped
+- **Legacy Plans:** Not available
+
+The AI coach is aware of your view mode access. If you have stave view, the coach may suggest switching to it when working on intervals, music theory, or sight-reading exercises.
 
 ---
 
