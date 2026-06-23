@@ -29,6 +29,8 @@ The core of the page is a tabular log of all carrot points events.
 - **Reason** – A short description of the action or event. Examples include:
   - Completion of a level or exercise (shows level name and mode).
   - Daily goal reached.
+  - Daily streak bonus earned.
+  - AI Coach session milestone reached.
   - A course task finished.
   - Replay watched.
   - Practice note hits recorded.
@@ -43,7 +45,7 @@ The core of the page is a tabular log of all carrot points events.
 ---
 
 ## Subtitle Under the Table
-Includes reward events (Level rewards, Daily goal, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.
+Includes reward events (Level rewards, Daily goal, Daily streak bonuses, AI Coach session milestones, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.
 
 ---
 
@@ -61,6 +63,7 @@ A small key helps users interpret the event type icons:
 |-------------------|------------------------|
 | Goblet icon       | Level reward           |
 | Flag icon         | Daily goal             |
+| Flame icon        | Daily streak bonus     |
 | Bullet list icon  | Course task            |
 | Play icon         | Replay watched         |
 | Note icon         | Practice note hits     |

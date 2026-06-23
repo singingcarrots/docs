@@ -1253,6 +1253,14 @@ Never Stop Singing!
 
 * [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track Singing Carrots Rewards & Progress.
 
+* [My Badges](https://singingcarrots.com/docs/singing-carrots-my-badges-page) - Achievements for daily practice, weekly goals, and course milestones.
+
+* [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) - Give friends $10 off and earn free AI Coach sessions.
+
+* [Singing Carrots for Schools](https://singingcarrots.com/docs/singing-carrots-for-schools) - Group plans giving every student a 1:1 AI singing coach.
+
+* [Singing Carrots Studio for Teachers](https://singingcarrots.com/docs/singing-carrots-studio-for-teachers) - Free virtual classroom for voice teachers.
+
 * [Singing Carrots Studio: Main Page](https://singingcarrots.com/docs/singing-carrots-studio-main-page) - Free Suite of Teaching Tools.
 
 * [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Introduction Hub for Teachers.
@@ -1527,8 +1535,10 @@ The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our 
 **Key Features:**
 - Personalized session plans based on your vocal history
 - Real-time pitch feedback with visual piano display
+- Karaoke-style lyrics that highlight each word as you sing
 - Stave notation view - see exercises as sheet music with proper clef, key signature, and note durations
 - Chat with your AI coach - ask questions and get guidance
+- Your coach remembers you between sessions - view, edit, or turn it off anytime
 - Earn carrot points as you reach milestones
 - Works on desktop, mobile web, and the native iOS app
 - Session summaries with personalized feedback
@@ -1572,7 +1582,7 @@ We’re introducing weekly session limits for the AI Coach. Each plan includes a
 - Unused sessions roll over to the next week (capped at **1-4** depending on plan).
 - The week resets **every Monday at midnight** in the user’s timezone.
 - When a user runs out of sessions, they see a prompt to either **buy credits** or **upgrade their plan**.
-- Credit packs are **10 sessions** each and are purchased via **Stripe**.
+- Credit packs are **10 sessions** each, purchased through secure checkout.
 - Credit purchases are **one-time payments**, not subscriptions.
 - Credits **don’t expire**.
 
@@ -1630,12 +1640,13 @@ Click **"Create My Session Plan"** to begin. The AI analyzes your progress and c
 - Chat takes the full screen
 - Tap "Show Exercise" to see the piano or stave visualization
 - Piano/stave overlay appears automatically when singing
+- On phones, the keyboard automatically zooms to frame the notes in the current exercise so the keys stay large and legible (see the **Fit** control below)
 
 ### Toolbar
-- **Progress bar:** Shows notes toward your next milestone
-- **Daily goal:** Your progress toward 300 notes today (desktop only)
+- **Session progress bar:** A bar in the header that fills as you work through your planned session. It only moves forward and reaches the end when your plan is complete. On desktop it shows "Session X%" with the minutes you've practiced; on mobile, tap the bar for the same details.
+- **Rewards (carrot icon):** Opens the **Rewards** pop-up showing your progress toward today's 300-note goal and your session milestone ladder (with a running carrot count). A small dot appears on the icon when you earn a new milestone.
 - **Microphone toggle:** Enable/disable mic input
-- **Zoom controls:** Adjust piano zoom level (piano view only)
+- **Zoom controls & Fit:** Adjust piano zoom level (piano view only). The **Fit** toggle snaps the keyboard back to frame the current exercise; any manual zoom or pan hands control back to you until you tap Fit again.
 - **View toggle:** Switch between Piano and Stave (notation) view
 - **Finish button:** End session and get feedback
 - **Settings:** Adjust microphone and audio settings
@@ -1659,6 +1670,18 @@ Your view preference is remembered across sessions.
 
 The AI coach is aware of your view mode access. If you have stave view, the coach may suggest switching to it when working on intervals, music theory, or sight-reading exercises.
 
+### Karaoke Lyrics
+
+When an exercise has words, a karaoke-style lyrics bar appears on the piano-roll view (top of the chart on desktop, a band at the bottom on mobile). The current syllable is highlighted in time with the melody as the coach plays it and as you sing, so you never have to scroll back through chat to remember the words mid-breath.
+
+- While you sing, past syllables are tinted green when you were on pitch and orange when you drifted, matching the bars beneath them.
+- Tap the eye icon to collapse the bar to a "Show lyrics" chip, and tap again to bring it back.
+- The lyrics bar appears only for exercises that have words; wordless drills and hums don't show it. (The stave view already prints lyrics beneath the notes, so the karaoke bar is specific to the piano-roll view.)
+
+### Session Progress & Pacing
+
+The session progress bar in the header reflects how much of your planned work is done, not a countdown clock, so it ends when your plan is actually finished. If your pace drifts well off the plan — running long or finishing early — the coach posts a single, friendly check-in in the chat with two quick-reply choices (for example, "Keep going to finish" or "Wrap up now"). It's entirely your call; the coach never cuts a session short or replans on its own.
+
 ---
 
 ## Exercise Flow
@@ -1678,11 +1701,15 @@ Click **"Sing"** to start. You'll see:
 - **Green:** Notes you hit on pitch
 - **Yellow:** Notes slightly off pitch
 
+If the exercise has words, the karaoke lyrics bar highlights each syllable as you reach it.
+
 ### 4. See Results
 After singing, you'll see:
 - Notes hit (e.g., "8 / 10")
 - Precision percentage
 - Sustain percentage
+
+For exercises with words, the results also show your lyrics syllable by syllable, marked so you can see which words you nailed and which drifted sharp or flat.
 
 ### 5. Choose Next Action
 - **Listen Again:** Replay the melody
@@ -1712,16 +1739,36 @@ You can interact with the AI coach throughout your session:
 
 ---
 
+## Coach Memory
+
+Your AI coach remembers you between sessions, so practice feels like a continuation instead of starting from scratch each time. You're always in control of what it knows.
+
+Open **Coach memory** (the brain icon) from the AI session page, the AI Coach dashboard, or the Home tab in the iOS app. A pop-up titled "What your coach remembers" shows two lists:
+
+- **Where you're headed** — your goals
+- **What your coach knows about you** — notes about your voice and preferences
+
+The first time you open the coach, it drafts this profile from your onboarding answers (and your past sessions, if you have any). From the pop-up you can:
+
+- **Add** your own notes to either list
+- **Remove** an individual item (with a confirmation)
+- **Start fresh** to clear everything
+- Turn memory on or off with the **"Let your coach remember me between sessions"** checkbox
+
+Items the coach added itself are tagged "From your coach"; notes you typed are shown plainly. You can keep up to 30 items.
+
+---
+
 ## Earning Milestones
 
-As you practice, you earn milestones and carrot points:
+As you practice, you earn milestones and carrot points. Your milestone ladder, today's note goal, and your session carrot count all live in the **Rewards** pop-up (the carrot icon in the toolbar) so they stay out of the way while you sing.
 
 **Milestones:** 30, 60, 90, 120, 150, 180, 210, 240, 270, 300 notes
 
 **When you reach a milestone:**
 - A celebration appears on screen
-- You earn **+60 carrot points**
-- Progress bar updates to show your next goal
+- You earn carrot points
+- A dot appears on the Rewards icon; open it to see your updated progress and next goal
 
 ---
 
@@ -1760,6 +1807,7 @@ Click the gear icon to adjust:
 | R | Watch Replay |
 | Shift+Space | Listen Again |
 | Shift+Enter | Sing Again |
+| F | Fit keyboard to the current exercise |
 
 ---
 
@@ -1781,7 +1829,7 @@ A: 15-20 minutes is ideal for most users. The AI paces exercises to fit your sel
 A: Yes! Type any question in the chat. Ask about technique, request different exercises, or get feedback on challenges.
 
 **Q: Does progress carry over between sessions?**
-A: Yes. The AI remembers your history and previous sessions. Each new session builds on what you've practiced before.
+A: Yes. The AI remembers your history and previous sessions, and each new session builds on what you've practiced before. It also keeps a short profile of your goals and what it's learned about your voice — open **Coach memory** anytime to view, add to, or clear it, or turn it off entirely.
 
 **Q: What if I leave and come back?**
 A: If you return within a few hours, you can continue your session. After that, you'll see a summary of your previous session and can start fresh.
@@ -1793,6 +1841,7 @@ A: If you return within a few hours, you can continue your session. After that, 
 - [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Standard pitch training levels
 - [Virtual Piano Interface](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) - Piano visualization details
 - [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Subscription options
+- [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) - Earn free AI Coach sessions by inviting friends
 
 ---
 
@@ -2111,6 +2160,8 @@ The core of the page is a tabular log of all carrot points events.
 - **Reason** – A short description of the action or event. Examples include:
   - Completion of a level or exercise (shows level name and mode).
   - Daily goal reached.
+  - Daily streak bonus earned.
+  - AI Coach session milestone reached.
   - A course task finished.
   - Replay watched.
   - Practice note hits recorded.
@@ -2125,7 +2176,7 @@ The core of the page is a tabular log of all carrot points events.
 ---
 
 ## Subtitle Under the Table
-Includes reward events (Level rewards, Daily goal, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.
+Includes reward events (Level rewards, Daily goal, Daily streak bonuses, AI Coach session milestones, Course tasks, Replays) and practice note hits by default. Use the toggle above to exclude practice hits.
 
 ---
 
@@ -2143,6 +2194,7 @@ A small key helps users interpret the event type icons:
 |-------------------|------------------------|
 | Goblet icon       | Level reward           |
 | Flag icon         | Daily goal             |
+| Flame icon        | Daily streak bonus     |
 | Bullet list icon  | Course task            |
 | Play icon         | Replay watched         |
 | Note icon         | Practice note hits     |
@@ -2253,6 +2305,11 @@ Prefer the web, or on Android? Singing Carrots also works in any modern browser,
 1. Before adding, search the database: <https://singingcarrots.com/search>.  
 2. To submit a new song: <https://singingcarrots.com/edit-song>.  
    *Adding a new artist?* — submit the song with the artist’s name; the artist page is created automatically.
+
+---
+
+#### Q7 · Can I refer friends?
+Yes! On any paid plan you can invite friends from **Invite a friend** (<https://singingcarrots.com/refer>). Your friend gets **$10 off** their first subscription, and you earn **10 AI Coach sessions** for every friend who upgrades — with no limit on invites. See [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) for details.
 
 ---
 
@@ -2405,6 +2462,71 @@ Custom melodies allow the user to set start and end points of the practice segme
 ## Footer Section
 Prompt: "Do you enjoy our tools?"  
 Button: **Help us improve!** → <https://singingcarrots.com/help-carrots>
+
+---
+
+## singing-carrots-for-schools.md
+
+# Singing Carrots for Schools
+
+**URL:** <https://singingcarrots.com/schools>
+
+---
+
+## Overview
+
+The **Schools** page is for music departments, choirs, and universities that want to bring Singing Carrots to a whole group of students. The headline promise: **give every student a 1:1 AI singing coach** — personalized vocal coaching at scale, with instant feedback, that complements classroom teaching.
+
+A school visitor sees:
+
+- **AI-first positioning:** 1:1 coaching at scale, instant pitch feedback, and tools built to support a curriculum.
+- **What students get vs. what teachers and admins get:** a two-column breakdown of the student practice experience and the teacher/administrator view.
+- An **interactive pricing calculator** (see below).
+- School testimonials, a short FAQ, and a **Book a demo** call to action.
+
+---
+
+## Pricing Calculator
+
+The page includes a live calculator so you can price a plan before talking to anyone:
+
+**Inputs**
+- **Number of students** — a slider paired with a number box (10–100). Moving one updates the other.
+- **AI lessons per student per week** — a toggle between **3** and **6**.
+
+**Outputs (update instantly)**
+- The matching plan name
+- The **annual total** and **monthly equivalent**
+- The **per-student, per-month** rate
+- The number of **admin / teacher seats** included
+
+If you enter more than 100 students, the calculator switches to a **"Talk to us — custom plan"** message.
+
+---
+
+## Plans
+
+| Plan | Students | Base price | Per student / month | Admin seats |
+|------|----------|-----------|---------------------|-------------|
+| **Group** | 10–49 | $300 / year | +$5 (3 lessons/wk) or +$10 (6 lessons/wk) | 1 |
+| **School** | 50–100 | $500 / year | +$4 (3 lessons/wk) or +$8 (6 lessons/wk) | 3 |
+| **Custom** | 100+ | — | Arranged via demo | — |
+
+Prices are in USD for US schools. Schools outside the US receive proportional pricing, confirmed during a demo.
+
+---
+
+## How to Get Started
+
+There's no self-serve checkout for schools. Review the transparent pricing on the page, then click **Book a demo** to open a short form. The Singing Carrots team finalizes the plan with you (purchase orders and NET-30 are supported).
+
+---
+
+## Related Documentation
+
+- [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - The 1:1 AI coaching students receive
+- [Singing Carrots Studio for Teachers](https://singingcarrots.com/docs/singing-carrots-studio-for-teachers) - Free virtual classroom for individual teachers
+- [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Individual subscription options
 
 ---
 
@@ -2594,6 +2716,25 @@ This section tracks the user’s daily practice targets and updates in real time
 **Message Displayed:**  
 Daily Goal Complete!  
 Great work! Come back tomorrow.
+
+---
+
+## Daily Streak
+
+Once you complete your daily goal on consecutive days, a **streak** appears in the daily-practice area — a flame icon with your day count (e.g. *"5-day streak"*) and an encouraging line such as *"You've been improving your voice on Singing Carrots for 5 days and counting!"*
+
+**Streak bonus:** Each day you keep your streak alive, you earn bonus carrot points — and the bonus grows the longer the streak runs. Tap the info icon to open the **Daily Streak Bonus** explainer, which shows the bonus at each stage:
+
+| Streak length | Bonus carrot points |
+|---------------|--------------------:|
+| 2–6 days | +50 |
+| 1–2 weeks | +100 |
+| 2–4 weeks | +200 |
+| 1–2 months | +300 |
+| 2–3 months | +400 |
+| 3+ months | +500 |
+
+**Don't lose your streak:** A reminder shows when your streak is due — *"Complete next daily goal — your streak expires today."* You have a short grace period (up to 3 days) after your last completed goal, so missing a single day won't immediately reset your progress.
 
 ---
 
@@ -3063,6 +3204,63 @@ Our world is built on vibration—light, sound, even matter itself. Your voice c
 ## Feedback
 
 Enjoying our tools? **[Help us improve!](https://singingcarrots.com/help-carrots)**
+
+---
+
+## singing-carrots-my-badges-page.md
+
+# Singing Carrots My Badges Page
+
+**URL:** <https://singingcarrots.com/my-badges>
+
+---
+
+## Overview
+
+**My Badges** is your personal achievements gallery. It celebrates practice milestones — building a daily practice habit, reaching weekly goals, and finishing each week of the *From Zero to Singing Hero* course — and shows both the badges you've earned and the ones still waiting to be unlocked.
+
+The page is a private, account-only page: you'll be asked to sign in to view it.
+
+---
+
+## How to Open It
+
+- **Main menu:** Open the **My stats** dropdown and choose **Badges**.
+- **Home page pop-up:** When you earn a new badge, a *"Badge earned"* celebration appears with a **View my badges** button.
+- **Your public profile:** Your earned badge icons appear on your own profile and link through to this page.
+
+---
+
+## Page Layout
+
+- **Header:** *My Badges*, with a progress counter (e.g. *"Earned 3 of 9"*).
+- **Earned:** A grid of unlocked badges. Each card shows the badge artwork, its name, what it's for, and the date you earned it.
+- **Locked:** A grid of badges you haven't earned yet, shown greyed out with a short "how to earn it" line.
+- **Empty state:** If you haven't earned any badges yet, you'll see *"No badges earned yet — keep practicing!"*
+
+---
+
+## The Badges
+
+| Badge | How to earn it |
+|-------|----------------|
+| **Freshly Sprouted** | Complete your 1st daily practice |
+| **Weekly Harvest** | Complete 1 weekly goal |
+| **Bumper Crop** | Complete 2 weekly goals in a row |
+| **Deep Roots** | Complete 4 weekly goals in a row |
+| **The Perennial** | Complete 12 weekly goals in a row |
+| **Vocal Hero — Week 1** | Finish Week 1 of *From Zero to Singing Hero* |
+| **Vocal Hero — Week 2** | Finish Week 2 of *From Zero to Singing Hero* |
+| **Vocal Hero — Week 3** | Finish Week 3 of *From Zero to Singing Hero* |
+| **Vocal Hero — Week 4** | Finish Week 4 of *From Zero to Singing Hero* |
+
+---
+
+## Related Documentation
+
+- [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track rewards and progress
+- [Stats Page](https://singingcarrots.com/docs/singing-carrots-stats-page) - Personal vocal progress dashboard
+- [From Zero to Singing Hero](https://singingcarrots.com/docs/from-zero-to-singing-hero) - Beginner singing course
 
 ---
 
@@ -3747,6 +3945,82 @@ This view reinforces what the user already has access to and helps them evaluate
 
 ---
 
+## singing-carrots-refer-a-friend.md
+
+# Refer a Friend
+
+**URL:** <https://singingcarrots.com/refer>
+
+---
+
+## Overview
+
+Invite friends to Singing Carrots and you both come out ahead:
+
+- **Your friend gets $10 off** their first subscription.
+- **You get 10 AI Coach sessions** for every friend who upgrades.
+
+There's no limit — every friend who upgrades earns you another 10 sessions.
+
+---
+
+## Who Can Refer
+
+The referral program is open to anyone on a paid Singing Carrots plan. Once you have a referral code, it keeps working even if your plan later changes. If you're on the free version, you'll be invited to upgrade first.
+
+---
+
+## How to Invite
+
+Open **Invite a friend** (the gift icon in the main menu) — you'll also see invite cards on your home page and in your account settings. On the page you'll find:
+
+- Your personal referral **code** and a shareable **link**.
+- **Copy code** and **Copy link** buttons.
+- One-tap sharing via **WhatsApp**, **Email**, and **X (Twitter)**.
+
+---
+
+## How Your Friend Redeems It
+
+Your friend can either:
+
+1. **Open your link** — their discount is remembered through to checkout, or
+2. **Enter your code** in the promo/discount field at checkout.
+
+Either way, the **$10 off** is shown at checkout, along with a note that the discount was applied courtesy of you.
+
+---
+
+## Tracking Your Rewards
+
+The referral page shows a simple status panel:
+
+- **Pending** — friends who signed up but haven't upgraded yet
+- **Completed** — friends who upgraded
+- **Sessions earned** — total AI Coach sessions you've earned
+
+Earned sessions are added to your account automatically, typically within 24 hours of your friend's first payment.
+
+---
+
+## Good to Know
+
+- There's **no limit** on how many friends you can invite.
+- The code works on regular **monthly and annual** subscriptions.
+- It **can't be combined** with already-discounted plans or limited-time offers.
+- The $10 discount applies to a **first-time** subscription.
+
+> **Note:** Teaching with Singing Carrots? The [Singing Carrots Studio](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) program for teachers is separate from refer-a-friend.
+
+---
+
+## Related Documentation
+
+- [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - What AI Coach sessions are
+- [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Subscription options
+
+---
+
 ## singing-carrots-sign-up-page.md
 
 # Singing Carrots – Sign-Up Page: Full Technical Walkthrough
@@ -3924,6 +4198,12 @@ Navigates to the Singing Carrots pitch training game
 Do you enjoy our tools?  
 “Help us improve” button – links to: https://singingcarrots.com/help-carrots
 
+## Related Documentation
+The Stats page sits in the **My stats** menu alongside:
+
+- [My Badges](https://singingcarrots.com/docs/singing-carrots-my-badges-page) - Achievements for practice and course milestones
+- [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Full log of rewards earned
+
 ---
 
 ## singing-carrots-studio-ambassador-welcome-page.md
@@ -4079,6 +4359,55 @@ Track your referrals and earnings in real time once your ambassador account is v
 
 The Ambassador Welcome Page serves as the **central onboarding hub** for Singing Carrots teachers.\
 It introduces available tools, explains the verification process, and provides access to everything needed for conducting online voice lessons — from real-time classrooms to pitch analysis tools and course recommendations.
+
+---
+
+## singing-carrots-studio-for-teachers.md
+
+# Singing Carrots Studio for Teachers
+
+**URL:** <https://singingcarrots.com/studio>
+
+> The Studio landing page moved from `/ambassador` to `/studio`. Old links still work — `/ambassador` automatically redirects to `/studio`.
+
+---
+
+## Overview
+
+**Singing Carrots Studio** is a free virtual classroom built for voice teachers. It gives you a browser-based lesson room plus the full Singing Carrots toolkit to assign to your students — at no cost, because it supports our mission to unleash one million voices.
+
+---
+
+## What Teachers Get
+
+- **HD video lessons** in a browser-based classroom — start or join a call, no installs.
+- **Studio-quality audio** tuned for music, not just speech.
+- **AI lesson summaries** — automatic notes and transcripts from each session.
+- **Student practice tools:** pitch and intonation games, vocal range tests, music theory, song database, and progress analytics you can assign and review.
+
+The landing page walks through a short "how the classroom works" explainer, shows teacher and student testimonials, and answers common questions (whether you'll be charged, whether you have to promote anything, how quickly you can start, and who can use it).
+
+---
+
+## Pricing
+
+**Free for teachers — $0.** Singing Carrots Studio is free for educational use (teaching singing).
+
+There's also an **optional** referral program: teachers can earn a reward when a student upgrades to a paid plan. It's entirely optional — you're never required to promote anything.
+
+---
+
+## How to Start
+
+Click **Apply** on the landing page to begin a short (about one-minute) application. If you're not signed in yet, you'll create a free account first. Once your teacher account is approved, the Studio dashboard unlocks.
+
+---
+
+## Related Documentation
+
+- [Singing Carrots Studio: Main Page](https://singingcarrots.com/docs/singing-carrots-studio-main-page) - The Studio dashboard and tools
+- [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Getting started as a teacher
+- [Singing Carrots for Schools](https://singingcarrots.com/docs/singing-carrots-for-schools) - Group plans for music departments
 
 ---
 
@@ -4884,32 +5213,6 @@ If a user has achieved:
 ### Best Day Stats
 - Loads and displays the user's best-ever single-day performance
 - Provides a target for users to beat
-
----
-
-## Technical Details
-
-### MIDI Note System
-Sustain Training uses an **adjusted MIDI system** (same as AI vocal coach):
-
-| Note | Adjusted (Our System) | Canonical MIDI |
-|------|----------------------|----------------|
-| C4 | 37 | 60 |
-
-The offset is -23 from canonical MIDI. All note values in the system use this adjusted notation.
-
-### Data Persistence
-- **Cookies:** Progress saved locally for non-authenticated users
-- **API:** Progress synced to server for authenticated users
-- **Cookie key format:** `sustain-training-progress-YYYY-MM-DD`
-
-### API Endpoints
-- **POST** `/api/v1/user-stats/sustain-progress` - Save progress for a note
-  - Parameters: `note`, `level`, `date`
-  - Returns: `totalReward`, `newCarrots`
-- **GET** `/api/v1/user-stats/sustain-progress` - Load progress
-  - Parameters: `date`
-  - Returns: `noteLevels` (map), `totalRewards`
 
 ---
 

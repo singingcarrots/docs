@@ -121,3 +121,9 @@ Navigates to the Singing Carrots pitch training game
 ## 5. Feedback Section (Page Footer)
 Do you enjoy our tools?  
 “Help us improve” button – links to: https://singingcarrots.com/help-carrots
+
+## Related Documentation
+The Stats page sits in the **My stats** menu alongside:
+
+- [My Badges](https://singingcarrots.com/docs/singing-carrots-my-badges-page) - Achievements for practice and course milestones
+- [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Full log of rewards earned

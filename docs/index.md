@@ -64,6 +64,14 @@ Never Stop Singing!
 
 * [Carrot Points History](https://singingcarrots.com/docs/singing-carrots-carrot-points-page) - Track Singing Carrots Rewards & Progress.
 
+* [My Badges](https://singingcarrots.com/docs/singing-carrots-my-badges-page) - Achievements for daily practice, weekly goals, and course milestones.
+
+* [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) - Give friends $10 off and earn free AI Coach sessions.
+
+* [Singing Carrots for Schools](https://singingcarrots.com/docs/singing-carrots-for-schools) - Group plans giving every student a 1:1 AI singing coach.
+
+* [Singing Carrots Studio for Teachers](https://singingcarrots.com/docs/singing-carrots-studio-for-teachers) - Free virtual classroom for voice teachers.
+
 * [Singing Carrots Studio: Main Page](https://singingcarrots.com/docs/singing-carrots-studio-main-page) - Free Suite of Teaching Tools.
 
 * [Singing Carrots Studio: Welcome Page](https://singingcarrots.com/docs/singing-carrots-studio-ambassador-welcome-page) - Introduction Hub for Teachers.

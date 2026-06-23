@@ -102,6 +102,11 @@ Prefer the web, or on Android? Singing Carrots also works in any modern browser,
 
 ---
 
+#### Q7 · Can I refer friends?
+Yes! On any paid plan you can invite friends from **Invite a friend** (<https://singingcarrots.com/refer>). Your friend gets **$10 off** their first subscription, and you earn **10 AI Coach sessions** for every friend who upgrades — with no limit on invites. See [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) for details.
+
+---
+
 ## Community Feedback
 ### Do you enjoy our tools?
 We welcome feedback and suggestions.  

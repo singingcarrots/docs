@@ -173,32 +173,6 @@ If a user has achieved:
 
 ---
 
-## Technical Details
-
-### MIDI Note System
-Sustain Training uses an **adjusted MIDI system** (same as AI vocal coach):
-
-| Note | Adjusted (Our System) | Canonical MIDI |
-|------|----------------------|----------------|
-| C4 | 37 | 60 |
-
-The offset is -23 from canonical MIDI. All note values in the system use this adjusted notation.
-
-### Data Persistence
-- **Cookies:** Progress saved locally for non-authenticated users
-- **API:** Progress synced to server for authenticated users
-- **Cookie key format:** `sustain-training-progress-YYYY-MM-DD`
-
-### API Endpoints
-- **POST** `/api/v1/user-stats/sustain-progress` - Save progress for a note
-  - Parameters: `note`, `level`, `date`
-  - Returns: `totalReward`, `newCarrots`
-- **GET** `/api/v1/user-stats/sustain-progress` - Load progress
-  - Parameters: `date`
-  - Returns: `noteLevels` (map), `totalRewards`
-
----
-
 ## FAQ
 
 ### Access and Availability

@@ -126,6 +126,25 @@ Great work! Come back tomorrow.
 
 ---
 
+## Daily Streak
+
+Once you complete your daily goal on consecutive days, a **streak** appears in the daily-practice area — a flame icon with your day count (e.g. *"5-day streak"*) and an encouraging line such as *"You've been improving your voice on Singing Carrots for 5 days and counting!"*
+
+**Streak bonus:** Each day you keep your streak alive, you earn bonus carrot points — and the bonus grows the longer the streak runs. Tap the info icon to open the **Daily Streak Bonus** explainer, which shows the bonus at each stage:
+
+| Streak length | Bonus carrot points |
+|---------------|--------------------:|
+| 2–6 days | +50 |
+| 1–2 weeks | +100 |
+| 2–4 weeks | +200 |
+| 1–2 months | +300 |
+| 2–3 months | +400 |
+| 3+ months | +500 |
+
+**Don't lose your streak:** A reminder shows when your streak is due — *"Complete next daily goal — your streak expires today."* You have a short grace period (up to 3 days) after your last completed goal, so missing a single day won't immediately reset your progress.
+
+---
+
 ## Section 3: Weekly Goal
 
 **Header:**  
