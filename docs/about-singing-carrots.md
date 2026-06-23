@@ -57,6 +57,16 @@ We’re here to help 🙂
 
 ---
 
+## Is there an app?
+
+Yes! Singing Carrots is available as a free app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
+
+➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
+
+You get real‑time pitch feedback, personalized AI coaching sessions, and a judgment‑free space to train your voice anywhere. Prefer to practice on the web? Everything also works in any modern browser at [singingcarrots.com](https://singingcarrots.com).
+
+---
+
 ## Can I request a feature?
 
 Absolutely!  

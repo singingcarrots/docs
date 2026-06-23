@@ -9,7 +9,7 @@ description: Try our interactive pitch accuracy test. Assess your singing skills
 ---
 
 ## Overview  
-The Singing Carrots Pitch Accuracy Test is an interactive web-based tool that helps users assess their ability to match pitch. It works through a combination of guided steps, microphone input, real-time pitch analysis, and visual feedback.  
+The Singing Carrots Pitch Accuracy Test is an interactive tool that helps users assess their ability to match pitch. It works through a combination of guided steps, microphone input, real-time pitch analysis, and visual feedback.  
 This documentation provides a detailed, step-by-step breakdown of the entire user flow, from the moment the page loads to the moment the final pitch test results are displayed.
 
 ---

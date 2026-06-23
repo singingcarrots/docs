@@ -10,7 +10,7 @@ description: Use Singing Carrots’ interactive vocal range test to find your
 ---
 
 ## Overview  
-The Singing Carrots Vocal Range Test is an interactive web-based tool that helps users discover the lowest and highest notes they can sing comfortably. It leverages real-time pitch tracking via microphone input and displays visual feedback through an interactive keyboard. Users are encouraged to warm up their voice before testing and are rewarded with personalized insights, including vocal comparisons to famous singers.  
+The Singing Carrots Vocal Range Test is an interactive tool that helps users discover the lowest and highest notes they can sing comfortably. It leverages real-time pitch tracking via microphone input and displays visual feedback through an interactive keyboard. Users are encouraged to warm up their voice before testing and are rewarded with personalized insights, including vocal comparisons to famous singers.  
 This documentation provides a complete step-by-step breakdown of the user journey, from opening the page to saving test results.
 
 ---

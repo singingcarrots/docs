@@ -210,7 +210,7 @@ A: Sustain Training is available exclusively to paid subscribers. It's included 
 A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.
 
 **Q: Do I need to download an app?**
-A: No. It runs directly in your web browser.
+A: It's your choice. Sustain Training runs directly in your web browser, so no download is required. If you'd rather practice in a dedicated app, the free **Singing Carrots AI Vocal Coach** app is available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone.
 
 ### Progress and Rewards
 
