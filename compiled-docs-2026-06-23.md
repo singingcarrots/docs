@@ -58,7 +58,7 @@ We’re here to help 🙂
 
 ## Is there an app?
 
-Yes! Singing Carrots is available as a free app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
+Yes! Singing Carrots is available as an app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
@@ -1195,7 +1195,7 @@ Learn More
 
 Never Stop Singing!
 
-📱 **Singing Carrots is now an app!** Get **Singing Carrots AI Vocal Coach** free on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone — or keep using it in any web browser.
+📱 **Singing Carrots is now an app!** Get **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone — or keep using it in any web browser.
 
 * [Singing Carrots Mission](https://singingcarrots.com/docs/singing-carrots-mission-page) - Unleash 1 Million Voices
 
@@ -1219,7 +1219,7 @@ Never Stop Singing!
 
 * [Singing Carrots Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Improve your singing accuracy with Singing Carrots' interactive Pitch Training game
 
-* [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - Personal AI singing teacher with real-time feedback and adaptive exercises. Available free on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) (iPhone) and on the web.
+* [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - Personal AI singing teacher with real-time feedback and adaptive exercises. Available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) (iPhone) and on the web.
 
 * [Singing Carrots: From Zero to Singing Hero](https://singingcarrots.com/docs/from-zero-to-singing-hero) - Beginner Singing Course
 
@@ -1530,7 +1530,7 @@ Use Practice Mode to warm up, fine‑tune melodies, or test your range, then h
 
 The Singing Carrots AI Coach is your personal AI singing teacher that creates custom practice sessions based on your vocal history and goals. Unlike the standard Pitch Training levels, the AI Coach adapts exercises to your performance and provides conversational coaching throughout your practice.
 
-The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our free native app for iPhone — and is also available right in your web browser. Whichever you choose, your progress and history stay in sync.
+The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our native iPhone app — and is also available right in your web browser. Whichever you choose, your progress and history stay in sync.
 
 **Key Features:**
 - Personalized session plans based on your vocal history
@@ -1545,11 +1545,10 @@ The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our 
 
 ### Get the App
 
-Download **Singing Carrots AI Vocal Coach** free on the App Store:
+Get **Singing Carrots AI Vocal Coach** on the App Store:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
-- **Free** to download
 - **iPhone:** iOS 15.0 or later
 - Real-time pitch feedback, personalized daily sessions, and a judgment-free space to train your voice — anywhere
 
@@ -1817,7 +1816,7 @@ Click the gear icon to adjust:
 A: Regular Pitch Training has fixed levels with preset exercises. AI Coach creates personalized sessions based on your history, adapts to your performance, and lets you chat with your coach.
 
 **Q: Is there an app?**
-A: Yes. **Singing Carrots AI Vocal Coach** is a free native app on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone (iOS 15+). The AI Coach also runs in any modern web browser, and your progress syncs across both.
+A: Yes. **Singing Carrots AI Vocal Coach** is a native app on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone (iOS 15+). The AI Coach also runs in any modern web browser, and your progress syncs across both.
 
 **Q: What equipment do I need?**
 A: Just a microphone (built-in works fine), headphones (recommended), and a quiet space. Works in the iOS app or any modern browser.
@@ -2275,7 +2274,7 @@ Clicking **FAQ** or scrolling to the bottom reveals the self‑service FAQ with 
 ---
 
 #### Q5 · Do you have a mobile app?
-Yes! **Singing Carrots AI Vocal Coach** is available as a free native app on the App Store:
+Yes! **Singing Carrots AI Vocal Coach** is available as a native app on the App Store:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
@@ -5227,7 +5226,7 @@ A: Sustain Training is available exclusively to paid subscribers. It's included 
 A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.
 
 **Q: Do I need to download an app?**
-A: It's your choice. Sustain Training runs directly in your web browser, so no download is required. If you'd rather practice in a dedicated app, the free **Singing Carrots AI Vocal Coach** app is available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone.
+A: It's your choice. Sustain Training runs directly in your web browser, so no download is required. If you'd rather practice in a dedicated app, the **Singing Carrots AI Vocal Coach** app is available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone.
 
 ### Progress and Rewards
 

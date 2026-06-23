@@ -69,7 +69,7 @@ Clicking **FAQ** or scrolling to the bottom reveals the self‑service FAQ with 
 ---
 
 #### Q5 · Do you have a mobile app?
-Yes! **Singing Carrots AI Vocal Coach** is available as a free native app on the App Store:
+Yes! **Singing Carrots AI Vocal Coach** is available as a native app on the App Store:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 

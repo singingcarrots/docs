@@ -6,7 +6,7 @@ description: Singing Carrots Documentation Index
 
 Never Stop Singing!
 
-📱 **Singing Carrots is now an app!** Get **Singing Carrots AI Vocal Coach** free on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone — or keep using it in any web browser.
+📱 **Singing Carrots is now an app!** Get **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone — or keep using it in any web browser.
 
 * [Singing Carrots Mission](https://singingcarrots.com/docs/singing-carrots-mission-page) - Unleash 1 Million Voices
 
@@ -30,7 +30,7 @@ Never Stop Singing!
 
 * [Singing Carrots Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Improve your singing accuracy with Singing Carrots' interactive Pitch Training game
 
-* [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - Personal AI singing teacher with real-time feedback and adaptive exercises. Available free on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) (iPhone) and on the web.
+* [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - Personal AI singing teacher with real-time feedback and adaptive exercises. Available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) (iPhone) and on the web.
 
 * [Singing Carrots: From Zero to Singing Hero](https://singingcarrots.com/docs/from-zero-to-singing-hero) - Beginner Singing Course
 

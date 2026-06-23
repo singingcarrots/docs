@@ -59,7 +59,7 @@ We’re here to help 🙂
 
 ## Is there an app?
 
-Yes! Singing Carrots is available as a free app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
+Yes! Singing Carrots is available as an app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
