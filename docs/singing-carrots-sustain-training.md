@@ -15,6 +15,8 @@ Sustain Training is a premium vocal exercise tool designed to help singers devel
 
 **Availability:** Paid subscribers only (all Pro plans). No free trial available.
 
+> **Also in the AI Vocal Coach.** You no longer need to visit this page to build sustain levels. When the [AI Vocal Coach](singing-carrots-ai-coach.md) gives you a "hold this note" exercise, holding the note earns the **same** sustain levels and carrot points through the same system - they show up here on your daily stats, best-day, and the weekly leaderboard, exactly as if you'd earned them on this page. Coach holds and standalone practice count as one shared total.
+
 ---
 
 ## Core Concept
@@ -196,6 +198,9 @@ A: You earn 3-7 carrots per level depending on how many consecutive notes you've
 
 **Q: Do my carrot points count toward the weekly leaderboard?**
 A: Yes. Carrot points from Sustain Training contribute to your weekly total and leaderboard ranking.
+
+**Q: Can I earn sustain levels without opening this page?**
+A: Yes. When the AI Vocal Coach asks you to hold a note during a session, holding it earns the same sustain levels and carrots through the same system. They appear on your daily stats, best day, and weekly leaderboard just like practice done here - it's one shared total across both surfaces.
 
 ### Practice Tips
 

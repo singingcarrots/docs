@@ -203,6 +203,12 @@ For exercises with words, the results also show your lyrics syllable by syllable
 - **Watch Replay:** See your performance with your recorded audio
 - **Ask Coach:** Get feedback and the next exercise
 
+### Note-hold (sustain) exercises
+
+For breath-control work the coach may give you a **"hold this note"** exercise: instead of a melody, you sustain a single note as steadily as you can toward a target of several seconds. A progress panel replaces the note chart and shows your elapsed time versus the target, plus your best hold today and all-time.
+
+Holding a note here earns the **same sustain levels and carrot points** as the standalone [Sustain Training](singing-carrots-sustain-training.md) page - one level for every 5 seconds held - and they count toward the same daily stats, best day, and weekly leaderboard. When a hold earns carrots, a quiet "+N carrots" line appears under the result.
+
 ---
 
 ## Chat with Your Coach
