@@ -53,6 +53,20 @@ Learners are guided through short, structured lessons each day, reinforced by si
 
 ---
 
+## Take the Course Inside the AI Coach  
+
+The whole course can also be taken directly inside [AI Coach](singing-carrots-ai-coach.md) sessions:  
+
+- **Enroll in the chat:** if you're new to structured practice, the coach may introduce the course and enroll you right in the conversation.  
+- **Daily videos in-session:** the coach offers the current day's videos as cards in the chat. Watch them in a pop-up; after a short minimum watch time, **Mark done** unlocks and awards the same carrot points as on the course page.  
+- **Warm-ups count:** playing the warm-up video at the start of a coach session checks off the day's warm-up task automatically.  
+- **Practice counts:** once the day's lesson video is done, a solid singing session with the coach can complete the day's practice task automatically.  
+- **Rewatch anything:** ask the coach for any course video you've already completed, by name or topic.  
+
+Progress is fully shared - the course page and the coach always show the same state, so you can mix and match freely.  
+
+---
+
 ## Gamification & Motivation  
 - Users receive daily goals (e.g., hit 300 notes on pitch)  
 - Earn carrot points for completed tasks, challenges, and note accuracy  

@@ -112,6 +112,8 @@ When you open AI Coach, you'll configure your session:
 
 **Recent Sessions:** Review summaries from your previous sessions.
 
+**Warm-up video:** While your plan is being prepared, you can play a short vocal warm-up video from the Singing Carrots library and warm up along with it. A different warm-up appears each session. If you're enrolled in the [From Zero to Singing Hero course](from-zero-to-singing-hero.md), warming up here for about a minute also checks off the day's warm-up task automatically.
+
 Click **"Create My Session Plan"** to begin. The AI analyzes your progress and creates a personalized plan (this takes about 1-2 minutes).
 
 ---
@@ -197,6 +199,10 @@ After singing, you'll see:
 
 For exercises with words, the results also show your lyrics syllable by syllable, marked so you can see which words you nailed and which drifted sharp or flat.
 
+Every green mark in the results - on the syllables and on the notation - always matches the "notes hit" count, so the visuals and the score tell the same story.
+
+Occasionally the coach adds a short insight about the exercise you just sang (for example, that it's a pattern most singers find hard on first try). You can also open a small **stats panel** from the results to see your own history with that exercise and how it compares for other singers - framed around the exercise's difficulty, never a ranking of you.
+
 ### 5. Choose Next Action
 - **Listen Again:** Replay the melody
 - **Sing Again:** Retry the exercise
@@ -208,6 +214,41 @@ For exercises with words, the results also show your lyrics syllable by syllable
 For breath-control work the coach may give you a **"hold this note"** exercise: instead of a melody, you sustain a single note as steadily as you can toward a target of several seconds. A progress panel replaces the note chart and shows your elapsed time versus the target, plus your best hold today and all-time.
 
 Holding a note here earns the **same sustain levels and carrot points** as the standalone [Sustain Training](singing-carrots-sustain-training.md) page - one level for every 5 seconds held - and they count toward the same daily stats, best day, and weekly leaderboard. When a hold earns carrots, a quiet "+N carrots" line appears under the result.
+
+---
+
+## Challenges (Competitive Play)
+
+If your plan includes the competitive [Pitch Training](singing-carrots-pitch-training.md) difficulty tiers, the coach can offer a **challenge** mid-session: a real Pitch Training run played right inside your coach session.
+
+**How a challenge run works:**
+- The exercise melody starts easy and **climbs higher with every loop** you clear
+- You have a limited number of **hearts** - missing notes costs them; the run ends when they're gone
+- Your score, carrots, and records count exactly like a run played on the Pitch Training page
+
+**After a run** you can hit **Try again** for another attempt or **Exit challenge** to return to coaching - every finished run counts, and the coach reacts to your best one. If you set a strong score on the hard tier, a small **rank card** shows where the run lands on that level's monthly leaderboard, with a link to the full [Level Rankings](singing-carrots-level-rankings-page.md).
+
+Your **weekly competition standing** also appears in the Rewards pop-up (the carrot icon). If you've hidden your profile, rankings respect that - your results stay private.
+
+You can also just ask the coach for a challenge anytime: "give me a challenge" works.
+
+---
+
+## Zero to Hero Course, Inside the Coach
+
+The [From Zero to Singing Hero beginner course](from-zero-to-singing-hero.md) can now be taken directly inside your AI Coach sessions - no need to switch pages.
+
+**Enrollment:** If you're new to structured practice, the coach may introduce the course and offer to enroll you right in the chat. Accepting starts you on Week 1, Day 1.
+
+**Daily videos:** During a session, the coach offers the current day's course videos as cards in the chat. Tap one to watch it in a pop-up. After a short minimum watch time, **Mark done** unlocks and awards the same carrot points as completing the task on the course page. Closing early is fine - your watch time is remembered if you come back to it.
+
+**Rewatching:** Already finished a video? Ask the coach for any course video by name or topic and rewatch it anytime.
+
+**Practice counts automatically:** Once you've watched the day's lesson video, a solid singing session with the coach can automatically complete the day's practice task - the coach lets you know when it happens.
+
+**Warm-ups count too:** the session-start warm-up video checks off the day's warm-up task (see Starting a Session above).
+
+Your course progress is one and the same everywhere - the course page and the coach always agree on where you are.
 
 ---
 
@@ -288,6 +329,8 @@ Click the gear icon to adjust:
 
 **Audio Latency:** If using Bluetooth headphones, adjust the slider (100-200ms typical) to sync audio with visuals.
 
+**Bluetooth earbuds and recording:** Bluetooth earbud microphones use a narrow phone-call audio mode that hurts pitch detection. When the coach detects this, it automatically records through your device's built-in microphone while you keep listening through your earbuds, and shows a one-time notice. You can still pick any microphone manually in Settings - your choice is respected.
+
 ---
 
 ## Keyboard Shortcuts (Desktop)
@@ -326,6 +369,12 @@ A: Yes. The AI remembers your history and previous sessions, and each new sessio
 **Q: What if I leave and come back?**
 A: If you return within a few hours, you can continue your session. After that, you'll see a summary of your previous session and can start fresh.
 
+**Q: Can I do the Zero to Hero course through the AI Coach?**
+A: Yes. The coach can enroll you, plays the day's course videos in the chat, awards the same carrots for completing them, and can auto-complete the day's practice task after a solid singing session. Progress stays in sync with the course page.
+
+**Q: Why did my sound switch microphones when I connected Bluetooth earbuds?**
+A: Bluetooth earbud mics use a low-quality phone-call mode that breaks pitch detection, so the coach records through your device's built-in mic instead while you keep listening through the earbuds. You can override this in Settings.
+
 ---
 
 ## Related Documentation
@@ -334,3 +383,5 @@ A: If you return within a few hours, you can continue your session. After that, 
 - [Virtual Piano Interface](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) - Piano visualization details
 - [Product Tiers](https://singingcarrots.com/docs/singing-carrots-product-tiers) - Subscription options
 - [Refer a Friend](https://singingcarrots.com/docs/singing-carrots-refer-a-friend) - Earn free AI Coach sessions by inviting friends
+- [From Zero to Singing Hero](https://singingcarrots.com/docs/from-zero-to-singing-hero) - The beginner course you can take inside the coach
+- [Level Rankings](https://singingcarrots.com/docs/singing-carrots-level-rankings-page) - Where challenge runs are ranked
