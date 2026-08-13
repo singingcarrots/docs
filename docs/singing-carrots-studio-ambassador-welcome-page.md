@@ -84,7 +84,7 @@ Interactive online tools designed to help students improve pitch accuracy, inton
 **Buttons:**
 
 * **Pitch Monitor** → <https://singingcarrots.com/pitch-monitor>  
-* **Vocal Range Test** → <https://singingcarrots.com/vocal-range-test>
+* **Vocal Range Test** → <https://singingcarrots.com/range-test>
 
 - - -
 
