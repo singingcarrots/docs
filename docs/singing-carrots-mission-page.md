@@ -4,7 +4,7 @@ description: Discover the mission of Singing Carrots to unleash 1 million
   voices. Learn how singing brings joy, healing, and connection to people
   worldwide.
 ---
-# Singing Carrots Mission Page
+# Singing Carrots Mission
 
 ## Overview
 
