@@ -63,7 +63,7 @@ Whatever your stage, **Singing Carrots removes the barriers** between you and 
 
 | ✓ We Support                                                            | ✗ We Don’t Support                                   |
 | ----------------------------------------------------------------------- | ---------------------------------------------------- |
-| Performing, composing & recording that spreads **love, empathy, unity** | Pursuits driven solely by fame or messages of hatred |
+| Performing, composing & recording that spreads **love, empathy, unity** | Pursuits driven solely by fame or messages of hatred.|
 
 ---
 
