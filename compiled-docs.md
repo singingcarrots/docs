@@ -1,120 +1,6 @@
 # Compiled Documentation
 
-_Compiled on: 2026-08-13_
-
-## about-singing-carrots.md
-
-# About Singing Carrots
-
-**Description:** Learn about Singing Carrots — a platform created to help everyone learn to sing, backed by science, practice tools, and a supportive community.
-
----
-
-## Welcome!
-
-Hi! My name is Sergey ([Twitter/X](https://twitter.com/kyunez)).  
-I created Singing Carrots for people who love to sing.
-
----
-
-## What is this website about?
-
-Singing Carrots brings together everything that might be useful for anyone practicing or simply interested in singing.
-
-> **Key takeaway:** You can sing.
-
-- Research shows that, unless you have a rare medical condition, you can develop your singing to a decent level.  
-  - See [this article from Penn State](https://www.psu.edu/news/research/story/probing-question-can-anyone-be-taught-how-sing/)  
-  - And [this study](https://pubmed.ncbi.nlm.nih.gov/28224991/) showing that *amusia* is uncommon.
-- I wrote a detailed article on why you might struggle with pitch:  
-  [Why People Sing Out of Pitch](https://singingcarrots.com/blog/why-people-sing-out-of-pitch/)
-- The **10,000‑hour rule** applies to singing too — invest time and you will improve.  
-  [Learn more](https://en.wikipedia.org/wiki/Practice_(learning_method)#%3A~:text=Malcolm%20Gladwell%20developed%20the%20highly,become%20an%20expert%20at%20it)
-
-We’re here to help 🙂
-
----
-
-## Our Mission
-
-> **To unleash one million voices.**  
-> [Read more…](https://blog.singingcarrots.com/unleash-1-million-voices-singing-carrots-mission/)
-
----
-
-## What can I do here?
-
-- Explore the **full list of features** → [Feature list](https://singingcarrots.com/about#ul-features)
-
-> Work in progress updates are shared on [TW/X](https://twitter.com/kyunez).
-
----
-
-## Why did you create this website?
-
-[Read the story](https://singingcarrots.com/about#div-story)
-
----
-
-## Is there an app?
-
-Yes! Singing Carrots is available as an app — **Singing Carrots AI Vocal Coach** — on the App Store for iPhone:
-
-➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
-
-You get real‑time pitch feedback, personalized AI coaching sessions, and a judgment‑free space to train your voice anywhere. Prefer to practice on the web? Everything also works in any modern browser at [singingcarrots.com](https://singingcarrots.com).
-
----
-
-## Can I request a feature?
-
-Absolutely!  
-[Leave a message via the contact form](https://singingcarrots.com/contact).
-
----
-
-## How do I add songs and artists?
-
-1. **Check first:** Use [Search](https://singingcarrots.com/search#search=) to see if the song already exists.  
-2. **Add a new song:** [Submit here](https://singingcarrots.com/edit-song/) — specify the artist name and the artist page will be generated automatically.
-
----
-
-## A Word of Appreciation
-
-| Name | Role & Contribution |
-|------|--------------------|
-| [Gonzalo Gonzales](https://singingcarrots.com/user/gonzalo2) | UX researcher – design, customer development, song moderation |
-| [Dominika Zawada](https://www.singwithdo.com/) | Singer, actress, coach – author of **From Zero to Singing Hero** course |
-| [Celina von Wrochem](https://singingcarrots.com/blog/author/celina/) | Author of **All‑Round Vocalist** course |
-| [Leo Maia](http://oleomaia.com/) | Illustrator – all the funny carrot images |
-| [Sergey Alimsky](https://www.instagram.com/klinwild) | Designer/photographer – first feature idea, ongoing advice |
-| [Sandra Dominguez Ortiz](https://www.wordsinthebucket.com/author/sandra-dominguez-ortiz) | Inspiration and motivation to launch Singing Carrots |
-| [Claudia Rolando](https://www.claudiarolando.com/#claudia-rolando-method) | First singing teacher – exercises for Pitch Training |
-| [Beth Aggett](https://www.bethaggettmusic.com/) | Singer/composer – feedback and ideation |
-| [Linor Oren](https://singwell.eu/) | Singer/voice expert – warm‑up videos, website improvement feedback |
-
----
-
-## About the Founder
-
-**Sergey Kyune**  
-I build educational tools that help people learn new skills.
-
-**Current projects**
-
-| Project | Description |
-|---------|-------------|
-| [Singing Carrots](https://singingcarrots.com/) | This website 🙂 |
-| [Rememby](https://rememby.app/en) | Service for learning & memorizing foreign words |
-| [Own Your Time](https://www.linkedin.com/in/sergey-kyune-0b310351/) | Free 1‑on‑1 coaching: corporate → entrepreneurship |
-| [Critical Thinking Coach](https://chatgpt.com/g/g-gePxNRx6f-critical-thinking-coach-game) | Educational game on logical fallacies & propaganda |
-
-Feel free to connect on [LinkedIn](https://www.linkedin.com/in/sergey-kyune-0b310351/) or [Twitter/X](https://x.com/kyunez/).
-
----
-
----
+_Compiled on: 2026-10-08_
 
 ## find-songs-by-vocal-range-or-name.md
 
@@ -1209,11 +1095,7 @@ Learn More
 
 Never Stop Singing!
 
-📱 **Singing Carrots is now an app!** Get **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone — or keep using it in any web browser.
-
-* [Singing Carrots Mission](https://singingcarrots.com/docs/singing-carrots-mission-page) - Unleash 1 Million Voices
-
-* [About Singing Carrots](https://singingcarrots.com/docs/about-singing-carrots) - Practice tools and Founder story
+📱 Get the **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iOS or [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) for Android — or just use it in any web browser.
 
 * [Contact Singing Carrots](https://singingcarrots.com/docs/singing-carrots-contact-page) - Customer Support & FAQ
 
@@ -1836,11 +1718,7 @@ As you practice, you earn milestones and carrot points. Your milestone ladder, t
 
 Click **"Finish & Get Feedback"** when you're ready to end.
 
-**Session Summary includes:**
-- Personalized feedback on your performance
-- What you did well
-- Areas for improvement
-- Recommendations for next time
+**Your session recap:** a short recap of how your session went, including what you did well and what changed compared with your earlier sessions.
 
 **Rate your session:** Give 1-5 stars and optional written feedback to help improve the AI coach.
 
@@ -3178,102 +3056,6 @@ If the user hasn't added any songs yet, the following message appears:
 - **Prompt:** Do you enjoy our tools?  
 - **Button:** Help us improve!  
   - **Redirects to:** <https://singingcarrots.com/help-carrots>
-
----
-
-## singing-carrots-mission-page.md
-
-# Singing Carrots Mission Page
-
-## Overview
-
-The Singing Carrots Mission Page outlines the platform’s core values, purpose, community impact, and user experiences. It is a visual, emotional, and inspirational journey into Singing Carrots’ mission to **unleash 1 million voices**. Expect animated illustrations, real‑time impact metrics, heartfelt user reviews, and reflections on the emotional and spiritual power of singing.
-
----
-
-## Singing Carrots Mission
-
-### Unleash 1 Million Voices
-
-> Everyone has the right to experience self‑love and the joy of singing—both alone and in community.
-
-
-* **[Join now](https://singingcarrots.com)**
-* **[Learn more](https://singingcarrots.com/about)**
-
----
-
-## Mission Progress
-
-Totals below update daily based on community activity and learning success.
-
-| Metric                       | What it Measures                                                 |
-| ---------------------------- | ---------------------------------------------------------------- |
-| **X Voices Unleashed**       | Users who have started vocal training                            |
-| **X Customer Reviews**       | Reviews gathered from social media, email, websites & interviews |
-| **X Regular Practice Users** | Singers who follow a consistent practice schedule                |
-| **X Users Expanded Range**   | Singers who have broadened their vocal range                     |
-| **X Users Improved Tuning**  | Singers who have sharpened pitch accuracy                        |
-| **X Hall of Fame Artists**   | Weekly leaderboard winners                                       |
-
----
-
-## Why Does This Matter?
-
-Singing is a natural, powerful instrument that enriches life on many levels:
-
-* **Self‑love:** We learn to appreciate ourselves through the joy of our own voice.
-* **Connection:** Singing, listening, and choral unity link us to others.
-* **Universal expression:** Music conveys emotions, kindness, and love—bridging us with people, the universe, and the divine.
-
----
-
-## Unleashing Our Voice Across Life’s Stages
-
-![Carrot singing in a bathtub](https://via.placeholder.com/400x200 "Animated carrot singing in a bathtub")
-
-1. *“I can’t sing.”* – Early conditioning or trauma stifles experimentation.
-2. *“I don’t like my sound.”* – First attempts feel discouraging.
-3. *Shower soloist.* – Singing alone but shy to share.
-4. *Aspiring performer.* – Wanting a stage but fearing rejection.
-5. *Composer/artist.* – Seeking skills to fully express emotions and spirit.
-
-Whatever your stage, **Singing Carrots removes the barriers** between you and your voice.
-
-| ✓ We Support                                                            | ✗ We Don’t Support                                   |
-| ----------------------------------------------------------------------- | ---------------------------------------------------- |
-| Performing, composing & recording that spreads **love, empathy, unity** | Pursuits driven solely by fame or messages of hatred |
-
----
-
-## Enriching People’s Well‑Being
-
-![Another singing carrot animation](https://via.placeholder.com/600x250 "Singing carrot animation")
-
-Our world is built on vibration—light, sound, even matter itself. Your voice connects **soul, mind, and body** through natural waves. Sound healing and concerts move us because resonance **amplifies life’s experiences**. When that sound comes from *within*, nothing bridges the gap to self‑acceptance more powerfully.
-
-> *If your heart calls you to join this mission, together we can help more people.*
-
----
-
-## What Singing Means to Our Users
-
-> “Singing can enrich life in countless ways—but here’s what **our community** says.”
-
-**🎬 [Watch Eduardo Colli’s review on YouTube](https://youtu.be/placeholder)**
-
-> *Scrollable reviews ↓*
-
-* **Oksana Riba** – “It has all the stats I need and let me join a music‑theater performance!” *(Singing Carrots Pro)*
-* **Barend Koekemoer** – “A really‑really good program—highly recommend!” *(Singing Carrots Pro)*
-* **Faraja Sadi** – “Helped improve my pitch accuracy and increase range. Give it a try 😁” *(Pitch Training)*
-* **James** – “Valuable, heartfelt info to keep our vocals—and overall health—thriving.” *(All‑Round Vocalist Course)*
-
----
-
-## Feedback
-
-Enjoying our tools? **[Help us improve!](https://singingcarrots.com/help-carrots)**
 
 ---
 

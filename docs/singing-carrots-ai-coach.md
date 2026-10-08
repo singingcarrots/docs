@@ -309,11 +309,7 @@ As you practice, you earn milestones and carrot points. Your milestone ladder, t
 
 Click **"Finish & Get Feedback"** when you're ready to end.
 
-**Session Summary includes:**
-- Personalized feedback on your performance
-- What you did well
-- Areas for improvement
-- Recommendations for next time
+**Your session recap:** a short recap of how your session went, including what you did well and what changed compared with your earlier sessions.
 
 **Rate your session:** Give 1-5 stars and optional written feedback to help improve the AI coach.
 
