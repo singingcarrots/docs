@@ -6,7 +6,7 @@ description: Singing Carrots Documentation Index
 
 Never Stop Singing!
 
-📱 **Singing Carrots is there on browser and as an app.** Get **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iOS or on [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) for Android — or keep using it in any web browser.
+📱 Get the **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iOS or [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) for Android — or just use it in any web browser.
 
 * [Singing Carrots Mission](https://singingcarrots.com/docs/singing-carrots-mission-page) - Unleash 1 Million Voices
 
