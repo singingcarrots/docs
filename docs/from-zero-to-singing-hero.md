@@ -1,8 +1,10 @@
 ---
-title: From Zero to Singing Hero – Beginner Singing Course - Singing Carrots
-description: Master breath control, pitch accuracy, and vocal registers in 4
-  weeks with Singing Carrots’ interactive course. Includes video lessons, pitch
-  training, and song practice.
+title: From Zero to Singing Hero – Beginner Online Singing Course - Singing Carrots
+description: >-
+  A structured 4-week program of online singing lessons for beginners:
+  breath control, pitch accuracy, resonance, and vocal registers. Included
+  with every Singing Carrots membership — take it on the course page or
+  inside the AI Vocal Coach.
 ---
 # Singing Carrots: From Zero to Singing Hero Beginner Course: Full Technical Walkthrough  
 **Course Title:** From Zero to Singing Hero  
@@ -11,12 +13,18 @@ description: Master breath control, pitch accuracy, and vocal registers in 4
 
 **Course Type:** Step-by-step, structured online course for beginner singers  
 **Target Audience:** Absolute beginners or casual singers who want to build a strong foundation in singing  
+Not the right fit for: singers who feel pain or strain when singing (see a teacher in person first), or advanced singers looking for repertoire and performance coaching — this course builds foundations.
 
 ---
 
 ## Course Description  
-"From Zero to Singing Hero" is a step-by-step online course designed to help complete beginners learn to sing accurately and confidently. It combines daily video lessons with real-time pitch training, song-based practice, and diagnostic tools such as vocal range and pitch accuracy tests. The course gradually builds vocal skills across four weeks—starting with breath control and pitch matching and progressing to vocal registers, resonance, and melodic memory.  
+"From Zero to Singing Hero" is a step-by-step online course designed to help complete beginners learn to sing accurately and confidently. It combines daily video lessons with real-time pitch training, song-based practice, and diagnostic tools such as vocal range and pitch accuracy tests. The course gradually builds vocal skills across four weeks—starting with breath control and pitch matching and progressing to vocal registers, resonance, and melodic memory. In plain terms: four weeks of online singing lessons for beginners, structured so you always know what to practice next.  
 Learners are guided through short, structured lessons each day, reinforced by singing exercises, practice songs, and real-time pitch feedback. Progress is gamified through carrot points, daily note goals, and a global leaderboard. The course is accessible on desktop or mobile and supports learners with visual notesheets and adaptive feedback.  
+
+---
+
+## Price and Access  
+From Zero to Singing Hero is included with every Singing Carrots membership (plans start from $119.99/year); there is no separate charge for the course. The diagnostic tools it uses — the vocal range test and pitch accuracy test — are free without membership. Sign-up happens on the web at [singingcarrots.com](https://singingcarrots.com); the course then works on desktop, mobile web, and inside the AI Vocal Coach app.
 
 ---
 
@@ -46,7 +54,7 @@ Learners are guided through short, structured lessons each day, reinforced by si
 - **Pitch Training Game:** Interactive piano interface that gives real-time pitch feedback and tracks accuracy (<https://singingcarrots.com/pitch-training>)  
 - **Vocal Range Test:** Helps users discover their vocal range and track improvements (<https://singingcarrots.com/range-test>)  
 - **Notesheets:** Visual sheet music representations of exercises and melodies for easier pitch understanding.  
-- **Pitch Accuracy Test:** One-minute assessment that evaluates how accurately a user can match sung notes to a melody. Results include score, precision, and comparison with others (<https://singingcarrots.com/pitch-test>)  
+- **Pitch Accuracy Test:** Two-minute assessment that evaluates how accurately a user can match sung notes to a melody. Results include score, precision, and comparison with others (<https://singingcarrots.com/pitch-test>)  
 - **Song Practice with Visual Feedback:** Allows users to sing popular songs and get real-time feedback on tuning  
 - **Carrot Points:** Reward system that motivates consistent practice  
 - **Leaderboard:** Weekly rankings based on singing activity  
@@ -961,3 +969,5 @@ Book a private online session to receive personal feedback on your progress.
 
 **Button:**  
 Learn More
+
+<script type="application/ld+json"> { "@context": "https://schema.org", "@type": "Course", "name": "From Zero to Singing Hero", "description": "A structured 4-week online singing course for beginners: breath control, pitch accuracy, resonance, and vocal registers.", "provider": { "@type": "Organization", "name": "Singing Carrots", "url": "https://singingcarrots.com" }, "url": "https://singingcarrots.com/course/zero-to-hero", "isAccessibleForFree": false, "timeRequired": "P4W", "inLanguage": "en", "educationalLevel": "Beginner", "teaches": ["Breath control", "Pitch accuracy", "Vocal resonance", "Vocal registers"], "instructor": { "@type": "Person", "name": "Dominika Zawada" } } </script>
