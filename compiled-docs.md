@@ -3178,7 +3178,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 ---
 
 ### Step 4: Repertoire Summary
-- **Label:** *My repertoire: X songs*  
+- **Label:** *My repertoire: {count} songs*  
 - **Link:** Redirects to <https://singingcarrots.com/repertoire>
 
 ---
@@ -3190,7 +3190,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 | Hidden | “Your profile is **hidden**” (red) | **Go public** | Makes page public, joins leaderboard |
 
 **Explanation:** Public profile shows your vocal range, carrot points, and repertoire and allows participation in the weekly competition (<https://singingcarrots.com/weekly-standings>).  
-**Preview Link:** *This is how other people see your page:* `https://singingcarrots.com/user/username`
+**Preview Link:** *This is how other people see your page:* `https://singingcarrots.com/user/{username}`
 
 ---
 
@@ -3781,7 +3781,7 @@ This section orients new users and encourages plan selection by linking directly
 ### If the user **is logged in**
 The top section changes to reflect the user's subscription status:
 - **Heading:** *My purchases*  
-- **Displayed information:** *Current plan: [name of plan]*  
+- **Displayed information:** *Current plan: {plan name}*  
 - **Subtext:** *Features by plan*  
 
 This view reinforces what the user already has access to and helps them evaluate whether an upgrade or change would be beneficial.
@@ -5194,7 +5194,7 @@ This section dynamically changes based on whether the song has a linked MIDI exe
 * **Button:**\
   Practice full song\
   Redirects to the exact Pitch Training session for the selected song:\
-  https://singingcarrots.com/pitch-training/practice?ugc=true&exercise=\[excercise-id]
+  https://singingcarrots.com/pitch-training/practice?ugc=true&exercise=\[exercise-id]
 * **Note in brackets:**\
   (Added by \[username]) – Indicates who submitted the MIDI melody linked to this song
 * ⚠️ **Availability Note:**\
