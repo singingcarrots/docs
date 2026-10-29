@@ -13,7 +13,7 @@ description: Develop breath control and pitch stability with Singing Carrots'
 ## Overview
 Sustain Training is a premium vocal exercise tool designed to help singers develop breath control, pitch stability, and vocal stamina. Users practice holding individual notes accurately for extended periods while receiving real-time visual feedback. Progress is tracked per note with a level system, and carrot points are awarded based on achievement.
 
-**Availability:** Paid subscribers only (all Pro plans). No free trial available.
+**Availability:** Included in all current plans (Starter, Self-Study and Guided). Not included in legacy plans. No free trial available.
 
 > **Also in the AI Vocal Coach.** You no longer need to visit this page to build sustain levels. When the [AI Vocal Coach](singing-carrots-ai-coach.md) gives you a "hold this note" exercise, holding the note earns the **same** sustain levels and carrot points through the same system - they show up here on your daily stats, best-day, and the weekly leaderboard, exactly as if you'd earned them on this page. Coach holds and standalone practice count as one shared total.
 
@@ -180,7 +180,7 @@ If a user has achieved:
 ### Access and Availability
 
 **Q: Who can access Sustain Training?**
-A: Sustain Training is available exclusively to paid subscribers. It's included in all Pro plans. There is no free trial for this feature.
+A: Sustain Training is included in all current plans — Starter, Self-Study and Guided. It is not included in legacy plans (Effective Learner, Pro Membership, Lifetime Access purchased before October 2025). There is no free trial for this feature.
 
 **Q: Does it work on mobile?**
 A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.

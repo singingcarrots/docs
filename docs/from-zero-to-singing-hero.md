@@ -347,7 +347,7 @@ These exercises help solidify your ability to stay on pitch, navigate registers,
 **Host:** Sergey, creator of Singing Carrots  
 
 **Overview:**  
-Learn to practice your own melodies or songs using MIDI files in the pitch training tool (requires PRO access).
+Learn to practice your own melodies or songs using MIDI files in the pitch training tool (requires Self-Study or Guided Edition).
 
 **Steps**
 1. Download a MIDI file (e.g., “Hey Jude”).  

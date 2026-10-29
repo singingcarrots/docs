@@ -44,12 +44,17 @@ This view reinforces what the user already has access to and helps them evaluate
 | 4‑week “From Zero to Singing Hero” course | ✅ | ✅ | ✅ |
 | 21‑week “All‑Round Vocalist” course | ❌ | ✅ | ✅ |
 | Interactive gamified pitch‑training playground with scores & competition | ✅ | ✅ | ✅ |
+| Sustain & Breath Training | ✅ | ✅ | ✅ |
+| Stave notation view in pitch training | ❌ | ✅ | ✅ |
 | Voice analysis toolkit & progress tracker | ✅ | ✅ | ✅ |
 | My custom melodies (MIDI import) | ❌ | ✅ | ✅ |
 | Songs ranges database & repertoire organiser | ❌ | ✅ | ✅ |
+| AI Vocal Coach (personalized AI-guided practice sessions) | ✅ 3 sessions/week | ✅ 6 sessions/week | ✅ 6 sessions/week |
 | 1 weekly custom song or melody for your singing practice | ❌ | ❌ | ✅ |
 | 1 monthly video feedback from our voice teacher | ❌ | ❌ | ✅ |
 
 **Legend:**  
 - ✅ Green checkmark = included  
 - ❌ Red cross = not included
+
+**Note for legacy plan holders:** For older plans (Effective Learner, Pro Membership, etc.) and Lifetime Access purchases made before October 2025, AI Vocal Coach access is not included by default. Limited preview access may be granted temporarily for testing purposes. Pro Membership (legacy) and all Lifetime Access features are capped at functionality available as of September 2025. Ongoing updates and bug fixes continue, but new features (including AI Coach) are not guaranteed.
