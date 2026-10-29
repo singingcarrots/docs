@@ -54,7 +54,7 @@ This section dynamically changes based on whether the song has a linked MIDI exe
 * **Button:**\
   Practice full song\
   Redirects to the exact Pitch Training session for the selected song:\
-  https://singingcarrots.com/pitch-training/practice?ugc=true&exercise=\[excercise-id]
+  https://singingcarrots.com/pitch-training/practice?ugc=true&exercise=\[exercise-id]
 * **Note in brackets:**\
   (Added by \[username]) – Indicates who submitted the MIDI melody linked to this song
 * ⚠️ **Availability Note:**\

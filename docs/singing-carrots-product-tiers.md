@@ -30,7 +30,7 @@ This section orients new users and encourages plan selection by linking directly
 ### If the user **is logged in**
 The top section changes to reflect the user's subscription status:
 - **Heading:** *My purchases*  
-- **Displayed information:** *Current plan: [name of plan]*  
+- **Displayed information:** *Current plan: {plan name}*  
 - **Subtext:** *Features by plan*  
 
 This view reinforces what the user already has access to and helps them evaluate whether an upgrade or change would be beneficial.

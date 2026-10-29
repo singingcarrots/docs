@@ -54,7 +54,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 ---
 
 ### Step 4: Repertoire Summary
-- **Label:** *My repertoire: X songs*  
+- **Label:** *My repertoire: {count} songs*  
 - **Link:** Redirects to <https://singingcarrots.com/repertoire>
 
 ---
@@ -66,7 +66,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 | Hidden | “Your profile is **hidden**” (red) | **Go public** | Makes page public, joins leaderboard |
 
 **Explanation:** Public profile shows your vocal range, carrot points, and repertoire and allows participation in the weekly competition (<https://singingcarrots.com/weekly-standings>).  
-**Preview Link:** *This is how other people see your page:* `https://singingcarrots.com/user/username`
+**Preview Link:** *This is how other people see your page:* `https://singingcarrots.com/user/{username}`
 
 ---
 
