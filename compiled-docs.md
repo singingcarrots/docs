@@ -470,7 +470,7 @@ These exercises help solidify your ability to stay on pitch, navigate registers,
 **Host:** Sergey, creator of Singing Carrots  
 
 **Overview:**  
-Learn to practice your own melodies or songs using MIDI files in the pitch training tool (requires PRO access).
+Learn to practice your own melodies or songs using MIDI files in the pitch training tool (requires Self-Study or Guided Edition).
 
 **Steps**
 1. Download a MIDI file (e.g., “Hey Jude”).  
@@ -3793,15 +3793,20 @@ This view reinforces what the user already has access to and helps them evaluate
 | 4‑week “From Zero to Singing Hero” course | ✅ | ✅ | ✅ |
 | 21‑week “All‑Round Vocalist” course | ❌ | ✅ | ✅ |
 | Interactive gamified pitch‑training playground with scores & competition | ✅ | ✅ | ✅ |
+| Sustain & Breath Training | ✅ | ✅ | ✅ |
+| Stave notation view in pitch training | ❌ | ✅ | ✅ |
 | Voice analysis toolkit & progress tracker | ✅ | ✅ | ✅ |
 | My custom melodies (MIDI import) | ❌ | ✅ | ✅ |
 | Songs ranges database & repertoire organiser | ❌ | ✅ | ✅ |
+| AI Vocal Coach (personalized AI-guided practice sessions) | ✅ 3 sessions/week | ✅ 6 sessions/week | ✅ 6 sessions/week |
 | 1 weekly custom song or melody for your singing practice | ❌ | ❌ | ✅ |
 | 1 monthly video feedback from our voice teacher | ❌ | ❌ | ✅ |
 
 **Legend:**  
 - ✅ Green checkmark = included  
 - ❌ Red cross = not included
+
+**Note for legacy plan holders:** For older plans (Effective Learner, Pro Membership, etc.) and Lifetime Access purchases made before October 2025, AI Vocal Coach access is not included by default. Limited preview access may be granted temporarily for testing purposes. Pro Membership (legacy) and all Lifetime Access features are capped at functionality available as of September 2025. Ongoing updates and bug fixes continue, but new features (including AI Coach) are not guaranteed.
 
 ---
 
@@ -4916,7 +4921,7 @@ It allows teachers to:
 ## Overview
 Sustain Training is a premium vocal exercise tool designed to help singers develop breath control, pitch stability, and vocal stamina. Users practice holding individual notes accurately for extended periods while receiving real-time visual feedback. Progress is tracked per note with a level system, and carrot points are awarded based on achievement.
 
-**Availability:** Paid subscribers only (all Pro plans). No free trial available.
+**Availability:** Included in all current plans (Starter, Self-Study and Guided). Not included in legacy plans. No free trial available.
 
 > **Also in the AI Vocal Coach.** You no longer need to visit this page to build sustain levels. When the [AI Vocal Coach](singing-carrots-ai-coach.md) gives you a "hold this note" exercise, holding the note earns the **same** sustain levels and carrot points through the same system - they show up here on your daily stats, best-day, and the weekly leaderboard, exactly as if you'd earned them on this page. Coach holds and standalone practice count as one shared total.
 
@@ -5083,7 +5088,7 @@ If a user has achieved:
 ### Access and Availability
 
 **Q: Who can access Sustain Training?**
-A: Sustain Training is available exclusively to paid subscribers. It's included in all Pro plans. There is no free trial for this feature.
+A: Sustain Training is included in all current plans — Starter, Self-Study and Guided. It is not included in legacy plans (Effective Learner, Pro Membership, Lifetime Access purchased before October 2025). There is no free trial for this feature.
 
 **Q: Does it work on mobile?**
 A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.
