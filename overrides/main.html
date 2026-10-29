@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  {{ super() }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://singingcarrots.com/#organization",
+        "name": "Singing Carrots",
+        "legalName": "Singing Carrots Limited",
+        "url": "https://singingcarrots.com/",
+        "logo": "https://singingcarrots.com/img/singing-carrots-logo.png",
+        "description": "AI vocal coach and online vocal-training platform, founded 2019.",
+        "foundingDate": "2019",
+        "founder": { "@id": "https://singingcarrots.com/#founder" },
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q141490078",
+          "https://find-and-update.company-information.service.gov.uk/company/16223851",
+          "https://www.crunchbase.com/organization/singing-carrots",
+          "https://www.linkedin.com/company/singing-carrots/",
+          "https://www.facebook.com/singingcarrots",
+          "https://www.instagram.com/carrotssing/",
+          "https://www.tiktok.com/@singingcarrotsapp",
+          "https://www.youtube.com/channel/UCVKzgF-DQ7tXa0SgnClBtyA",
+          "https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059",
+          "https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach",
+          "https://www.trustpilot.com/review/singingcarrots.com"
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://singingcarrots.com/#founder",
+        "name": "Sergey Kuhne",
+        "jobTitle": "Founder",
+        "worksFor": { "@id": "https://singingcarrots.com/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/sergey-kuhne-0b310351/",
+          "https://x.com/kyunez",
+          "https://github.com/kyunez",
+          "https://sergeykuhne.com/"
+        ]
+      }
+    ]
+  }
+  </script>
+{% endblock %}

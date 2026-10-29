@@ -8,6 +8,8 @@ Never Stop Singing!
 
 📱 Get the **Singing Carrots AI Vocal Coach** on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iOS or [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) for Android — or just use it in any web browser.
 
+Singing Carrots is an AI vocal coach and online vocal-training platform, founded in 2019 by Sergey Kuhne. Operated by Singing Carrots Limited, UK company no. 16223851.
+
 * [Contact Singing Carrots](https://singingcarrots.com/docs/singing-carrots-contact-page) - Customer Support & FAQ
 
 * [Singing Carrots Song Search Page](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name) - Search over 59,000 songs by your vocal range, difficulty, genre, or artist.
