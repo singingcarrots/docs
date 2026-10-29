@@ -68,7 +68,7 @@ Start teaching immediately or schedule lessons with students.
 
 ### **2. Vocal Ranges Database**
 
-Access Singing Carrots’ extensive library of over **75,000 songs** with detailed vocal range data.
+Access Singing Carrots’ extensive library of over **59,000 songs** with detailed vocal range data.
 
 **Buttons:**
 

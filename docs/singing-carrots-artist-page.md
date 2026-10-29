@@ -95,7 +95,7 @@ Displayed at the top of the page:
 ### **8. Explore Vocal Range Database**
 
 Informational Block:\
-“Our database has more than 8000 famous performers.\
+“Our database has over 8,000 famous performers.\
 We calculated vocal range for each of them. Do you want to check it out?”  
 
 * **Button:** Browse singers vocal ranges → [Artists Database](https://singingcarrots.com/artists)  
