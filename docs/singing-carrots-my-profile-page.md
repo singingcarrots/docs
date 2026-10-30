@@ -40,7 +40,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 
 ### Step 2: Account Removal
 - **Button:** *Request account removal* (trash icon)  
-- **Action:** Redirects to the [Contact page](https://singingcarrots.com/docs/singing-carrots-contact-page) with deletion instructions.
+- **Action:** Redirects to the [Contact page](https://singingcarrots.com/contact) with deletion instructions.
 
 ---
 

@@ -29,7 +29,7 @@ Displayed at the top of the page:
 * **Practice prompt:**  
 
   * Text: “Are you a beginner or advanced singer?”  
-  * **Button:** Test if you can sing in tune → [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+  * **Button:** Test if you can sing in tune → [Pitch Training](https://singingcarrots.com/pitch-test)  
 
 - - -
 
@@ -72,7 +72,7 @@ Displayed at the top of the page:
 * **Section Title:** Latest videos on Singing Carrots  
 * Practice Call-to-Action:  
 
-  * **Button:** Try Pitch Training → [Pitch Training Tool](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+  * **Button:** Try Pitch Training → [Pitch Training Tool](https://singingcarrots.com/pitch-training)  
 
 - - -
 

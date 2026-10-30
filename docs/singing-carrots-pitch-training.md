@@ -45,8 +45,8 @@ Upon page load, users see a progress field at the top:
 - **Countdown:** Days:Hours:Minutes (until week end)
   *Tooltip:* “Your week end might be different from the week end of other players. It depends on your timezone.”
 - **Two Tabs:**
-  - **[This Week](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)** (default)
-  - **[Hall of Fame](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)** (with goblet icon)
+  - **[This Week](https://singingcarrots.com/weekly-standings)** (default)
+  - **[Hall of Fame](https://singingcarrots.com/hall-of-fame)** (with goblet icon)
 
 👉 [Hall of Fame Documentation](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)
 

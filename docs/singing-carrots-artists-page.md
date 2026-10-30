@@ -31,7 +31,7 @@ The Artists Page is a central directory for exploring singers’ vocal ranges an
 ---
 
 ## Latest Videos on Singing Carrots
-- Displays the most recent video uploads or featured media.
+- Currently contains a single call-to-action rather than video content.
 - A CTA button (**Try pitch training**) redirects to the Pitch Training tool: <https://singingcarrots.com/pitch-training>.
 - This section reinforces cross-navigation between content and training tools, encouraging users to practice immediately after exploring artists.
 

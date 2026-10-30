@@ -27,7 +27,7 @@ Only hard mode scores are counted. Rankings are limited to the top 100 users per
   Rankings by game level  
   (A squared flag icon appears next to the title.)
 * **Subtitle:**  
-  “Here we count only hard mode results. Join the competition in [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)”
+  “Here we count only hard mode results. Join the competition in [Pitch Training](https://singingcarrots.com/pitch-training)”
 
 ---
 

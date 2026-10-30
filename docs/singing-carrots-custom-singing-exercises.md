@@ -128,7 +128,7 @@ _All submitted links will be reviewed for copyright compliance before being visi
 
 # Custom Melody Practice: Interactive Piano Interface
 
-Clicking **Practice** opens the [Virtual Piano Practice Mode](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) with added controls.
+Clicking **Practice** opens the [Virtual Piano Practice Mode](https://singingcarrots.com/pitch-training/practice) with added controls.
 
 ### Key Difference from Built-in Exercises
 Custom melodies allow the user to set start and end points of the practice segment using draggable flag icons on a horizontal timeline above the piano.

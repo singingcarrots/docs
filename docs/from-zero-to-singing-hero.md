@@ -712,7 +712,7 @@ A call‑to‑action encouraging learners to book a 30‑minute private coaching
 **Links & Buttons**
 - "Learn more" – Opens a popup explaining the benefits: targeted improvement, personalized guidance, and flexible lesson structure.  
 - "Book now" – Links to a booking form.  
-- "Send us a message" – Redirects to the [Contact Us page](https://singingcarrots.com/docs/singing-carrots-contact-page) for additional inquiries.
+- "Send us a message" – Redirects to the [Contact Us page](https://singingcarrots.com/contact) for additional inquiries.
 
 # Week 4: Vocal Registers and Vocal Break
 
@@ -927,7 +927,7 @@ Mark Complete
 Measure your current vocal range and save your result to earn carrot points.
 
 **Button:**  
-Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/docs/singing-carrots-vocal-range-test)
+Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/range-test)
 
 ---
 
@@ -938,7 +938,7 @@ Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/docs/sing
 Check how accurately you match pitch and save your result.
 
 **Button:**  
-Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/docs/singing-carrots-pitch-test)
+Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/pitch-test)
 
 ---
 
@@ -949,7 +949,7 @@ Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/docs/s
 Review your weekly progress and completed tasks.
 
 **Button:**  
-Review Progress – [View stats](https://singingcarrots.com/docs/singing-carrots-stats-page)
+Review Progress – [View stats](https://singingcarrots.com/stats)
 
 ---
 

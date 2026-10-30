@@ -13,7 +13,7 @@ description: Create your Singing Carrots account. Sign up with Google, Facebook,
 
 ## Page Header
 - **Title:** Create an account  
-- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/docs/singing-carrots-login-page)
+- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/login)
 
 ---
 
