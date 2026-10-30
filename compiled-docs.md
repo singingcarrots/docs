@@ -1125,6 +1125,8 @@ Singing Carrots is an AI vocal coach and online vocal-training platform, founded
 
 * [Singing Carrots Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training) - Improve your singing accuracy with Singing Carrots' interactive Pitch Training game
 
+* [Singing Carrots Sustain Training](https://singingcarrots.com/docs/singing-carrots-sustain-training) - Build breath control and vocal stamina by sustaining notes accurately.
+
 * [Singing Carrots AI Coach](https://singingcarrots.com/docs/singing-carrots-ai-coach) - Personal AI singing teacher with real-time feedback and adaptive exercises. Available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) (iPhone), on [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) (Android), and on the web.
 
 * [Singing Carrots: From Zero to Singing Hero](https://singingcarrots.com/docs/from-zero-to-singing-hero) - Beginner Singing Course
@@ -1141,7 +1143,7 @@ Singing Carrots is an AI vocal coach and online vocal-training platform, founded
 
 * [Singing Carrots Artist Page](https://singingcarrots.com/docs/singing-carrots-artist-page) - Explore Singing Carrots database with the vocal ranges of over 8,000 singers.
 
-* [Singing Carrots My Custom Melodies Page](https://singingcarrots.com/docs/find-songs-by-vocal-range-or-name) - Upload your own melodies as MIDI files.
+* [Singing Carrots My Custom Melodies Page](https://singingcarrots.com/docs/singing-carrots-custom-singing-exercises) - Upload your own melodies as MIDI files.
 
 * [Singing Carrots Hall of Fame Page](https://singingcarrots.com/docs/singing-carrots-hall-of-fame) - Discover the best performers in Singing Carrots' Pitch Training game.
 
