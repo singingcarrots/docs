@@ -2474,7 +2474,7 @@ If you enter more than 100 students, the calculator switches to a **"Talk to us 
 |------|----------|-----------|---------------------|-------------|
 | **Group** | 10–49 | $300 / year | +$5 (3 lessons/wk) or +$10 (6 lessons/wk) | 1 |
 | **School** | 50–100 | $500 / year | +$4 (3 lessons/wk) or +$8 (6 lessons/wk) | 3 |
-| **Custom** | 100+ | — | Arranged via demo | — |
+| **Custom** | 101+ | — | Arranged via demo | — |
 
 Prices are in USD for US schools. Schools outside the US receive proportional pricing, confirmed during a demo.
 
@@ -3450,6 +3450,8 @@ If the test is completed:
 
 **Pitch Quality Report:**  
 1 ‑ too low • 4 ‑ slightly low • 6 ‑ precise • 4 ‑ slightly high  
+
+The quality report covers all 15 notes: the one marked too low counts as a miss, while slightly low, precise and slightly high all count as hits — 14 in total.
 
 Prompt:  
 > This game has more levels. Are you ready for the next challenge?  
