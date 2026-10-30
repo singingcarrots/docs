@@ -3,13 +3,14 @@ title: Singing Carrots AI Coach - Personal AI Singing Teacher
 description: Train your voice with Singing Carrots' AI Coach. Get personalized
   vocal lessons, real-time pitch feedback, and adaptive exercises. Available
   24/7 on desktop, mobile web, and the Singing Carrots AI Vocal Coach app
-  for iPhone.
+  for iPhone and Android.
 ---
 # Singing Carrots AI Coach
 
 **URL:** <https://singingcarrots.com/ai-session>
 **Landing Page:** <https://singingcarrots.com/ai-singing-coach>
 **iOS App:** [Singing Carrots AI Vocal Coach on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)
+**Android App:** [Singing Carrots AI Vocal Coach on Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach)
 
 ---
 
@@ -17,7 +18,7 @@ description: Train your voice with Singing Carrots' AI Coach. Get personalized
 
 The Singing Carrots AI Coach is your personal AI singing teacher that creates custom practice sessions based on your vocal history and goals. Unlike the standard Pitch Training levels, the AI Coach adapts exercises to your performance and provides conversational coaching throughout your practice.
 
-The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our native iPhone app — and is also available right in your web browser. Whichever you choose, your progress and history stay in sync.
+The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our native iPhone and Android app — and is also available right in your web browser. Whichever you choose, your progress and history stay in sync.
 
 **Key Features:**
 - Personalized session plans based on your vocal history
@@ -27,16 +28,19 @@ The AI Coach is the heart of the **Singing Carrots AI Vocal Coach** app — our 
 - Chat with your AI coach - ask questions and get guidance
 - Your coach remembers you between sessions - view, edit, or turn it off anytime
 - Earn carrot points as you reach milestones
-- Works on desktop, mobile web, and the native iOS app
+- Works on desktop, mobile web, and the native iOS and Android apps
 - Session summaries with personalized feedback
 
 ### Get the App
 
-Get **Singing Carrots AI Vocal Coach** on the App Store:
+Get **Singing Carrots AI Vocal Coach** on the App Store or Google Play:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
+➡️ **[Download on Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach)**
+
 - **iPhone:** iOS 15.0 or later
+- **Android:** available on Google Play
 - Real-time pitch feedback, personalized daily sessions, and a judgment-free space to train your voice — anywhere
 
 Prefer the web? The AI Coach also runs in any modern browser at <https://singingcarrots.com/ai-session>.
@@ -85,7 +89,7 @@ We’re introducing weekly session limits for the AI Coach. Each plan includes a
 
 The AI Coach can be accessed from:
 
-1. **iOS App:** Open the [Singing Carrots AI Vocal Coach](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) app on your iPhone
+1. **iOS App:** Open the [Singing Carrots AI Vocal Coach](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) app on your iPhone — on Android, open it from [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach)
 2. **Main Menu:** Practice > AI Vocal Coach
 3. **Pitch Training Page:** Click the "Start AI Session" button
 4. **Course Practice:** Via the task pop-up during course exercises
@@ -276,7 +280,7 @@ You can interact with the AI coach throughout your session:
 
 Your AI coach remembers you between sessions, so practice feels like a continuation instead of starting from scratch each time. You're always in control of what it knows.
 
-Open **Coach memory** (the brain icon) from the AI session page, the AI Coach dashboard, or the Home tab in the iOS app. A pop-up titled "What your coach remembers" shows two lists:
+Open **Coach memory** (the brain icon) from the AI session page, the AI Coach dashboard, or the Home tab in the mobile app. A pop-up titled "What your coach remembers" shows two lists:
 
 - **Where you're headed** — your goals
 - **What your coach knows about you** — notes about your voice and preferences
@@ -348,10 +352,10 @@ Click the gear icon to adjust:
 A: Regular Pitch Training has fixed levels with preset exercises. AI Coach creates personalized sessions based on your history, adapts to your performance, and lets you chat with your coach.
 
 **Q: Is there an app?**
-A: Yes. **Singing Carrots AI Vocal Coach** is a native app on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone (iOS 15+). The AI Coach also runs in any modern web browser, and your progress syncs across both.
+A: Yes. **Singing Carrots AI Vocal Coach** is a native app — available for iPhone (iOS 15+) on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) and for Android on [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach). The AI Coach also runs in any modern web browser, and your progress syncs across all of them.
 
 **Q: What equipment do I need?**
-A: Just a microphone (built-in works fine), headphones (recommended), and a quiet space. Works in the iOS app or any modern browser.
+A: Just a microphone (built-in works fine), headphones (recommended), and a quiet space. Works in the iOS or Android app, or any modern browser.
 
 **Q: How long should sessions be?**
 A: 15-20 minutes is ideal for most users. The AI paces exercises to fit your selected duration.

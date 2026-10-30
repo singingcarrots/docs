@@ -186,7 +186,7 @@ A: Sustain Training is included in all current plans — Starter, Self-Study and
 A: Yes. Sustain Training works on any modern browser with microphone access—desktop or mobile.
 
 **Q: Do I need to download an app?**
-A: It's your choice. Sustain Training runs directly in your web browser, so no download is required. If you'd rather practice in a dedicated app, the **Singing Carrots AI Vocal Coach** app is available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone.
+A: It's your choice. Sustain Training runs directly in your web browser, so no download is required. If you'd rather practice in a dedicated app, the **Singing Carrots AI Vocal Coach** app is available on the [App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059) for iPhone and on [Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach) for Android.
 
 ### Progress and Rewards
 

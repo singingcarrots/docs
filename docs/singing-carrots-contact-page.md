@@ -69,11 +69,13 @@ Clicking **FAQ** or scrolling to the bottom reveals the self‑service FAQ with 
 ---
 
 #### Q5 · Do you have a mobile app?
-Yes! **Singing Carrots AI Vocal Coach** is available as a native app on the App Store:
+Yes! **Singing Carrots AI Vocal Coach** is available as a native app on the App Store and Google Play:
 
 ➡️ **[Download on the App Store](https://apps.apple.com/app/singing-carrots-ai-vocal-coach/id6776270059)**
 
-It runs on iPhone (iOS 15 or later) and gives you real-time pitch feedback, personalized daily AI coaching sessions, and karaoke-style practice — anywhere, judgment-free.
+➡️ **[Download on Google Play](https://play.google.com/store/apps/details?id=com.singingcarrots.vocalcoach)**
+
+It runs on iPhone (iOS 15 or later) and on Android (via Google Play), and gives you real-time pitch feedback, personalized daily AI coaching sessions, and karaoke-style practice — anywhere, judgment-free.
 
 Prefer the web, or on Android? Singing Carrots also works in any modern browser, and you can add it to your Home Screen for an app-like experience:
 
