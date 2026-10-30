@@ -835,7 +835,7 @@ A call‑to‑action encouraging learners to book a 30‑minute private coaching
 **Links & Buttons**
 - "Learn more" – Opens a popup explaining the benefits: targeted improvement, personalized guidance, and flexible lesson structure.  
 - "Book now" – Links to a booking form.  
-- "Send us a message" – Redirects to the [Contact Us page](https://singingcarrots.com/docs/singing-carrots-contact-page) for additional inquiries.
+- "Send us a message" – Redirects to the [Contact Us page](https://singingcarrots.com/contact) for additional inquiries.
 
 # Week 4: Vocal Registers and Vocal Break
 
@@ -1050,7 +1050,7 @@ Mark Complete
 Measure your current vocal range and save your result to earn carrot points.
 
 **Button:**  
-Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/docs/singing-carrots-vocal-range-test)
+Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/range-test)
 
 ---
 
@@ -1061,7 +1061,7 @@ Start Test – Opens the [Vocal Range Test](https://singingcarrots.com/docs/sing
 Check how accurately you match pitch and save your result.
 
 **Button:**  
-Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/docs/singing-carrots-pitch-test)
+Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/pitch-test)
 
 ---
 
@@ -1072,7 +1072,7 @@ Start Test – Opens the [Pitch Accuracy Test](https://singingcarrots.com/docs/s
 Review your weekly progress and completed tasks.
 
 **Button:**  
-Review Progress – [View stats](https://singingcarrots.com/docs/singing-carrots-stats-page)
+Review Progress – [View stats](https://singingcarrots.com/stats)
 
 ---
 
@@ -1960,7 +1960,7 @@ Displayed at the top of the page:
 * **Practice prompt:**  
 
   * Text: “Are you a beginner or advanced singer?”  
-  * **Button:** Test if you can sing in tune → [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+  * **Button:** Test if you can sing in tune → [Pitch Training](https://singingcarrots.com/pitch-test)  
 
 - - -
 
@@ -2003,7 +2003,7 @@ Displayed at the top of the page:
 * **Section Title:** Latest videos on Singing Carrots  
 * Practice Call-to-Action:  
 
-  * **Button:** Try Pitch Training → [Pitch Training Tool](https://singingcarrots.com/docs/singing-carrots-pitch-training)  
+  * **Button:** Try Pitch Training → [Pitch Training Tool](https://singingcarrots.com/pitch-training)  
 
 - - -
 
@@ -2074,7 +2074,7 @@ The Artists Page is a central directory for exploring singers’ vocal ranges an
 ---
 
 ## Latest Videos on Singing Carrots
-- Displays the most recent video uploads or featured media.
+- Currently contains a single call-to-action rather than video content.
 - A CTA button (**Try pitch training**) redirects to the Pitch Training tool: <https://singingcarrots.com/pitch-training>.
 - This section reinforces cross-navigation between content and training tools, encouraging users to practice immediately after exploring artists.
 
@@ -2410,7 +2410,7 @@ _All submitted links will be reviewed for copyright compliance before being visi
 
 # Custom Melody Practice: Interactive Piano Interface
 
-Clicking **Practice** opens the [Virtual Piano Practice Mode](https://singingcarrots.com/docs/pitch-training-practice-virtual-piano-interface) with added controls.
+Clicking **Practice** opens the [Virtual Piano Practice Mode](https://singingcarrots.com/pitch-training/practice) with added controls.
 
 ### Key Difference from Built-in Exercises
 Custom melodies allow the user to set start and end points of the practice segment using draggable flag icons on a horizontal timeline above the piano.
@@ -2850,7 +2850,7 @@ Only hard mode scores are counted. Rankings are limited to the top 100 users per
   Rankings by game level  
   (A squared flag icon appears next to the title.)
 * **Subtitle:**  
-  “Here we count only hard mode results. Join the competition in [Pitch Training](https://singingcarrots.com/docs/singing-carrots-pitch-training)”
+  “Here we count only hard mode results. Join the competition in [Pitch Training](https://singingcarrots.com/pitch-training)”
 
 ---
 
@@ -3170,7 +3170,7 @@ The **My Profile** page is the user’s personal dashboard on Singing Carrot
 
 ### Step 2: Account Removal
 - **Button:** *Request account removal* (trash icon)  
-- **Action:** Redirects to the [Contact page](https://singingcarrots.com/docs/singing-carrots-contact-page) with deletion instructions.
+- **Action:** Redirects to the [Contact page](https://singingcarrots.com/contact) with deletion instructions.
 
 ---
 
@@ -3507,8 +3507,8 @@ Upon page load, users see a progress field at the top:
 - **Countdown:** Days:Hours:Minutes (until week end)
   *Tooltip:* “Your week end might be different from the week end of other players. It depends on your timezone.”
 - **Two Tabs:**
-  - **[This Week](https://singingcarrots.com/docs/singing-carrots-weekly-competition-page)** (default)
-  - **[Hall of Fame](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)** (with goblet icon)
+  - **[This Week](https://singingcarrots.com/weekly-standings)** (default)
+  - **[Hall of Fame](https://singingcarrots.com/hall-of-fame)** (with goblet icon)
 
 👉 [Hall of Fame Documentation](https://singingcarrots.com/docs/singing-carrots-hall-of-fame)
 
@@ -3907,7 +3907,7 @@ Earned sessions are added to your account automatically, typically within 24 hou
 
 ## Page Header
 - **Title:** Create an account  
-- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/docs/singing-carrots-login-page)
+- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/login)
 
 ---
 
