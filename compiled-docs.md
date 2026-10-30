@@ -3907,7 +3907,7 @@ Earned sessions are added to your account automatically, typically within 24 hou
 
 ## Page Header
 - **Title:** Create an account  
-- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/docs/sign-in-–-singing-carrots-login-page)
+- **Subtitle:** Already have an account? [Log In](https://singingcarrots.com/docs/singing-carrots-login-page)
 
 ---
 
