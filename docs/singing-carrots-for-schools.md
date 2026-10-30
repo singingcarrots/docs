@@ -47,7 +47,7 @@ If you enter more than 100 students, the calculator switches to a **"Talk to us 
 |------|----------|-----------|---------------------|-------------|
 | **Group** | 10–49 | $300 / year | +$5 (3 lessons/wk) or +$10 (6 lessons/wk) | 1 |
 | **School** | 50–100 | $500 / year | +$4 (3 lessons/wk) or +$8 (6 lessons/wk) | 3 |
-| **Custom** | 100+ | — | Arranged via demo | — |
+| **Custom** | 101+ | — | Arranged via demo | — |
 
 Prices are in USD for US schools. Schools outside the US receive proportional pricing, confirmed during a demo.
 

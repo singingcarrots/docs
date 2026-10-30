@@ -140,6 +140,8 @@ If the test is completed:
 **Pitch Quality Report:**  
 1 ‑ too low • 4 ‑ slightly low • 6 ‑ precise • 4 ‑ slightly high  
 
+The quality report covers all 15 notes: the one marked too low counts as a miss, while slightly low, precise and slightly high all count as hits — 14 in total.
+
 Prompt:  
 > This game has more levels. Are you ready for the next challenge?  
 
